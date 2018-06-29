@@ -5,6 +5,7 @@
 #include "uart.h"
 #include <RTL.h>
 #include <math.h>
+#include "IOControls.h"
 
 // Declare the semaphores 
 OS_SEM selectLock1, selectLock2, selectLock3, selectLock4;
@@ -28,9 +29,6 @@ float yPositions[5];
 const float TOTAL_SHOTS = 15;
 const float TOTAL_POINTS = 30;
 
-void checkPotentiometer(void){
-	//Want an angle between 0 and 360 with 0 being the positive x Axis
-}
 
 __task void updateXYAngle(void){
 	while(1){
@@ -40,15 +38,12 @@ __task void updateXYAngle(void){
 	}
 }
 
-void checkJoyStick(void){
-	//edit the angle from horizontal using this function. 
-	//Want an angle between 0 and 90 with 0 being the positive x Axis
-}
-
 __task void updateXZAngle(void){
-	os_sem_wait(&selectLock2, 0xffff);
-	checkJoyStick();
-	os_sem_send(&selectLock3);
+	while(1){
+		os_sem_wait(&selectLock2, 0xffff);
+		checkJoyStick();
+		os_sem_send(&selectLock3);
+	}
 }
 
 void updateInitVelocity(void){
@@ -60,19 +55,25 @@ void shotCalculation(void){
 } 
 
 __task void checkSelectButton(void){
-	os_sem_wait(&selectLock3, 0xffff);
-	//buttonIsCurrentlyPressed = is button currently pressed
-	if(buttonIsCurrentlyPressed){
-		buttonPressed =1;
-		updateInitialVelocity();
-		os_sem_send(&selectLock4);
-	}
-	else if (buttonPressed && !buttonIsCurrentlyPressed){// player released button
-		updateInitialVelocity();
-		shotCalculation();
-		//wait for some time to allow player to see their power bar
-		buttonPressed =0;
-		os_sem_send(&luckLock1);
+	while(1){
+		os_sem_wait(&selectLock3, 0xffff);
+		//buttonIsCurrentlyPressed = is button currently pressed
+		if(buttonIsCurrentlyPressed){
+			buttonPressed =1;
+			updateInitialVelocity();
+			os_sem_send(&selectLock4);
+		}
+		else if (buttonPressed && !buttonIsCurrentlyPressed){// player released button
+			updateInitialVelocity();
+			shotCalculation();
+			//wait for some time to allow player to see their power bar
+			buttonPressed =0;
+			os_sem_send(&luckLock1);
+
+		else{
+			os_sem_send(&selectLock4);
+		}
+		os_tsk_pass(); //Pass task to next task
 	}
 }
 
@@ -82,14 +83,17 @@ void drawSelectScreen(uint16_t drawPowerBar){
 }
 
 __task void updateSelectScreen(void){
-	os_sem_wait(&selectLock4, 0xffff);
-	if (!buttonPressed){
-		drawSelectScreen(0);
+	while(1){
+		os_sem_wait(&selectLock4, 0xffff);
+		if (!buttonPressed){
+			drawSelectScreen(0);
+		}
+		else{
+			drawSelectScreen(1);
+		}
+		os_sem_send(&selectLock1);
+		os_tsk_pass();
 	}
-	else{
-		drawSelectScreen(1);
-	}
-	os_sem_send(&selectLock1);
 }
 
 void ledLogic(void){
@@ -97,9 +101,12 @@ void ledLogic(void){
 }
 
 __task void displayLED(void){
-	os_sem_wait(&luckLock1, 0xffff);
-	ledLogic();
-	os_sem_send(&luckLock2);
+	while(1){
+		os_sem_wait(&luckLock1, 0xffff);
+		ledLogic();
+		os_sem_send(&luckLock2);
+		os_tsk_pass();
+	}
 }
 
 void ledResult(void){
@@ -108,20 +115,22 @@ void ledResult(void){
 }
 
 __task void checkLuckButton(void){
-	os_sem_wait(&luckLock2, 0xffff);
-	
-	//buttonIsCurrentlyPressed = is button currently pressed
-	if(buttonIsCurrentlyPressed){
-		buttonPressed =1;
-		os_sem_send(&luckLock1);
-	}
-	else if (buttonPressed && !buttonIsCurrentlyPressed){
-		ledResult();
-		buttonPressed =0;
-		os_sem_send(&luckLock3);
-	}
-	else{
-		os_sem_send(&luckLock1);
+	while(1){
+		os_sem_wait(&luckLock2, 0xffff);
+		//buttonIsCurrentlyPressed = is button currently pressed
+		if(buttonIsCurrentlyPressed){
+			buttonPressed =1;
+			os_sem_send(&luckLock1);
+		}
+		else if (buttonPressed && !buttonIsCurrentlyPressed){
+			ledResult();
+			buttonPressed =0;
+			os_sem_send(&luckLock3);
+		}
+		else{
+			os_sem_send(&luckLock1);
+		}
+		os_tsk_pass();
 	}
 	
 }
@@ -152,16 +161,18 @@ void animate(uint16_t animation){
 }
 
 __task void drawLuckScreen{
-	os_sem_wait(&luckLock3, 0xffff);
-	animate(shotStatus);
-	
-	//Taking another shot
-	if (shotsTaken <= TOTAL_SHOTS){
-		resetAfterAShot();
-		os_sem_send(&selectLock1);
-	}
-	else{ // 3-point contest over
-		animate(4);
+	while(1){
+		os_sem_wait(&luckLock3, 0xffff);
+		animate(shotStatus);
+		//Taking another shot
+		if (shotsTaken <= TOTAL_SHOTS){
+			resetAfterAShot();
+			os_sem_send(&selectLock1);
+		}
+		else{ // 3-point contest over
+			animate(4);
+		}
+		os_tsk_pass();
 	}
 }
 
@@ -207,7 +218,7 @@ __task void taskInit(void){
 	os_tsk_create(drawLuckScreen,1);
 	
 	// delete this task when done
-		os_tsk_delete_self();
+	os_tsk_delete_self();
 }
 
 int main(void){
