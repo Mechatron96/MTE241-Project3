@@ -23,7 +23,7 @@ float checkPotentiometer(void){
 	LPC_ADC |= (1<<24); //Set to capture data
 
 	while(LPC_ADC->ADGDR & 0x8000 == 0); // wait for conversion complete
-	value = (LPC_ADC->ADGDR>>4) & 0xFFF; //read result
+	float value = (LPC_ADC->ADGDR>>4) & 0xFFF; //read result
 	//Map value to 0 to 360 degrees
 	return (0.0 + ((value-ADCMIN)*(360.0-0.0))/(ADCMAX-ADCMIN));
 }
