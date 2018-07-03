@@ -35,16 +35,15 @@ float checkJoyStick(float XZAngle){
 	//Up will increase the angle and down will decrease the angle of the shot
 	//The left and right directions don't do anything 
 	uint32_t joyStick = 0x0;
-    if ((joyStick & 0x02<<23) == (0x02<<23)) && (XZAngle=< 360.0){
+    if (((joyStick & 0x02<<23) == (0x02<<23)) && (XZAngle <= 360.0)){
    		XZAngle = XZAngle + 0.1;
        //JoyStick Up 
     }
-    else if((joyStick & 0x08<<23) == (0x08<<23)) && (XZAngle => 0.0){
+    else if(((joyStick & 0x08<<23) == (0x08<<23)) && (XZAngle >= 0.0)){
     	XZAngle = XZAngle - 0.1;
     	//JoyStick Down
 
-    }
-    else{
+    } else{
     	//JoyStick input other than Up or Down.
     }
     return XZAngle;
@@ -55,5 +54,5 @@ float checkJoyStick(float XZAngle){
 
 int ButtonCurrentlyPressed(void){
 	//Returns 1 for button pressed and 0 for no button pressed
-	return ~(LPC_GPIO2->FIOPIN & (1<<10))
+	return ~(LPC_GPIO2->FIOPIN & (1<<10));
 }

@@ -3,7 +3,7 @@
 
 void initIOControls(void);
 float checkPotentiometer(void);
-float checkJoyStick(void);
+float checkJoyStick(float);
 int ButtonCurrentlyPressed(void);
 
 #endif
