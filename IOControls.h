@@ -2,8 +2,9 @@
 #define IOCONTROLS_H
 
 void initIOControls(void);
-float checkPotentiometer(void);
-float checkJoyStick(float);
+void setLED(int);
+int checkPotentiometer(void);
+int checkJoyStick(int);
 int ButtonCurrentlyPressed(void);
 
 #endif
