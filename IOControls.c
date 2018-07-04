@@ -9,8 +9,6 @@ const int ADCMAX = 4093;
 
 
 void setLED(int input){
-	int bitOn =0;
-
   //Initializing GPIO 1 - mask bits 28, 29 and 31 of port 1
   LPC_GPIO1->FIODIR |= (1<<28);
 	LPC_GPIO1->FIODIR |= (1<<29);
@@ -81,9 +79,7 @@ int checkJoyStick(int XZAngle){
     } else{
     	//JoyStick input other than Up or Down.
     }
-    
-
-		return XZAngle;
+    return XZAngle;
 }
 
 int ButtonCurrentlyPressed(void){
