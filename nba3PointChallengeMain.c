@@ -23,7 +23,7 @@ uint16_t shotsTaken =0;
 
 float XYAngle;
 float XZAngle;
-float initVelocity;
+//float initVelocity;
 float playerPosition[2];
 
 const float xPositions[5] = {0, -5.12, -7.24, -5.12,0}; // @ 90, 135, 180, 225 and 270 from +x axis
@@ -61,10 +61,6 @@ __task void updateXZAngle(void){
 	}
 }
 
-void updateInitVelocity(void){
-	//UPDATE THE INITIAL VELOCITY
-}
-
 ShotQuality shotCalculation(void){
 	float vXY, vZ,XYdist,time,vX,vY,xPos,yPos,c1,c2;
 	const float R_HOOP = 0.2286;// This is the radius of the hoop
@@ -93,7 +89,6 @@ ShotQuality shotCalculation(void){
 	backboard. This essentially means we can mirror the actual hoop. By assuming the backboard is 0cm from the 
 	rim of the net and is itself perfectly thin we can get the position of the mirrored hoop. 
 	*/
-	/*
 	if (c1<= pow(R_HOOP/4,2) ||c2 <= pow(R_HOOP/4,2)){ // Ball goes straight in. 
 			return SPLASH; 
 		}
@@ -142,17 +137,19 @@ __task void checkSelectButton(void){
 		os_sem_wait(&selectLock3, 0xffff);
 		if(buttonIsCurrentlyPressed){
 			buttonPressed =buttonIsCurrentlyPressed;
-			updateInitialVelocity();
+			initVelocity = initVelocity +0.01;
 			os_sem_send(&selectLock4);
 		}
 		else if (buttonPressed && !buttonIsCurrentlyPressed){// player released button
-			updateInitialVelocity();
-			shotQuality = shotCalculation();
+			// player released button or maxed out the velocity
+			initVelocity = 10.0;
+			shotQuality = shotCalculation(initVelocity);
 			luckPhasePrep(shotQuality);
-			buttonPressed =buttonIsCurrentlyPressed;
+			buttonPressed =0;
+			initVelocity =0;
 			//wait for some time to allow player to see their power bar
 			os_sem_send(&luckLock1);
-
+		}
 		else{
 			os_sem_send(&selectLock4);
 		}
@@ -177,7 +174,8 @@ __task void updateSelectScreen(void){
 void ledLogic(int incr){
 	if (incr >= LED_SPEED){
 		led_num_display_index = led_num_display_index +1;
-		//DRAW led_num_display[led_num_display_index]
+		led_num_display_index = led_num_display_index%8;
+		ledOutput(led_num_display[led_num_display_index]);
 		incr=0;
 	}
 }
@@ -193,13 +191,46 @@ __task void displayLED(void){
 	}
 }
 
+void reset(void){
+	//RESET XZAngle initVelocity animationStatus
+	//UPDATE shotsTaken position	
+	XZAngle =0;
+	XYAngle =0;
+	playerPosition[0] = xPositions[shotsTaken/3];
+	playerPosition[1] = yPositions[shotsTaken/3];
+	animationStatus =0;
+}
+
 void ledResult(void){
-	uint16_t incr =0;
-	while(1){
-		
+	shotsTaken = shotsTaken +1;
+	if (led_num_display[led_num_display_index] == led_success){
+		switch(led_success){
+			default:
+			case 24:
+			case 60:
+					animationStatus =2;
+			break;
+			case 126:
+				if (led_num_display_index == 3 ||led_num_display_index==4){
+					animationStatus =3;
+				}
+				else{
+					animationStatus =2;
+				}
+				break;
+			case 255:
+					animationStatus =3;
+			break;
+		}
 	}
-	//LOGIC FOR LUCKYSHOT OR NOT
-	//UPDATE SHOTSTATUS score
+	else{
+		if (led_success == 0){
+			animationStatus =0;
+		}
+		else{
+			animationStatus =1;			
+		}
+	}
 }
 
 __task void checkLuckButton(void){
@@ -221,16 +252,6 @@ __task void checkLuckButton(void){
 		os_tsk_pass();
 	}
 	
-}
-
-void reset(void){
-	//RESET XZAngle initVelocity shotStatus
-	//UPDATE shotsTaken position	
-	XZAngle =0;
-	XYAngle =0;
-	initVelocity =0;
-	playerPosition[0] = xPositions[shotsTaken/3];
-	playerPosition[1] = yPositions[shotsTaken/3];
 }
 
 __task void drawLuckScreen{
