@@ -12,23 +12,26 @@
 OS_SEM selectLock1, selectLock2, selectLock3, selectLock4;
 OS_SEM luckLock1, luckLock2, luckLock3;
 
-uint16_t buttonPressed=0;
-//uint16_t buttonIsCurrentlyPressed;
-uint32_t led_num_display[8]={3,3,3,3,3,3,3,3};
-uint32_t led_num_display_index =0;
-uint16_t led_success =0;
-uint16_t shotStatus=0;
-uint16_t score =0;
-uint16_t shotsTaken =0;
 
+uint32_t led_num_display[8];
+
+//variables that change after shot
+uint16_t score;
+uint16_t shotsTaken;
+
+// variables that change per shot
+uint16_t led_success;
+uint16_t animationStatus;
+float playerPosition[2];
+
+// variable that change constantly
+int buttonPressed;
 float XYAngle;
 float XZAngle;
-float initVelocity;
-float playerPosition[2];
+int led_num_display_index;
 
 const float xPositions[5] = {0, -5.12, -7.24, -5.12,0}; // @ 90, 135, 180, 225 and 270 from +x axis
 const float yPositions[5] = {6.71, 5.12,0,-5.12,-6.71};
-//const float hoopPosition[2] = {0,0};
 
 const uint16_t TOTAL_SHOTS = 15;
 const uint16_t TOTAL_POINTS = 30;
@@ -59,10 +62,6 @@ __task void updateXZAngle(void){
 		checkJoyStick();
 		os_sem_send(&selectLock3);
 	}
-}
-
-void updateInitVelocity(void){
-	//UPDATE THE INITIAL VELOCITY
 }
 
 ShotQuality shotCalculation(void){
@@ -109,7 +108,6 @@ ShotQuality shotCalculation(void){
 	return MISS;
 }
 
-// TODO
 void luckPhasePrep(ShotQuality sQ){
 	switch(sQ){
 		default:
@@ -140,19 +138,23 @@ __task void checkSelectButton(void){
 	ShotQuality shotQuality;
 	while(1){
 		os_sem_wait(&selectLock3, 0xffff);
+		
+		// TODO print out everything
 		if(buttonIsCurrentlyPressed){
 			buttonPressed =buttonIsCurrentlyPressed;
-			updateInitialVelocity();
+			initVelocity = initVelocity +0.01;
 			os_sem_send(&selectLock4);
 		}
 		else if (buttonPressed && !buttonIsCurrentlyPressed){// player released button
-			updateInitialVelocity();
-			shotQuality = shotCalculation();
+			// player released button or maxed out the velocity
+			initVelocity = 10.0;
+			shotQuality = shotCalculation(initVelocity);
 			luckPhasePrep(shotQuality);
-			buttonPressed =buttonIsCurrentlyPressed;
+			buttonPressed =0;
+			initVelocity =0;
 			//wait for some time to allow player to see their power bar
 			os_sem_send(&luckLock1);
-
+		}
 		else{
 			os_sem_send(&selectLock4);
 		}
@@ -177,7 +179,8 @@ __task void updateSelectScreen(void){
 void ledLogic(int incr){
 	if (incr >= LED_SPEED){
 		led_num_display_index = led_num_display_index +1;
-		//DRAW led_num_display[led_num_display_index]
+		led_num_display_index = led_num_display_index%8;
+		ledOutput(led_num_display[led_num_display_index]);
 		incr=0;
 	}
 }
@@ -193,13 +196,55 @@ __task void displayLED(void){
 	}
 }
 
+void reset(void){
+	//RESET XZAngle animationStatus
+	//UPDATE playerposition	
+	XZAngle =0;
+	XYAngle =0;
+	playerPosition[0] = xPositions[shotsTaken/3];
+	playerPosition[1] = yPositions[shotsTaken/3];
+	animationStatus =0;
+	led_success =0;
+	led_num_display_index =0;
+	//shotStatus=0;
+}
+
 void ledResult(void){
-	uint16_t incr =0;
-	while(1){
-		
+	shotsTaken = shotsTaken +1;
+	if (led_num_display[led_num_display_index] == led_success){
+		switch(led_success){
+			default:
+			case 24:
+			case 60:
+					animationStatus =2;
+			break;
+			case 126:
+				if (led_num_display_index == 3 ||led_num_display_index==4){
+					animationStatus =3;
+				}
+				else{
+					animationStatus =2;
+				}
+				break;
+			case 255:
+					animationStatus =3;
+			break;
+		}
+		if (shotsTaken %3 ==0){
+			score += 2;
+		}
+		else{
+			score += 1;
+		}
 	}
-	//LOGIC FOR LUCKYSHOT OR NOT
-	//UPDATE SHOTSTATUS score
+	else{
+		if (led_success == 0){
+			animationStatus =0;
+		}
+		else{
+			animationStatus =1;			
+		}
+	}
 }
 
 __task void checkLuckButton(void){
@@ -223,20 +268,10 @@ __task void checkLuckButton(void){
 	
 }
 
-void reset(void){
-	//RESET XZAngle initVelocity shotStatus
-	//UPDATE shotsTaken position	
-	XZAngle =0;
-	XYAngle =0;
-	initVelocity =0;
-	playerPosition[0] = xPositions[shotsTaken/3];
-	playerPosition[1] = yPositions[shotsTaken/3];
-}
-
 __task void drawLuckScreen{
 	while(1){
 		os_sem_wait(&luckLock3, 0xffff);
-		animate(shotStatus);
+		animate(animationStatus);
 		//Taking another shot
 		if (shotsTaken <= TOTAL_SHOTS){
 			reset();
@@ -244,6 +279,7 @@ __task void drawLuckScreen{
 		}
 		else{ // 3-point contest over
 			animate(4);
+			//print out stats about score and maybe time it took
 		}
 		os_tsk_pass();
 	}
@@ -262,7 +298,10 @@ __task void drawLuckScreen{
 
 void initVariables(void){
 	reset();
-	
+	buttonPressed =0;
+	score =0;
+	shotsTaken =0;
+	led_num_display={3,3,3,3,3,3,3,3}
 }
 
 __task void taskInit(void){
