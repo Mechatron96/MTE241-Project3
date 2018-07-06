@@ -93,7 +93,7 @@ ShotQuality shotCalculation(void){
 	backboard. This essentially means we can mirror the actual hoop. By assuming the backboard is 0cm from the 
 	rim of the net and is itself perfectly thin we can get the position of the mirrored hoop. 
 	*/
-	/*
+	
 	if (c1<= pow(R_HOOP/4,2) ||c2 <= pow(R_HOOP/4,2)){ // Ball goes straight in. 
 			return SPLASH; 
 		}
