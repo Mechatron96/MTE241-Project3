@@ -10,8 +10,9 @@
 ### List of Objects: adding '"glcd_spi_lpc1700.o"'
 ### List of Objects: adding '"nba3pointchallengemain.o"'
 ### List of Objects: adding '"iocontrols.o"'
+### List of Objects: adding '"nbagraphics.o"'
 ### ADS-LD Command completed:
---cpu Cortex-M3 "system_lpc17xx.o" "system_lpc17xx.o" "startup_lpc17xx.o" "rtx_config.o" "uart.o" "retarget.o" "glcd_spi_lpc1700.o" "nba3pointchallengemain.o" "iocontrols.o" 
+--cpu Cortex-M3 "system_lpc17xx.o" "system_lpc17xx.o" "startup_lpc17xx.o" "rtx_config.o" "uart.o" "retarget.o" "glcd_spi_lpc1700.o" "nba3pointchallengemain.o" "iocontrols.o" "nbagraphics.o" 
 c:\Software\Keil\ARM\RV31\LIB\RTX_CM3.LIB --library_type=microlib --strict --scatter "Project2.sct" 
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
 --info sizes --info totals --info unused --info veneers 
@@ -19,7 +20,7 @@ c:\Software\Keil\ARM\RV31\LIB\RTX_CM3.LIB --library_type=microlib --strict --sca
 ### ADS-LD Output File: 'Project2.axf'
 ### ADS-LD Command File: 'Project2.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile 'Project2.lnp', Handle=0x00001250
+### Creating CmdFile 'Project2.lnp', Handle=0x00000AB4
 ### Writing '.lnp' file
 ### ADS-LD Command file 'Project2.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.

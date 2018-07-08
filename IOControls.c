@@ -36,7 +36,7 @@ void setLED(int input){
 	input = input>>1;
 }
 
-float checkPotentiometer(void){
+int checkPotentiometer(void){
 	int value = 0;
 	float XYAngle = 0;
 
@@ -55,11 +55,11 @@ float checkPotentiometer(void){
 	while (LPC_ADC->ADGDR & 0x8000 == 0); // wait for conversion complete
 	value = (LPC_ADC->ADGDR>>4) & 0xFFF; // read result
 		
-	XYAngle = (float)(0 + ((value - ADCMIN)*(360-0))/(ADCMAX-ADCMIN));	
+	XYAngle = (0 + ((value - ADCMIN)*(360-0))/(ADCMAX-ADCMIN));	
 	return XYAngle;
 }
 
-float checkJoyStick(float XZAngle){
+int checkJoyStick(int XZAngle){
 	//edit the angle from horizontal using this function. 
 	//Want an angle between 0 and 90 with 0 being the positive x Axis
 	//The up and down directions adjust the angle from ground of the shot 
@@ -68,7 +68,7 @@ float checkJoyStick(float XZAngle){
 	uint32_t joyStick = 0x0;
 
 		joyStick = ~(LPC_GPIO1->FIOPIN);
-    if (((joyStick & 0x02<<23) == (0x02<<23)) && (XZAngle <= 359)){
+    if (((joyStick & 0x02<<23) == (0x02<<23)) && (XZAngle <= 89)){
    		XZAngle = XZAngle + 1.0;
        //JoyStick Up 
     }

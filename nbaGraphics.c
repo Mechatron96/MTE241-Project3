@@ -4,7 +4,7 @@ void drawSelectScreen(int displayPowerBar){
 	
 }
 void animation(int animationNumber){
-	switch (animation){
+	switch (animationNumber){
 		case 0:
 			//Ball didn't come close
 		break;
@@ -17,7 +17,7 @@ void animation(int animationNumber){
 		case 3:
 			//ball went straight in;
 		break;
-		case 4;
+		case 4:
 			//after final shot;
 		break;
 	}

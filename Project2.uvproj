@@ -446,6 +446,11 @@
               <FileType>1</FileType>
               <FilePath>.\IOControls.c</FilePath>
             </File>
+            <File>
+              <FileName>nbaGraphics.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\nbaGraphics.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>
