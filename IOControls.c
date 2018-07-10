@@ -7,7 +7,6 @@
 const int ADCMIN = 18;
 const int ADCMAX = 4093;
 
-
 void setLED(int input){
 	LPC_GPIO1->FIOCLR = 0xFFFF<<28;
 	LPC_GPIO2->FIOCLR = 0xFFFF<<2;

@@ -7,4 +7,8 @@ void drawSelectScreenBottom(int, int);
 void shotAnimation(int);
 void finalAnimation(int);
 void initialize(void);
+
+extern const double xPositions[5];
+extern const double yPositions[5];
+
 #endif
