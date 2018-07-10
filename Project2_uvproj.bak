@@ -468,6 +468,16 @@
               <FileType>1</FileType>
               <FilePath>.\nba3PointChallengeMain.c</FilePath>
             </File>
+            <File>
+              <FileName>IOControls.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\IOControls.c</FilePath>
+            </File>
+            <File>
+              <FileName>nbaGraphics.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\nbaGraphics.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

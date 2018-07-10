@@ -3,906 +3,526 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-N:\MTE241\Project4\Project2.uvproj
-Project File Date:  07/06/2018
+N:\MTE241Project\MTE241-Project3-master\Project2.uvproj
+Project File Date:  07/09/2018
 
 <h2>Output:</h2>
-Rebuild target 'Target 1'
+Build target 'Target 1'
 compiling system_LPC17xx.c...
-compiling system_LPC17xx.c...
-assembling startup_LPC17xx.s...
-compiling RTX_config.c...
-compiling uart.c...
-compiling Retarget.c...
-compiling GLCD_SPI_LPC1700.c...
-compiling nba3PointChallengeMain.c...
-nbaGraphics.h(7): warning:  #1-D: last line of file ends without a newline
-nba3PointChallengeMain.c(41): error:  #65: expected a ";"
-nba3PointChallengeMain.c(108): warning:  #12-D: parsing restarts here after previous syntax error
-nba3PointChallengeMain.c(109): error:  #169: expected a declaration
-nba3PointChallengeMain.c(132): warning:  #12-D: parsing restarts here after previous syntax error
-nba3PointChallengeMain.c(133): error:  #169: expected a declaration
-nba3PointChallengeMain.c(134): error:  #169: expected a declaration
-nba3PointChallengeMain.c(161): warning:  #12-D: parsing restarts here after previous syntax error
-nba3PointChallengeMain.c(162): error:  #169: expected a declaration
-nba3PointChallengeMain.c(448): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
-nba3PointChallengeMain.c(41): error:  #235: variable "ShotQuality" was declared with a never-completed type
 compiling IOControls.c...
-IOControls.c(15): warning:  #61-D: integer operation result is out of range
-IOControls.c(15): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(31): warning:  #61-D: integer operation result is out of range
-IOControls.c(31): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(91): warning:  #1-D: last line of file ends without a newline
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nbaGraphics.h(7): warning:  #1-D: last line of file ends without a newline
-nba3PointChallengeMain.c(58): error:  #165: too few arguments in function call
-nba3PointChallengeMain.c(66): error:  #20: identifier "initVelocity" is undefined
-nba3PointChallengeMain.c(84): error:  #18: expected a ")"
-nba3PointChallengeMain.c(101): error:  #18: expected a ")"
-nba3PointChallengeMain.c(105): warning:  #12-D: parsing restarts here after previous syntax error
-nba3PointChallengeMain.c(105): error:  #127: expected a statement
-nba3PointChallengeMain.c(105): warning:  #940-D: missing return statement at end of non-void function "shotCalculation"
-nba3PointChallengeMain.c(64): warning:  #550-D: variable "XYdist" was set but never used
-nba3PointChallengeMain.c(111): error:  #29: expected an expression
-nba3PointChallengeMain.c(111): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(115): error:  #29: expected an expression
-nba3PointChallengeMain.c(115): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(119): error:  #29: expected an expression
-nba3PointChallengeMain.c(119): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(123): error:  #29: expected an expression
-nba3PointChallengeMain.c(123): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(127): error:  #29: expected an expression
-nba3PointChallengeMain.c(127): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(139): error:  #20: identifier "buttonIsCurrentlyPressed" is undefined
-nba3PointChallengeMain.c(141): error:  #20: identifier "initVelocity" is undefined
-nba3PointChallengeMain.c(146): error:  #20: identifier "initVelocity" is undefined
-nba3PointChallengeMain.c(147): error:  #140: too many arguments in function call
-nba3PointChallengeMain.c(179): warning:  #223-D: function "ledOutput" declared implicitly
-nba3PointChallengeMain.c(187): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(250): error:  #20: identifier "buttonIsCurrentlyPressed" is undefined
-nba3PointChallengeMain.c(267): error:  #655-D: the modifier "noreturn" is not allowed on this declaration
-nba3PointChallengeMain.c(267): error:  #70: incomplete type is not allowed
-nba3PointChallengeMain.c(267): error:  #65: expected a ";"
-nba3PointChallengeMain.c(444): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nbaGraphics.h(7): warning:  #1-D: last line of file ends without a newline
-nba3PointChallengeMain.c(101): error:  #18: expected a ")"
-nba3PointChallengeMain.c(105): warning:  #12-D: parsing restarts here after previous syntax error
-nba3PointChallengeMain.c(105): error:  #127: expected a statement
-nba3PointChallengeMain.c(105): warning:  #940-D: missing return statement at end of non-void function "shotCalculation"
-nba3PointChallengeMain.c(64): warning:  #550-D: variable "XYdist" was set but never used
-nba3PointChallengeMain.c(111): error:  #29: expected an expression
-nba3PointChallengeMain.c(111): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(115): error:  #29: expected an expression
-nba3PointChallengeMain.c(115): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(119): error:  #29: expected an expression
-nba3PointChallengeMain.c(119): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(123): error:  #29: expected an expression
-nba3PointChallengeMain.c(123): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(127): error:  #29: expected an expression
-nba3PointChallengeMain.c(127): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(139): error:  #20: identifier "buttonIsCurrentlyPressed" is undefined
-nba3PointChallengeMain.c(141): error:  #20: identifier "initVelocity" is undefined
-nba3PointChallengeMain.c(146): error:  #20: identifier "initVelocity" is undefined
-nba3PointChallengeMain.c(179): warning:  #223-D: function "ledOutput" declared implicitly
-nba3PointChallengeMain.c(187): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(250): error:  #20: identifier "buttonIsCurrentlyPressed" is undefined
-nba3PointChallengeMain.c(267): error:  #655-D: the modifier "noreturn" is not allowed on this declaration
-nba3PointChallengeMain.c(267): error:  #70: incomplete type is not allowed
-nba3PointChallengeMain.c(267): error:  #65: expected a ";"
-nba3PointChallengeMain.c(444): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nbaGraphics.h(7): warning:  #1-D: last line of file ends without a newline
-nba3PointChallengeMain.c(64): warning:  #550-D: variable "XYdist" was set but never used
-nba3PointChallengeMain.c(111): error:  #29: expected an expression
-nba3PointChallengeMain.c(111): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(115): error:  #29: expected an expression
-nba3PointChallengeMain.c(115): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(119): error:  #29: expected an expression
-nba3PointChallengeMain.c(119): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(123): error:  #29: expected an expression
-nba3PointChallengeMain.c(123): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(127): error:  #29: expected an expression
-nba3PointChallengeMain.c(127): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(139): error:  #20: identifier "buttonIsCurrentlyPressed" is undefined
-nba3PointChallengeMain.c(141): error:  #20: identifier "initVelocity" is undefined
-nba3PointChallengeMain.c(146): error:  #20: identifier "initVelocity" is undefined
-nba3PointChallengeMain.c(179): warning:  #223-D: function "ledOutput" declared implicitly
-nba3PointChallengeMain.c(187): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(250): error:  #20: identifier "buttonIsCurrentlyPressed" is undefined
-nba3PointChallengeMain.c(267): error:  #655-D: the modifier "noreturn" is not allowed on this declaration
-nba3PointChallengeMain.c(267): error:  #70: incomplete type is not allowed
-nba3PointChallengeMain.c(267): error:  #65: expected a ";"
-nba3PointChallengeMain.c(444): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nbaGraphics.h(7): warning:  #1-D: last line of file ends without a newline
-nba3PointChallengeMain.c(64): warning:  #550-D: variable "XYdist" was set but never used
-nba3PointChallengeMain.c(111): error:  #29: expected an expression
-nba3PointChallengeMain.c(111): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(115): error:  #29: expected an expression
-nba3PointChallengeMain.c(115): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(119): error:  #29: expected an expression
-nba3PointChallengeMain.c(119): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(123): error:  #29: expected an expression
-nba3PointChallengeMain.c(123): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(127): error:  #29: expected an expression
-nba3PointChallengeMain.c(127): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(139): error:  #20: identifier "buttonIsCurrentlyPressed" is undefined
-nba3PointChallengeMain.c(141): error:  #20: identifier "initVelocity" is undefined
-nba3PointChallengeMain.c(146): error:  #20: identifier "initVelocity" is undefined
-nba3PointChallengeMain.c(179): warning:  #223-D: function "ledOutput" declared implicitly
-nba3PointChallengeMain.c(187): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(250): error:  #20: identifier "buttonIsCurrentlyPressed" is undefined
-nba3PointChallengeMain.c(267): error:  #655-D: the modifier "noreturn" is not allowed on this declaration
-nba3PointChallengeMain.c(267): error:  #70: incomplete type is not allowed
-nba3PointChallengeMain.c(267): error:  #65: expected a ";"
-nba3PointChallengeMain.c(444): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nbaGraphics.h(7): warning:  #1-D: last line of file ends without a newline
-nba3PointChallengeMain.c(64): warning:  #550-D: variable "XYdist" was set but never used
-nba3PointChallengeMain.c(123): error:  #29: expected an expression
-nba3PointChallengeMain.c(123): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(127): error:  #29: expected an expression
-nba3PointChallengeMain.c(127): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(131): error:  #29: expected an expression
-nba3PointChallengeMain.c(131): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(135): error:  #29: expected an expression
-nba3PointChallengeMain.c(135): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(147): error:  #20: identifier "buttonIsCurrentlyPressed" is undefined
-nba3PointChallengeMain.c(149): error:  #20: identifier "initVelocity" is undefined
-nba3PointChallengeMain.c(154): error:  #20: identifier "initVelocity" is undefined
-nba3PointChallengeMain.c(187): warning:  #223-D: function "ledOutput" declared implicitly
-nba3PointChallengeMain.c(195): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(258): error:  #20: identifier "buttonIsCurrentlyPressed" is undefined
-nba3PointChallengeMain.c(275): error:  #655-D: the modifier "noreturn" is not allowed on this declaration
-nba3PointChallengeMain.c(275): error:  #70: incomplete type is not allowed
-nba3PointChallengeMain.c(275): error:  #65: expected a ";"
-nba3PointChallengeMain.c(452): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nbaGraphics.h(7): warning:  #1-D: last line of file ends without a newline
-nba3PointChallengeMain.c(64): warning:  #550-D: variable "XYdist" was set but never used
-nba3PointChallengeMain.c(135): error:  #29: expected an expression
-nba3PointChallengeMain.c(135): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(147): error:  #29: expected an expression
-nba3PointChallengeMain.c(147): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(159): error:  #29: expected an expression
-nba3PointChallengeMain.c(159): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(179): error:  #20: identifier "buttonIsCurrentlyPressed" is undefined
-nba3PointChallengeMain.c(181): error:  #20: identifier "initVelocity" is undefined
-nba3PointChallengeMain.c(186): error:  #20: identifier "initVelocity" is undefined
-nba3PointChallengeMain.c(219): warning:  #223-D: function "ledOutput" declared implicitly
-nba3PointChallengeMain.c(227): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(290): error:  #20: identifier "buttonIsCurrentlyPressed" is undefined
-nba3PointChallengeMain.c(307): error:  #655-D: the modifier "noreturn" is not allowed on this declaration
-nba3PointChallengeMain.c(307): error:  #70: incomplete type is not allowed
-nba3PointChallengeMain.c(307): error:  #65: expected a ";"
-nba3PointChallengeMain.c(484): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nbaGraphics.h(7): warning:  #1-D: last line of file ends without a newline
-nba3PointChallengeMain.c(64): warning:  #550-D: variable "XYdist" was set but never used
-nba3PointChallengeMain.c(179): error:  #20: identifier "buttonIsCurrentlyPressed" is undefined
-nba3PointChallengeMain.c(181): error:  #20: identifier "initVelocity" is undefined
-nba3PointChallengeMain.c(186): error:  #20: identifier "initVelocity" is undefined
-nba3PointChallengeMain.c(219): warning:  #223-D: function "ledOutput" declared implicitly
-nba3PointChallengeMain.c(227): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(290): error:  #20: identifier "buttonIsCurrentlyPressed" is undefined
-nba3PointChallengeMain.c(307): error:  #655-D: the modifier "noreturn" is not allowed on this declaration
-nba3PointChallengeMain.c(307): error:  #70: incomplete type is not allowed
-nba3PointChallengeMain.c(307): error:  #65: expected a ";"
-nba3PointChallengeMain.c(484): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nbaGraphics.h(7): warning:  #1-D: last line of file ends without a newline
-nba3PointChallengeMain.c(64): warning:  #550-D: variable "XYdist" was set but never used
-nba3PointChallengeMain.c(179): warning:  #223-D: function "buttonIsCurrentlyPressed" declared implicitly
-nba3PointChallengeMain.c(180): error:  #513: a value of type "int (*)()" cannot be assigned to an entity of type "int"
-nba3PointChallengeMain.c(181): error:  #20: identifier "initVelocity" is undefined
-nba3PointChallengeMain.c(186): error:  #20: identifier "initVelocity" is undefined
-nba3PointChallengeMain.c(219): warning:  #223-D: function "ledOutput" declared implicitly
-nba3PointChallengeMain.c(227): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(290): error:  #20: identifier "buttonIsCurrentlyPressed" is undefined
-nba3PointChallengeMain.c(307): error:  #655-D: the modifier "noreturn" is not allowed on this declaration
-nba3PointChallengeMain.c(307): error:  #70: incomplete type is not allowed
-nba3PointChallengeMain.c(307): error:  #65: expected a ";"
-nba3PointChallengeMain.c(484): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nbaGraphics.h(7): warning:  #1-D: last line of file ends without a newline
-nba3PointChallengeMain.c(64): warning:  #550-D: variable "XYdist" was set but never used
-nba3PointChallengeMain.c(180): warning:  #223-D: function "buttonIsCurrentlyPressed" declared implicitly
-nba3PointChallengeMain.c(220): warning:  #223-D: function "ledOutput" declared implicitly
-nba3PointChallengeMain.c(228): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(291): error:  #20: identifier "buttonIsCurrentlyPressed" is undefined
-nba3PointChallengeMain.c(308): error:  #655-D: the modifier "noreturn" is not allowed on this declaration
-nba3PointChallengeMain.c(308): error:  #70: incomplete type is not allowed
-nba3PointChallengeMain.c(308): error:  #65: expected a ";"
-nba3PointChallengeMain.c(485): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nbaGraphics.h(7): warning:  #1-D: last line of file ends without a newline
-nba3PointChallengeMain.c(64): warning:  #550-D: variable "XYdist" was set but never used
-nba3PointChallengeMain.c(180): warning:  #223-D: function "buttonIsCurrentlyPressed" declared implicitly
-nba3PointChallengeMain.c(220): warning:  #223-D: function "ledOutput" declared implicitly
-nba3PointChallengeMain.c(291): warning:  #223-D: function "buttonIsCurrentlyPressed" declared implicitly
-nba3PointChallengeMain.c(311): warning:  #223-D: function "animate" declared implicitly
-nba3PointChallengeMain.c(341): error:  #29: expected an expression
-nba3PointChallengeMain.c(341): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(342): error:  #65: expected a ";"
-nba3PointChallengeMain.c(367): error:  #20: identifier "buttonIsCurrentlyPressed" is undefined
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nbaGraphics.h(7): warning:  #1-D: last line of file ends without a newline
-nba3PointChallengeMain.c(64): warning:  #550-D: variable "XYdist" was set but never used
-nba3PointChallengeMain.c(180): warning:  #223-D: function "buttonIsCurrentlyPressed" declared implicitly
-nba3PointChallengeMain.c(220): warning:  #223-D: function "ledOutput" declared implicitly
-nba3PointChallengeMain.c(291): warning:  #223-D: function "buttonIsCurrentlyPressed" declared implicitly
-nba3PointChallengeMain.c(311): warning:  #223-D: function "animate" declared implicitly
-nba3PointChallengeMain.c(366): warning:  #223-D: function "buttonIsCurrentlyPressed" declared implicitly
+IOControls.c(18): warning:  #61-D: integer operation result is out of range
+IOControls.c(18): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(34): warning:  #61-D: integer operation result is out of range
+IOControls.c(34): warning:  #68-D: integer conversion resulted in a change of sign
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Project2.axf: Error: L6218E: Undefined symbol animate (referred from nba3pointchallengemain.o).
-Project2.axf: Error: L6218E: Undefined symbol buttonIsCurrentlyPressed (referred from nba3pointchallengemain.o).
-Project2.axf: Error: L6218E: Undefined symbol drawSelectScreen (referred from nba3pointchallengemain.o).
-Project2.axf: Error: L6218E: Undefined symbol ledOutput (referred from nba3pointchallengemain.o).
-Target not created
+Program Size: Code=20180 RO-data=7076 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 5 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
 Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nbaGraphics.h(7): warning:  #1-D: last line of file ends without a newline
-nba3PointChallengeMain.c(64): warning:  #550-D: variable "XYdist" was set but never used
-nba3PointChallengeMain.c(180): warning:  #223-D: function "buttonIsCurrentlyPressed" declared implicitly
-nba3PointChallengeMain.c(220): warning:  #223-D: function "ledOutput" declared implicitly
-nba3PointChallengeMain.c(291): warning:  #223-D: function "buttonIsCurrentlyPressed" declared implicitly
-nba3PointChallengeMain.c(311): warning:  #223-D: function "animate" declared implicitly
-nba3PointChallengeMain.c(366): warning:  #223-D: function "buttonIsCurrentlyPressed" declared implicitly
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Project2.axf: Error: L6218E: Undefined symbol animate (referred from nba3pointchallengemain.o).
-Project2.axf: Error: L6218E: Undefined symbol buttonIsCurrentlyPressed (referred from nba3pointchallengemain.o).
-Project2.axf: Error: L6218E: Undefined symbol drawSelectScreen (referred from nba3pointchallengemain.o).
-Project2.axf: Error: L6218E: Undefined symbol ledOutput (referred from nba3pointchallengemain.o).
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nbaGraphics.h(7): warning:  #1-D: last line of file ends without a newline
-nba3PointChallengeMain.c(64): warning:  #550-D: variable "XYdist" was set but never used
-nba3PointChallengeMain.c(220): warning:  #223-D: function "ledOutput" declared implicitly
-nba3PointChallengeMain.c(311): warning:  #223-D: function "animate" declared implicitly
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Project2.axf: Error: L6218E: Undefined symbol animate (referred from nba3pointchallengemain.o).
-Project2.axf: Error: L6218E: Undefined symbol drawSelectScreen (referred from nba3pointchallengemain.o).
-Project2.axf: Error: L6218E: Undefined symbol ledOutput (referred from nba3pointchallengemain.o).
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nbaGraphics.h(7): warning:  #1-D: last line of file ends without a newline
-nba3PointChallengeMain.c(64): warning:  #550-D: variable "XYdist" was set but never used
-nba3PointChallengeMain.c(220): warning:  #223-D: function "ledOutput" declared implicitly
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Project2.axf: Error: L6218E: Undefined symbol animation (referred from nba3pointchallengemain.o).
-Project2.axf: Error: L6218E: Undefined symbol drawSelectScreen (referred from nba3pointchallengemain.o).
-Project2.axf: Error: L6218E: Undefined symbol ledOutput (referred from nba3pointchallengemain.o).
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nbaGraphics.h(7): warning:  #1-D: last line of file ends without a newline
-nba3PointChallengeMain.c(64): warning:  #550-D: variable "XYdist" was set but never used
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Project2.axf: Error: L6218E: Undefined symbol animation (referred from nba3pointchallengemain.o).
-Project2.axf: Error: L6218E: Undefined symbol drawSelectScreen (referred from nba3pointchallengemain.o).
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nbaGraphics.h(7): warning:  #1-D: last line of file ends without a newline
-nba3PointChallengeMain.c(69): error:  #20: identifier "XYdist" is undefined
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nbaGraphics.h(7): warning:  #1-D: last line of file ends without a newline
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Project2.axf: Error: L6218E: Undefined symbol animation (referred from nba3pointchallengemain.o).
-Project2.axf: Error: L6218E: Undefined symbol drawSelectScreen (referred from nba3pointchallengemain.o).
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nbaGraphics.h(7): warning:  #1-D: last line of file ends without a newline
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Project2.axf: Error: L6218E: Undefined symbol animation (referred from nba3pointchallengemain.o).
-Project2.axf: Error: L6218E: Undefined symbol drawSelectScreen (referred from nba3pointchallengemain.o).
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nbaGraphics.h(7): warning:  #1-D: last line of file ends without a newline
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Project2.axf: Error: L6218E: Undefined symbol animation (referred from nba3pointchallengemain.o).
-Project2.axf: Error: L6218E: Undefined symbol drawSelectScreen (referred from nba3pointchallengemain.o).
-Target not created
-Rebuild target 'Target 1'
-compiling system_LPC17xx.c...
-compiling system_LPC17xx.c...
-assembling startup_LPC17xx.s...
-compiling RTX_config.c...
-compiling uart.c...
-compiling Retarget.c...
-compiling GLCD_SPI_LPC1700.c...
-compiling nba3PointChallengeMain.c...
-nbaGraphics.h(7): warning:  #1-D: last line of file ends without a newline
 compiling IOControls.c...
-IOControls.c(15): warning:  #61-D: integer operation result is out of range
-IOControls.c(15): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(31): warning:  #61-D: integer operation result is out of range
-IOControls.c(31): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(91): warning:  #1-D: last line of file ends without a newline
+IOControls.c(18): warning:  #61-D: integer operation result is out of range
+IOControls.c(18): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(34): warning:  #61-D: integer operation result is out of range
+IOControls.c(34): warning:  #68-D: integer conversion resulted in a change of sign
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Project2.axf: Error: L6218E: Undefined symbol animation (referred from nba3pointchallengemain.o).
-Project2.axf: Error: L6218E: Undefined symbol drawSelectScreen (referred from nba3pointchallengemain.o).
+Program Size: Code=20184 RO-data=7080 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 5 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling IOControls.c...
+IOControls.c(12): warning:  #61-D: integer operation result is out of range
+IOControls.c(12): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(18): warning:  #61-D: integer operation result is out of range
+IOControls.c(18): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(34): warning:  #61-D: integer operation result is out of range
+IOControls.c(34): warning:  #68-D: integer conversion resulted in a change of sign
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20188 RO-data=7076 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 7 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+compiling IOControls.c...
+IOControls.c(12): warning:  #61-D: integer operation result is out of range
+IOControls.c(12): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(19): warning:  #61-D: integer operation result is out of range
+IOControls.c(19): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(35): warning:  #61-D: integer operation result is out of range
+IOControls.c(35): warning:  #68-D: integer conversion resulted in a change of sign
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20148 RO-data=7076 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 7 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20128 RO-data=7080 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20124 RO-data=7076 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20144 RO-data=7080 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20144 RO-data=7080 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20144 RO-data=7080 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling IOControls.c...
+IOControls.c(12): warning:  #61-D: integer operation result is out of range
+IOControls.c(12): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(19): warning:  #61-D: integer operation result is out of range
+IOControls.c(19): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(35): warning:  #61-D: integer operation result is out of range
+IOControls.c(35): warning:  #68-D: integer conversion resulted in a change of sign
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20144 RO-data=7080 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 7 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify Failed!
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling IOControls.c...
+IOControls.c(12): warning:  #61-D: integer operation result is out of range
+IOControls.c(12): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(19): warning:  #61-D: integer operation result is out of range
+IOControls.c(19): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(35): warning:  #61-D: integer operation result is out of range
+IOControls.c(35): warning:  #68-D: integer conversion resulted in a change of sign
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20148 RO-data=7076 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 7 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling IOControls.c...
+IOControls.c(12): warning:  #61-D: integer operation result is out of range
+IOControls.c(12): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(20): warning:  #61-D: integer operation result is out of range
+IOControls.c(20): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(36): warning:  #61-D: integer operation result is out of range
+IOControls.c(36): warning:  #68-D: integer conversion resulted in a change of sign
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling IOControls.c...
+IOControls.c(12): warning:  #61-D: integer operation result is out of range
+IOControls.c(12): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(20): warning:  #61-D: integer operation result is out of range
+IOControls.c(20): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(36): warning:  #61-D: integer operation result is out of range
+IOControls.c(36): warning:  #68-D: integer conversion resulted in a change of sign
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 7 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+compiling IOControls.c...
+IOControls.c(12): warning:  #61-D: integer operation result is out of range
+IOControls.c(12): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(18): warning:  #61-D: integer operation result is out of range
+IOControls.c(18): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(34): warning:  #61-D: integer operation result is out of range
+IOControls.c(34): warning:  #68-D: integer conversion resulted in a change of sign
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 7 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20160 RO-data=7080 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(300): error:  #20: identifier "MAX_POINTS" is undefined
+nba3PointChallengeMain.c(302): error:  #65: expected a ";"
+nba3PointChallengeMain.c(335): error:  #20: identifier "TOTAL_SHOTS" is undefined
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(300): error:  #20: identifier "MAX_POINTS" is undefined
+nba3PointChallengeMain.c(302): error:  #65: expected a ";"
+nba3PointChallengeMain.c(335): error:  #20: identifier "TOTAL_SHOTS" is undefined
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20028 RO-data=7076 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20020 RO-data=7076 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20024 RO-data=7088 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20032 RO-data=7088 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling IOControls.c...
+IOControls.c(12): warning:  #61-D: integer operation result is out of range
+IOControls.c(12): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(18): warning:  #61-D: integer operation result is out of range
+IOControls.c(18): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(34): warning:  #61-D: integer operation result is out of range
+IOControls.c(34): warning:  #68-D: integer conversion resulted in a change of sign
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20024 RO-data=7088 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 7 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+compiling IOControls.c...
+IOControls.c(12): warning:  #61-D: integer operation result is out of range
+IOControls.c(12): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(18): warning:  #61-D: integer operation result is out of range
+IOControls.c(18): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(34): warning:  #61-D: integer operation result is out of range
+IOControls.c(34): warning:  #68-D: integer conversion resulted in a change of sign
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20036 RO-data=7084 RW-data=240 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 7 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20000 RO-data=7088 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20000 RO-data=7088 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20000 RO-data=7088 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=19996 RO-data=7084 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20000 RO-data=7088 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+compiling IOControls.c...
+IOControls.c(12): warning:  #61-D: integer operation result is out of range
+IOControls.c(12): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(18): warning:  #61-D: integer operation result is out of range
+IOControls.c(18): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(34): warning:  #61-D: integer operation result is out of range
+IOControls.c(34): warning:  #68-D: integer conversion resulted in a change of sign
+compiling nbaGraphics.c...
+nbaGraphics.c(7): warning:  #520-D: initialization with "{...}" expected for aggregate object
+nbaGraphics.c(7): error:  #29: expected an expression
+nbaGraphics.c(8): warning:  #520-D: initialization with "{...}" expected for aggregate object
+nbaGraphics.c(8): error:  #29: expected an expression
+nbaGraphics.c(9): warning:  #520-D: initialization with "{...}" expected for aggregate object
+nbaGraphics.c(9): error:  #29: expected an expression
+nbaGraphics.c(10): warning:  #520-D: initialization with "{...}" expected for aggregate object
+nbaGraphics.c(10): error:  #29: expected an expression
+nbaGraphics.c(11): warning:  #520-D: initialization with "{...}" expected for aggregate object
+nbaGraphics.c(11): error:  #29: expected an expression
+nbaGraphics.c(12): warning:  #520-D: initialization with "{...}" expected for aggregate object
+nbaGraphics.c(12): error:  #29: expected an expression
+nbaGraphics.c(13): warning:  #520-D: initialization with "{...}" expected for aggregate object
+nbaGraphics.c(13): error:  #29: expected an expression
+nbaGraphics.c(14): warning:  #520-D: initialization with "{...}" expected for aggregate object
+nbaGraphics.c(14): error:  #29: expected an expression
+nbaGraphics.c(16): error:  #148: variable "topDown0" has already been initialized
+nbaGraphics.c(16): warning:  #520-D: initialization with "{...}" expected for aggregate object
+nbaGraphics.c(16): error:  #29: expected an expression
+nbaGraphics.c(17): warning:  #520-D: initialization with "{...}" expected for aggregate object
+nbaGraphics.c(17): error:  #29: expected an expression
+nbaGraphics.c(18): warning:  #520-D: initialization with "{...}" expected for aggregate object
+nbaGraphics.c(18): error:  #29: expected an expression
+nbaGraphics.c(19): error:  #148: variable "topDown45" has already been initialized
+nbaGraphics.c(19): warning:  #520-D: initialization with "{...}" expected for aggregate object
+nbaGraphics.c(19): error:  #29: expected an expression
+nbaGraphics.c(20): warning:  #520-D: initialization with "{...}" expected for aggregate object
+nbaGraphics.c(20): error:  #29: expected an expression
+nbaGraphics.c(21): warning:  #520-D: initialization with "{...}" expected for aggregate object
+nbaGraphics.c(21): error:  #29: expected an expression
+nbaGraphics.c(22): error:  #148: variable "topDown90" has already been initialized
+nbaGraphics.c(22): warning:  #520-D: initialization with "{...}" expected for aggregate object
+nbaGraphics.c(22): error:  #29: expected an expression
+nbaGraphics.c(27): warning:  #550-D: variable "XYInterval" was set but never used
+nbaGraphics.c(28): warning:  #550-D: variable "XZInterval" was set but never used
 Target not created
 Build target 'Target 1'
 compiling nbaGraphics.c...
-nbaGraphics.h(7): warning:  #1-D: last line of file ends without a newline
-nbaGraphics.c(7): error:  #31: expression must have integral type
-nbaGraphics.c(20): error:  #53: expected a ":"
-nbaGraphics.c(23): warning:  #12-D: parsing restarts here after previous syntax error
-nbaGraphics.c(23): warning:  #127-D: expected a statement
-nbaGraphics.c(24): warning:  #1-D: last line of file ends without a newline
-Target not created
-Build target 'Target 1'
-compiling nbaGraphics.c...
-nbaGraphics.h(7): warning:  #1-D: last line of file ends without a newline
-nbaGraphics.c(24): warning:  #1-D: last line of file ends without a newline
+nbaGraphics.c(27): warning:  #550-D: variable "XYInterval" was set but never used
+nbaGraphics.c(28): warning:  #550-D: variable "XZInterval" was set but never used
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=14648 RO-data=768 RW-data=220 ZI-data=12484  
+Program Size: Code=20088 RO-data=7088 RW-data=224 ZI-data=12480  
 "Project2.axf" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-compiling IOControls.c...
-IOControls.c(15): warning:  #61-D: integer operation result is out of range
-IOControls.c(15): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(31): warning:  #61-D: integer operation result is out of range
-IOControls.c(31): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(91): warning:  #1-D: last line of file ends without a newline
-compiling nbaGraphics.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=14648 RO-data=768 RW-data=220 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 6 Warning(s).
-Rebuild target 'Target 1'
-compiling system_LPC17xx.c...
-compiling system_LPC17xx.c...
-assembling startup_LPC17xx.s...
-compiling RTX_config.c...
-compiling uart.c...
-compiling Retarget.c...
-compiling GLCD_SPI_LPC1700.c...
-compiling nba3PointChallengeMain.c...
-compiling IOControls.c...
-IOControls.c(15): warning:  #61-D: integer operation result is out of range
-IOControls.c(15): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(31): warning:  #61-D: integer operation result is out of range
-IOControls.c(31): warning:  #68-D: integer conversion resulted in a change of sign
-compiling nbaGraphics.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=14648 RO-data=768 RW-data=220 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 5 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
 Build target 'Target 1'
 compiling nba3PointChallengeMain.c...
 compiling nbaGraphics.c...
+nbaGraphics.c(27): warning:  #550-D: variable "XYInterval" was set but never used
+nbaGraphics.c(28): warning:  #550-D: variable "XZInterval" was set but never used
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17144 RO-data=768 RW-data=224 ZI-data=12480  
+Program Size: Code=20092 RO-data=7084 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 3 Warning(s).
+Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20092 RO-data=7084 RW-data=224 ZI-data=12480  
 "Project2.axf" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17144 RO-data=768 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(208): warning:  #223-D: function "os_delay" declared implicitly
-nba3PointChallengeMain.c(213): warning:  #223-D: function "os_delay" declared implicitly
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Project2.axf: Error: L6218E: Undefined symbol os_delay (referred from nba3pointchallengemain.o).
-Target not created
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-_____^
-*** error 56: cannot open file
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17148 RO-data=764 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(206): warning:  #181-D: argument is incompatible with corresponding format string conversion
-nba3PointChallengeMain.c(206): warning:  #181-D: argument is incompatible with corresponding format string conversion
-nba3PointChallengeMain.c(211): warning:  #181-D: argument is incompatible with corresponding format string conversion
-nba3PointChallengeMain.c(211): warning:  #181-D: argument is incompatible with corresponding format string conversion
-compiling IOControls.c...
-IOControls.c(15): warning:  #61-D: integer operation result is out of range
-IOControls.c(15): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(31): warning:  #61-D: integer operation result is out of range
-IOControls.c(31): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(39): error:  #147: declaration is incompatible with "float checkPotentiometer(void)" (declared at line 6 of "IOControls.h")
-IOControls.c(62): error:  #147: declaration is incompatible with "float checkJoyStick(float)" (declared at line 7 of "IOControls.h")
-Target not created
-Build target 'Target 1'
-compiling IOControls.c...
-IOControls.c(15): warning:  #61-D: integer operation result is out of range
-IOControls.c(15): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(31): warning:  #61-D: integer operation result is out of range
-IOControls.c(31): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(39): error:  #147: declaration is incompatible with "float checkPotentiometer(void)" (declared at line 6 of "IOControls.h")
-IOControls.c(62): error:  #147: declaration is incompatible with "float checkJoyStick(float)" (declared at line 7 of "IOControls.h")
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(206): warning:  #181-D: argument is incompatible with corresponding format string conversion
-nba3PointChallengeMain.c(206): warning:  #181-D: argument is incompatible with corresponding format string conversion
-nba3PointChallengeMain.c(211): warning:  #181-D: argument is incompatible with corresponding format string conversion
-nba3PointChallengeMain.c(211): warning:  #181-D: argument is incompatible with corresponding format string conversion
-compiling IOControls.c...
-IOControls.c(15): warning:  #61-D: integer operation result is out of range
-IOControls.c(15): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(31): warning:  #61-D: integer operation result is out of range
-IOControls.c(31): warning:  #68-D: integer conversion resulted in a change of sign
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=16964 RO-data=764 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 9 Warning(s).
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=16964 RO-data=764 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=16964 RO-data=764 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=16972 RO-data=764 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(59): error:  #165: too few arguments in function call
-compiling IOControls.c...
-IOControls.c(15): warning:  #61-D: integer operation result is out of range
-IOControls.c(15): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(31): warning:  #61-D: integer operation result is out of range
-IOControls.c(31): warning:  #68-D: integer conversion resulted in a change of sign
-Target not created
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-_____^
-*** error 56: cannot open file
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(59): error:  #165: too few arguments in function call
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=16972 RO-data=764 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling IOControls.c...
-IOControls.c(15): warning:  #61-D: integer operation result is out of range
-IOControls.c(15): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(31): warning:  #61-D: integer operation result is out of range
-IOControls.c(31): warning:  #68-D: integer conversion resulted in a change of sign
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=16972 RO-data=764 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 5 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17276 RO-data=764 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17368 RO-data=768 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17368 RO-data=768 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17464 RO-data=768 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17496 RO-data=768 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(67): error:  #20: identifier "Math" is undefined
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=16912 RO-data=808 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=16936 RO-data=808 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=16936 RO-data=808 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=16992 RO-data=808 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=16988 RO-data=804 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17024 RO-data=808 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17028 RO-data=804 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17028 RO-data=804 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17028 RO-data=804 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17024 RO-data=808 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17028 RO-data=804 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17072 RO-data=808 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17104 RO-data=808 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17108 RO-data=804 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(245): warning:  #225-D: the format string ends before this argument
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17124 RO-data=804 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 2 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17112 RO-data=808 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17144 RO-data=808 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17164 RO-data=804 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17180 RO-data=804 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17200 RO-data=808 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17196 RO-data=804 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17192 RO-data=808 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17192 RO-data=808 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17160 RO-data=808 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(13): error:  #77-D: this declaration has no storage class or type specifier
-nba3PointChallengeMain.c(13): error:  #77-D: this declaration has no storage class or type specifier
-nba3PointChallengeMain.c(13): error:  #77-D: this declaration has no storage class or type specifier
-nba3PointChallengeMain.c(13): error:  #77-D: this declaration has no storage class or type specifier
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17188 RO-data=804 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17228 RO-data=804 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(369): error:  #20: identifier "updateXYAngle" is undefined
-nba3PointChallengeMain.c(370): error:  #20: identifier "updateXZAngle" is undefined
-nba3PointChallengeMain.c(373): error:  #20: identifier "displayLED" is undefined
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17096 RO-data=808 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=17112 RO-data=808 RW-data=232 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.

@@ -9,6 +9,9 @@ const int ADCMAX = 4093;
 
 
 void setLED(int input){
+	LPC_GPIO1->FIOCLR = 0xFFFF<<28;
+	LPC_GPIO2->FIOCLR = 0xFFFF<<2;
+	LPC_GPIO2->FIOCLR = 0xFFFF<<5;
   //Initializing GPIO 1 - mask bits 28, 29 and 31 of port 1
   LPC_GPIO1->FIODIR |= (1<<28);
 	LPC_GPIO1->FIODIR |= (1<<29);
@@ -39,8 +42,6 @@ void setLED(int input){
 int checkPotentiometer(void){
 	int value = 0;
 	float XYAngle = 0;
-
-
 	LPC_PINCON->PINSEL1 &= ~(3<<18);
 	LPC_PINCON->PINSEL1 |= (1<<18); // P0.25 is AD0.2
 	LPC_SC->PCONP |= (1<<12); // Enable power to ADC block
