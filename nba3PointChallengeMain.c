@@ -9,61 +9,103 @@
 #include "IOControls.h"
 #include "nbaGraphics.h"
 
-// Declare the semaphores 
+OS_MUT selectTask1, selectTask2, selectTask3, selectTask4;
+OS_MUT luckTask1;
+OS_SEM updateLock;
 
-OS_SEM selectLock1, selectLock2, selectLock3;
-OS_SEM luckLock1, luckLock2;
+int XZAngle = 0;
+int XYAngle = 0;
+int buttonPressed = 0;
+int initVelocity = 800;
+int score =0;
+int shotsTaken =0;
+int updateScreen =0;
 
-uint32_t led_num_display[8] = {1,1,1,1,1,1,1,1};
-
-//variables that change after shot
-uint16_t score;
-uint16_t shotsTaken;
-uint16_t incr;
-
-// variables that change per shot
-uint16_t led_success;
-int shotAnimationStatus;
-float playerPosition[2];
-
-// variable that change constantly
-int buttonPressed;
-int XYAngle;
-int XZAngle;
-double initVelocity =0;
-int led_num_display_index;
+int incr =0;
+int luckFlag =0;
 
 const float HEIGHT_OF_NET = 1.05;
 const float GRAV = 9.8;
 
-const uint16_t MAX_SHOTS = 15;
-const uint16_t MAX_POINTS = 15;
-const uint16_t LED_SPEED = 40000;
-
-// This stuff should probably be another class
 const uint16_t MISS = 0;
 const uint16_t BAD_SHOT = 1;
 const uint16_t OK_SHOT = 2;
 const uint16_t GOOD_SHOT = 3;
 const uint16_t SPLASH = 4;
+const uint16_t MAX_SHOTS = 15;
+const uint16_t MAX_POINTS = 15;
+const uint16_t LED_SPEED = 100;
+int shotAnimationStatus=0;
 
 
-__task void updateAngles(void){
+uint32_t led_num_display[8] = {1,1,1,1,1,1,1,1};
+int led_num_display_index =0;
+uint16_t led_success =0;
+
+const double xPositions[5] = {0, -5.12, -7.24, -5.12,0}; // @ 90, 135, 180, 225 and 270 from +x axis
+const double yPositions[5] = {6.71, 5.12,0,-5.12,-6.71};
+
+float playerPosition[2];
+
+
+__task void taskUpdateAngles(void){
 	while(1){
-		os_sem_wait(&selectLock1, 0xffff);
-		XYAngle = checkPotentiometer();
-		XZAngle = checkJoyStick(XZAngle);
-		printf("\n%d,%d",XYAngle,XZAngle);
-		printf("  updateAngles");
-		os_sem_send(&selectLock2);
+		os_mut_wait(&selectTask1, 0xffff);
+		os_sem_wait(&updateLock,0xffff);
+		if(!luckFlag){
+			if((abs(XYAngle - checkPotentiometer()) > 1)){
+			updateScreen =1;
+			XYAngle = checkPotentiometer();
+			}
+			if(XZAngle != checkJoyStick(XZAngle)){
+					updateScreen =1;
+					XZAngle	= checkJoyStick(XZAngle);
+			}
+		}
+		os_mut_release(&selectTask2);
+		os_sem_send(&updateLock);
+		os_tsk_pass();
+	}
+}
+
+__task void taskSelectButton(void){
+	while(1){
+		os_mut_wait(&selectTask2, 0xffff);
+		os_sem_wait(&updateLock,0xffff);
+		if(!luckFlag){
+			if( checkJoyStickButton()){
+				initVelocity +=5;
+				updateScreen =1;
+			}
+			if (initVelocity > 1500){
+				initVelocity = 800;
+			}
+		}
+		os_mut_release(&selectTask3);
+		os_sem_send(&updateLock);
+		os_tsk_pass();
+	}
+}
+__task void taskSelectScreen(void){
+	while(1){
+		os_mut_wait(&selectTask3, 0xffff);
+		if(updateScreen &!luckFlag){
+			updateScreen =0;
+			updateStatsSelectScreen(initVelocity,XYAngle,XZAngle);
+			drawSelectScreenBottom (score,shotsTaken);
+		}
+		else if (updateScreen &luckFlag){
+			
+		}
+		os_mut_release(&luckTask1);
 	}
 }
 
 uint16_t shotCalculation(){
 	double vXY, vZ,time,vX,vY,xPos,yPos,c1,c2;
 	const double R_HOOP = 0.2286;// This is the radius of the hoop
-	vXY = initVelocity * cos(XZAngle*3.1415/180);
-	vZ = initVelocity * sin(XZAngle*3.1415/180);
+	vXY = initVelocity /100 * cos(XZAngle*3.1415/180);
+	vZ = initVelocity /100 * sin(XZAngle*3.1415/180);
 	time = 0;
 	
 	printf("\n\n\niV%f,vZ %f, min%f",initVelocity,vZ,4*GRAV*HEIGHT_OF_NET);
@@ -168,143 +210,17 @@ void luckPhasePrep(uint16_t sQ){
 		break;
 	}
 }
-
-__task void checkSelectButton(void){
-	uint16_t shotQuality;
-	initVelocity =8.0;// this is close to minimum velocity to get the ball into the net
-	while(1){
-		os_sem_wait(&selectLock2, 0xffff);
-		
-		// TODO print out everything
-		if(ButtonCurrentlyPressed()){
-			buttonPressed =ButtonCurrentlyPressed();
-			initVelocity = initVelocity +0.05;
-			printf("  checkSelectButtonSelectLock3");
-			os_sem_send(&selectLock3);
-		}
-		else if (buttonPressed && !ButtonCurrentlyPressed() || initVelocity>= 20){// player released button or basketball is thrown at close to terminal velocity
-			// player released button or maxed out the velocity
-			//printf("XY %d, XZ %d, ButtonPressed %d, initV%f, eSHOT CALCULATIONS",XYAngle ,XZAngle,buttonPressed,initVelocity);
-			if (initVelocity>= 20){//basket ball can't go much faster than this. 
-				initVelocity = 20.0;
-			}
-			//testing code TODO REMOVE
-			initVelocity = 8.90;
-			XYAngle = 270;
-			XZAngle = 55;
-			
-			shotQuality = shotCalculation();
-			luckPhasePrep(shotQuality);
-			while(!ButtonCurrentlyPressed()){}
-			while(ButtonCurrentlyPressed()){}
-			buttonPressed =0;
-			//wait for some time to allow player to see their power bar
-			os_sem_send(&luckLock1);
-		}
-		else{
-		printf("  checkSelectButtonSelectLock3");
-			os_sem_send(&selectLock3);
-		}
-		//printf("  checkSelectButton");
-		os_tsk_pass(); //Pass task to next task
-	}
-}
-void updateScreen(double ainitVelocity,int aXYAngle,int aXZAngle){ // this updates the top part of the screen when powerbar
-	// display numbers and shit
-	// Done
-	char buf4[64];
-	char buf5[64];
-	char buf3[64];
-	sprintf(buf4, "%d", aXYAngle);
-	sprintf(buf5, "%d", aXZAngle);
-	sprintf(buf3, "%f", ainitVelocity);
-	
-	//TODO MUTEXES FOR THE LCD OR THE GLOBAL VARIABLES
-	/*GLCD_DisplayString(24, 1, 0, "XYAngle: ");
-	GLCD_DisplayChar(24, 13, 0, buf4[0]);
-	if(buf4[1]!= NULL)
-		GLCD_DisplayChar(24, 14, 0, buf4[1]);
-	if(buf4[2]!= NULL)
-		GLCD_DisplayChar(24, 15, 0, buf4[2]);
-
-	
-	GLCD_DisplayString(24, 20, 0, "XZAngle: ");
-	GLCD_DisplayChar(24, 31, 0, buf5[0]);
-	if(buf5[1]!= NULL)
-		GLCD_DisplayChar(24, 32, 0, buf5[1]);
-	if(buf5[2]!= NULL)
-		GLCD_DisplayChar(24, 33, 0, buf5[2]);
-	
-	//printf("%c%c%c", buf4[0], buf4[1], buf4[2]);
-	
-	GLCD_DisplayString(24, 38, 0, "Velocity: ");
-	GLCD_DisplayChar(24, 48, 0, buf3[0]);
-	if(buf3[1]!= NULL)
-		GLCD_DisplayChar(24, 49, 0, buf3[1]);
-	if(buf3[2]!= NULL)
-		GLCD_DisplayChar(24, 50, 0, buf3[2]);
-	if(buf3[3]!= NULL)
-		GLCD_DisplayChar(24, 51, 0, buf3[3]);
-	*/
-} 
-__task void updateSelectScreen(void){
-			char buf1[64];
-			char buf2[64];
-	while(1){
-		os_sem_wait(&selectLock3, 0xffff);
-		//GLCD_DisplayString(27,0, 1, "MISS!");
-		if (!buttonPressed){
-			//updateStatsSelectScreen(initVelocity,XYAngle,XZAngle);
-		}
-		else{
-			//updateStatsSelectScreen(initVelocity,XYAngle,XZAngle);
-			
-		}
-		updateScreen(initVelocity,XYAngle,XZAngle);
-		sprintf(buf1, "%d", score);
-			sprintf(buf2, "%d", shotsTaken);
-			GLCD_DisplayString(28, 1, 0 , "Score: ");
-			GLCD_DisplayChar(28, 13, 0, buf1[0]);
-			if(buf1[1]!= NULL)
-				GLCD_DisplayChar(28, 14, 0, buf1[1]);
-			GLCD_DisplayString(28, 20, 0, "Shots Taken: ");
-			GLCD_DisplayChar(28, 26, 0, buf2[0]);
-			if(buf2[1]!= NULL)
-				GLCD_DisplayChar(28, 27, 0, buf2[1]);
-		printf("  updateSelectScreen");
-		os_sem_send(&selectLock1);
-		os_tsk_pass();
-	}
-}
-
 void ledLogic(int incr){
-		//printf("\n%d",incr);
 	uint32_t spin =0;
+	printf("\n%d,%d",led_num_display_index, led_success);
 	if (incr >= LED_SPEED){
 		led_num_display_index = led_num_display_index +1;
 		led_num_display_index = led_num_display_index%8;
 		setLED(led_num_display[led_num_display_index]);
-		for(spin =0; spin< 800000; spin++ ); // Provide a delay so that led switching is visible and can be reacted to.
-		//printf("\n%d",led_num_display[led_num_display_index]);
+		for(spin =0; spin< 800000; spin++ ); 
 		incr=0;
 	}
 }
-
-void reset(void){
-	//RESET XZAngle shotAnimationStatus
-	//UPDATE playerposition	
-	XZAngle =0;
-	XYAngle =0;
-	playerPosition[0] = xPositions[shotsTaken/3];
-	playerPosition[1] = yPositions[shotsTaken/3];
-	shotAnimationStatus =0;
-	led_success =0;
-	led_num_display_index =0;
-	initVelocity =8.0;
-	setLED(0);
-	//shotStatus=0;
-}
-
 void ledResult(void){
 	shotsTaken = shotsTaken +1;
 			printf("\n%d , %d ",led_num_display[led_num_display_index], led_success);
@@ -341,216 +257,98 @@ void ledResult(void){
 		}
 	}
 	printf("\n%d/%d, %d/%d", score,MAX_POINTS,shotsTaken,MAX_SHOTS );
-
 }
 
-__task void checkLuckButton(void){
-	//printf("check luck buttona");
+__task void taskLuckLEDAndButton(void){
+	int i =0;
+	uint16_t shotQuality =0;
 	while(1){
-		ledLogic(incr);
-		incr = incr +1;
-		os_sem_wait(&luckLock1, 0xffff);
-		//buttonIsCurrentlyPressed = is button currently pressed
-		if(ButtonCurrentlyPressed()){
+		os_mut_wait(&luckTask1, 0xffff);
+		if (ButtonCurrentlyPressed()& !luckFlag){
 			buttonPressed =1;
-			os_sem_send(&luckLock1);
 		}
-		else if (buttonPressed && !ButtonCurrentlyPressed()){
-			ledResult();
-			while(!ButtonCurrentlyPressed()){}
-			while(ButtonCurrentlyPressed()){}
+		else if(buttonPressed & !ButtonCurrentlyPressed() & !luckFlag){
+			luckFlag =1;
+			shotQuality = shotCalculation();
+			//shotQuality = OK_SHOT;
+			luckPhasePrep(shotQuality);
 			buttonPressed =0;
+			for(i =0; i< 10000;i++){}
 				setLED(0);
-			os_sem_send(&luckLock2);
-			os_tsk_pass();
 		}
-		else{
-			os_sem_send(&luckLock1);
+		if(luckFlag ){
+				if(ButtonCurrentlyPressed() || !buttonPressed){
+					ledLogic(incr);
+					incr ++;
+				}
+				if(ButtonCurrentlyPressed()){
+					buttonPressed =1;
+				}
+				if(buttonPressed & !ButtonCurrentlyPressed()){
+					ledResult();
+					if(shotsTaken <MAX_SHOTS){
+						luckFlag =0;
+						buttonPressed =0;
+						updateScreen =1;
+						shotAnimation(shotAnimationStatus);
+						while(!ButtonCurrentlyPressed()){}
+						while(ButtonCurrentlyPressed()){}
+						clearScreen();
+					}
+					else{
+						finalAnimation(score);
+					}
+				}
 		}
-	}
-}
-
-__task void drawLuckScreen(void){
-	while(1){
-		os_sem_wait(&luckLock2, 0xffff);
-		shotAnimation(shotAnimationStatus);
-		//Taking another shot
-		if (shotsTaken <MAX_SHOTS){
-			reset();
-			os_sem_send(&selectLock1);
-		}
-		else{ // 3-point contest over
-			finalAnimation(score);
-			//print out stats about score and maybe time it took
-		}
+		os_mut_release(&selectTask1);
+		os_sem_send(&updateLock);
 		os_tsk_pass();
-	}
-}
-
- void initSemaphores(void){
-	os_sem_init(&selectLock1 ,1);
-	os_sem_init(&selectLock2 ,0);
-	os_sem_init(&selectLock3 ,0);
-	
-	os_sem_init(&luckLock1 ,0);
-	os_sem_init(&luckLock2 ,0);
-}
-
-void initVariables(void){
-	reset();
-	buttonPressed =0;
-	score =0;
-	shotsTaken =0;
-	incr=0;
-}
-
-__task void taskInit(void){
-	//initialize semaphores
-	initSemaphores();
-	
-	//initialize variables;
-	initVariables();
-	
-	os_itv_set(2000);//i dont think this does anything TODO
-	// create all the other tasks
-	os_tsk_create(updateAngles,1);
-//	os_tsk_create(updateXZAngle,1);
-	os_tsk_create(checkSelectButton,1);
-	os_tsk_create(updateSelectScreen,1);
-//	os_tsk_create(displayLED,1);
-	os_tsk_create(checkLuckButton,1);
-	os_tsk_create(drawLuckScreen,1);
-	
-	// delete this task when done
-	os_tsk_delete_self();
-}
-
-int main(void){	
-	//char x[] = 'Hello';
-	
-	printf("press button to begin!\n");
-	initialize();
-	
-	
-	while(!ButtonCurrentlyPressed()){}
-	clearScreen();
-	//updateStatsSelectScreen(8.88 , 212,  122);
-	//drawSelectScreenBottom(1, 2);
-	while(ButtonCurrentlyPressed()){}
-	os_sys_init(taskInit);
-	return 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-//Test Code For IOControls.h
-//Im using Mutexs, to prevent multiple task accessing the protected data
-//You may want to change code above
-
-OS_MUT task1, task2, task3, task4;
-
-int XZAngle = 0;
-int XYAngle = 0;
-int valueButton = 0;
-int Led = 13;
-
-
-__task void taskPotentiometer(void){
-	while(1){
-
-	os_mut_wait(&task1, 0xffff);
-	
-	XYAngle = checkPotentiometer();
-		
-	//printf("XYAngle:%d\n", XYAngle);	
-		
-	os_mut_release(&task2);
-	os_tsk_pass();
-	}
-	
-}
-
-
-__task void taskJoyStick(void){
-		while(1){
-		os_mut_wait(&task2, 0xffff);
-		XZAngle	= checkJoyStick(XZAngle);
-			
-		//printf("XZAngle: %d\n", XZAngle);
-			
-		os_mut_release(&task3);
-		os_tsk_pass();
-
-	}
-}
-
-
-__task void taskButton(void){
-	while(1){
-		os_mut_wait(&task3, 0xffff);
-		valueButton = ButtonCurrentlyPressed();
-		
-		printf("Button Push: %d\n", valueButton);
-		
-		os_mut_release(&task4);
-		os_tsk_pass();
-	}
-
-}
-
-__task void taskLED(void){
-	while(1){
-		os_mut_wait(&task4, 0xffff);
-		
-		
-		setLED(Led);
-		
-		os_mut_release(&task1);
-		os_tsk_pass();
-
 	}	
 }
 
 __task void Start_task(void){
 	//Initialize semaphores and set the first one to one
-	os_mut_init(&task1);
-	os_mut_init(&task2);
-	os_mut_init(&task3);
+	os_mut_init(&selectTask1);
+	os_mut_init(&selectTask2);
+	os_mut_init(&selectTask3);
+	os_mut_init(&selectTask4);
+	os_sem_init(&updateLock,1);
 
 	// create all the other tasks
 	//initIOControls();
-	os_tsk_create(taskPotentiometer, 1);
-	os_tsk_create(taskJoyStick, 1);
-	os_tsk_create(taskButton, 1);
-	os_tsk_create(taskLED, 1);
+	os_tsk_create(taskUpdateAngles, 1);
+	os_tsk_create(taskSelectButton, 1);
+	os_tsk_create(taskSelectScreen, 1);
+	os_tsk_create(taskLuckLEDAndButton, 1);
 	
 	// delete this task when done
 	os_tsk_delete_self();
 }
 
+void initialize(void){
+	//Done
+	SystemInit();
+	GLCD_Init();
+	GLCD_Clear(White);
+	GLCD_SetBackColor(White);
+	playerPosition[0] = xPositions[0];
+	playerPosition[1] = yPositions[0];
+	GLCD_DisplayString(30,0, 1,"Press Int0 to Begin!");
+	//Put in a bit about the rules and a quick briefer*/
+}
 int main(void){
 	printf("Starting\n");
-	
+	initialize();
+	while(!ButtonCurrentlyPressed()){}
+	while(ButtonCurrentlyPressed()){}
+	clearScreen();
 	//Create and initialize Start Task
 	os_sys_init(Start_task);
 
 	return 0;
 }
 	
-*/
+
 
 
 

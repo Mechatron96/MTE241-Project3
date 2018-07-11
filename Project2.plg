@@ -3,75 +3,290 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-N:\MTE241\Project4\Project2.uvproj
-Project File Date:  07/10/2018
+N:\MTE241Project\lab4\Project2.uvproj
+Project File Date:  07/11/2018
 
 <h2>Output:</h2>
 Build target 'Target 1'
 compiling system_LPC17xx.c...
 compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
-compiling nbaGraphics.c...
-nbaGraphics.c(200): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(245): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(183): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(184): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(185): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(186): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(187): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(188): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(189): warning:  #177-D: variable "bIndex" was declared but never referenced
-nbaGraphics.c(376): warning:  #223-D: function "SystemInit" declared implicitly
+nba3PointChallengeMain.c(147): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(291): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(318): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(523): warning:  #9-D: nested comment is not allowed
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20940 RO-data=7060 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 12 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Program Size: Code=6852 RO-data=276 RW-data=164 ZI-data=12516  
+"Project2.axf" - 0 Error(s), 5 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
 Build target 'Target 1'
 compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
-nba3PointChallengeMain.c(398): error:  #165: too few arguments in function call
-nba3PointChallengeMain.c(398): error:  #18: expected a ")"
+nba3PointChallengeMain.c(148): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(292): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(319): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(524): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=6868 RO-data=276 RW-data=164 ZI-data=12516  
+"Project2.axf" - 0 Error(s), 5 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(148): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(292): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(319): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(524): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=6448 RO-data=276 RW-data=84 ZI-data=12516  
+"Project2.axf" - 0 Error(s), 5 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(151): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(295): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(322): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(527): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=6460 RO-data=276 RW-data=84 ZI-data=12516  
+"Project2.axf" - 0 Error(s), 5 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(153): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(297): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(324): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(529): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=6468 RO-data=276 RW-data=84 ZI-data=12516  
+"Project2.axf" - 0 Error(s), 5 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(154): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(298): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(325): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(530): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=6480 RO-data=276 RW-data=84 ZI-data=12516  
+"Project2.axf" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(155): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(299): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(326): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(531): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=6480 RO-data=276 RW-data=84 ZI-data=12516  
+"Project2.axf" - 0 Error(s), 5 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(153): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(297): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(324): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(529): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=6252 RO-data=276 RW-data=188 ZI-data=12436  
+"Project2.axf" - 0 Error(s), 5 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(155): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(299): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(326): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(531): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=6264 RO-data=276 RW-data=188 ZI-data=12436  
+"Project2.axf" - 0 Error(s), 5 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(160): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(304): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(331): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(536): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=6864 RO-data=276 RW-data=196 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 5 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(160): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(304): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(331): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(536): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=7220 RO-data=276 RW-data=196 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 5 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(45): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(45): error:  #20: identifier "temp" is undefined
+nba3PointChallengeMain.c(37): warning:  #550-D: variable "temp1" was set but never used
+nba3PointChallengeMain.c(160): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(304): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(331): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(536): warning:  #9-D: nested comment is not allowed
 Target not created
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
 _____^
 *** error 56: cannot open file
 Build target 'Target 1'
 compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
-nba3PointChallengeMain.c(398): error:  #165: too few arguments in function call
-nba3PointChallengeMain.c(398): error:  #18: expected a ")"
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+nba3PointChallengeMain.c(45): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(160): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(304): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(331): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(536): warning:  #9-D: nested comment is not allowed
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20968 RO-data=7064 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 2 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Program Size: Code=7232 RO-data=276 RW-data=196 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
 Build target 'Target 1'
-compiling nbaGraphics.c...
-nbaGraphics.c(200): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(245): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(183): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(184): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(185): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(186): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(187): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(188): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(189): warning:  #177-D: variable "bIndex" was declared but never referenced
-nbaGraphics.c(374): warning:  #223-D: function "SystemInit" declared implicitly
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(45): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(162): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(306): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(333): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(538): warning:  #9-D: nested comment is not allowed
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20960 RO-data=7064 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 11 Warning(s).
+Program Size: Code=9852 RO-data=6548 RW-data=204 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(46): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(163): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(307): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(334): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(539): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=9864 RO-data=6548 RW-data=204 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(46): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(164): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(308): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(335): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(540): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=9864 RO-data=6548 RW-data=204 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(47): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(165): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(309): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(336): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(541): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=9904 RO-data=6548 RW-data=220 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(47): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(165): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(309): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(336): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(541): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=10272 RO-data=6548 RW-data=220 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=10272 RO-data=6548 RW-data=220 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(47): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(165): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(309): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(336): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(541): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=10272 RO-data=6548 RW-data=220 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(94): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(165): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(309): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(336): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=7512 RO-data=276 RW-data=108 ZI-data=12532  
+"Project2.axf" - 0 Error(s), 5 Warning(s).
 Rebuild target 'Target 1'
 compiling system_LPC17xx.c...
 compiling system_LPC17xx.c...
@@ -81,7 +296,10 @@ compiling uart.c...
 compiling Retarget.c...
 compiling GLCD_SPI_LPC1700.c...
 compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+nba3PointChallengeMain.c(94): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(165): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(309): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(336): warning:  #9-D: nested comment is not allowed
 compiling IOControls.c...
 IOControls.c(11): warning:  #61-D: integer operation result is out of range
 IOControls.c(11): warning:  #68-D: integer conversion resulted in a change of sign
@@ -90,303 +308,915 @@ IOControls.c(17): warning:  #68-D: integer conversion resulted in a change of si
 IOControls.c(33): warning:  #61-D: integer operation result is out of range
 IOControls.c(33): warning:  #68-D: integer conversion resulted in a change of sign
 compiling nbaGraphics.c...
-nbaGraphics.c(200): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(245): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(183): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(184): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(185): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(186): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(187): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(188): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(189): warning:  #177-D: variable "bIndex" was declared but never referenced
-nbaGraphics.c(374): warning:  #223-D: function "SystemInit" declared implicitly
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(294): warning:  #9-D: nested comment is not allowed
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20960 RO-data=7064 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 18 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nbaGraphics.c...
-nbaGraphics.c(200): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(245): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(183): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(184): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(185): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(186): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(187): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(188): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(189): warning:  #177-D: variable "bIndex" was declared but never referenced
-nbaGraphics.c(374): warning:  #223-D: function "SystemInit" declared implicitly
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20960 RO-data=7064 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 11 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20960 RO-data=7064 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 2 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20960 RO-data=7064 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 2 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nbaGraphics.c...
-nbaGraphics.c(200): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(245): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(183): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(184): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(185): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(186): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(187): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(188): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(189): warning:  #177-D: variable "bIndex" was declared but never referenced
-nbaGraphics.c(374): warning:  #223-D: function "SystemInit" declared implicitly
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20960 RO-data=7064 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 11 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nbaGraphics.c...
-nbaGraphics.c(200): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(245): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(183): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(184): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(185): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(186): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(187): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(188): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(189): warning:  #177-D: variable "bIndex" was declared but never referenced
-nbaGraphics.c(375): warning:  #223-D: function "SystemInit" declared implicitly
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20964 RO-data=7060 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 11 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-compiling nbaGraphics.c...
-nbaGraphics.c(200): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(245): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(183): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(184): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(185): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(186): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(187): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(188): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(189): warning:  #177-D: variable "bIndex" was declared but never referenced
-nbaGraphics.c(375): warning:  #223-D: function "SystemInit" declared implicitly
-nbaGraphics.c - 0 Error(s), 10 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nbaGraphics.c...
-nbaGraphics.c(200): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(245): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(183): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(184): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(185): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(186): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(187): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(188): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(189): warning:  #177-D: variable "bIndex" was declared but never referenced
-nbaGraphics.c(283): warning:  #181-D: argument is incompatible with corresponding format string conversion
-nbaGraphics.c(284): warning:  #181-D: argument is incompatible with corresponding format string conversion
-nbaGraphics.c(377): warning:  #223-D: function "SystemInit" declared implicitly
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20992 RO-data=7064 RW-data=224 ZI-data=12480  
+Program Size: Code=7512 RO-data=276 RW-data=108 ZI-data=12532  
 "Project2.axf" - 0 Error(s), 13 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
 Build target 'Target 1'
-compiling nbaGraphics.c...
-nbaGraphics.c(200): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(245): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(183): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(184): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(185): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(186): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(187): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(188): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(189): warning:  #177-D: variable "bIndex" was declared but never referenced
-nbaGraphics.c(377): warning:  #223-D: function "SystemInit" declared implicitly
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(94): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(165): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(309): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(336): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(588): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(588): error:  #20: identifier "temp1" is undefined
+nba3PointChallengeMain.c(588): error:  #20: identifier "temp2" is undefined
+nba3PointChallengeMain.c(594): error:  #20: identifier "counter" is undefined
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(94): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(165): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(309): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(336): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(588): warning:  #223-D: function "abs" declared implicitly
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20988 RO-data=7060 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 11 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Program Size: Code=10552 RO-data=6548 RW-data=128 ZI-data=12528  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(94): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(165): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(309): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(336): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(588): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Project2.axf: Error: L6200E: Symbol initialize multiply defined (by nbagraphics.o and nba3pointchallengemain.o).
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(94): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(165): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(309): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(336): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(588): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Project2.axf: Error: L6200E: Symbol initialize multiply defined (by nbagraphics.o and nba3pointchallengemain.o).
+Target not created
+Rebuild target 'Target 1'
+compiling system_LPC17xx.c...
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling RTX_config.c...
+compiling uart.c...
+compiling Retarget.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(94): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(165): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(309): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(336): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(588): warning:  #223-D: function "abs" declared implicitly
+compiling IOControls.c...
+IOControls.c(11): warning:  #61-D: integer operation result is out of range
+IOControls.c(11): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(17): warning:  #61-D: integer operation result is out of range
+IOControls.c(17): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(33): warning:  #61-D: integer operation result is out of range
+IOControls.c(33): warning:  #68-D: integer conversion resulted in a change of sign
+compiling nbaGraphics.c...
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(294): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Project2.axf: Error: L6200E: Symbol initialize multiply defined (by nbagraphics.o and nba3pointchallengemain.o).
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(294): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(420): error:  #77-D: this declaration has no storage class or type specifier
+nbaGraphics.c(420): error: At end of source:  #65: expected a ";"
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(294): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=10600 RO-data=6548 RW-data=128 ZI-data=12528  
+"Project2.axf" - 0 Error(s), 3 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(94): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(165): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(309): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(336): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(588): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(598): error:  #165: too few arguments in function call
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(94): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(165): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(309): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(336): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(588): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(598): warning:  #223-D: function "clearScreen" declared implicitly
+compiling nbaGraphics.c...
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(294): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=10636 RO-data=6548 RW-data=128 ZI-data=12528  
+"Project2.axf" - 0 Error(s), 9 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(94): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(165): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(309): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(336): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(588): warning:  #223-D: function "abs" declared implicitly
+compiling nbaGraphics.c...
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(294): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=13432 RO-data=6548 RW-data=128 ZI-data=12528  
+"Project2.axf" - 0 Error(s), 8 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(94): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(165): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(309): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(336): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(588): warning:  #223-D: function "abs" declared implicitly
+compiling nbaGraphics.c...
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(294): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=13596 RO-data=6548 RW-data=128 ZI-data=12528  
+"Project2.axf" - 0 Error(s), 8 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(587): warning:  #236-D: controlling expression is constant
+nba3PointChallengeMain.c(593): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=13656 RO-data=6548 RW-data=140 ZI-data=12532  
+"Project2.axf" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(593): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=13652 RO-data=6548 RW-data=140 ZI-data=12532  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(593): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=13588 RO-data=6548 RW-data=140 ZI-data=12532  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(593): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=13584 RO-data=6548 RW-data=140 ZI-data=12532  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(593): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=13600 RO-data=6548 RW-data=140 ZI-data=12532  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(593): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=13600 RO-data=6548 RW-data=140 ZI-data=12532  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(594): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=13576 RO-data=6548 RW-data=140 ZI-data=12532  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(591): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=13576 RO-data=6548 RW-data=140 ZI-data=12532  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(591): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=13624 RO-data=6548 RW-data=140 ZI-data=12532  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(599): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=13624 RO-data=6548 RW-data=140 ZI-data=12532  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(562): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(562): error:  #32: expression must have arithmetic type
+nba3PointChallengeMain.c(562): error:  #18: expected a ")"
+nba3PointChallengeMain.c(569): warning:  #12-D: parsing restarts here after previous syntax error
+nba3PointChallengeMain.c(569): error:  #127: expected a statement
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(562): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(562): error:  #32: expression must have arithmetic type
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(562): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=13652 RO-data=6548 RW-data=144 ZI-data=12528  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(562): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=13724 RO-data=6548 RW-data=144 ZI-data=12528  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(562): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=13724 RO-data=6548 RW-data=144 ZI-data=12528  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(562): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=13728 RO-data=6548 RW-data=144 ZI-data=12528  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(562): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=13708 RO-data=6548 RW-data=144 ZI-data=12528  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(562): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=13636 RO-data=6548 RW-data=144 ZI-data=12528  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(562): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=13660 RO-data=6548 RW-data=144 ZI-data=12528  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(562): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=13668 RO-data=6548 RW-data=144 ZI-data=12528  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(562): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=13652 RO-data=6548 RW-data=144 ZI-data=12528  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(561): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=13660 RO-data=6548 RW-data=144 ZI-data=12528  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(561): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(607): error:  #29: expected an expression
+compiling nbaGraphics.c...
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(294): warning:  #9-D: nested comment is not allowed
+Target not created
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+_____^
+*** error 56: cannot open file
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(561): warning:  #223-D: function "abs" declared implicitly
+compiling nbaGraphics.c...
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(294): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(317): error:  #147-D: declaration is incompatible with "void updateStatsSelectScreen(double, int, int)" (declared at line 5 of "nbaGraphics.h")
+Target not created
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+_____^
+*** error 56: cannot open file
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(561): warning:  #223-D: function "abs" declared implicitly
+compiling nbaGraphics.c...
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(294): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11316 RO-data=6548 RW-data=136 ZI-data=12528  
+"Project2.axf" - 0 Error(s), 8 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
 Build target 'Target 1'
 compiling nbaGraphics.c...
-nbaGraphics.c(199): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(244): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(182): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(183): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(184): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(185): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(186): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(187): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(188): warning:  #177-D: variable "bIndex" was declared but never referenced
-nbaGraphics.c(376): warning:  #223-D: function "SystemInit" declared implicitly
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(294): warning:  #9-D: nested comment is not allowed
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20988 RO-data=7060 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 11 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Program Size: Code=11424 RO-data=6548 RW-data=136 ZI-data=12528  
+"Project2.axf" - 0 Error(s), 3 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(561): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11424 RO-data=6548 RW-data=136 ZI-data=12528  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(561): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11424 RO-data=6548 RW-data=136 ZI-data=12528  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(561): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(594): error:  #29: expected an expression
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(561): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11464 RO-data=6548 RW-data=136 ZI-data=12528  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(561): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11472 RO-data=6548 RW-data=136 ZI-data=12528  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
 compiling nbaGraphics.c...
-nbaGraphics.c(199): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(244): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(182): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(183): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(184): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(185): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(186): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(187): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(188): warning:  #177-D: variable "bIndex" was declared but never referenced
-nbaGraphics.c(376): warning:  #223-D: function "SystemInit" declared implicitly
-nbaGraphics.c - 0 Error(s), 10 Warning(s).
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(294): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11484 RO-data=6548 RW-data=136 ZI-data=12528  
+"Project2.axf" - 0 Error(s), 3 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(561): warning:  #223-D: function "abs" declared implicitly
+compiling nbaGraphics.c...
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(294): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11372 RO-data=6548 RW-data=136 ZI-data=12528  
+"Project2.axf" - 0 Error(s), 8 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(561): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(596): error:  #20: identifier "task4" is undefined
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(561): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11356 RO-data=6548 RW-data=136 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(561): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11368 RO-data=6548 RW-data=136 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(561): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11316 RO-data=6548 RW-data=136 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(561): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11316 RO-data=6548 RW-data=136 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(563): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11408 RO-data=6548 RW-data=136 ZI-data=12552  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(563): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11396 RO-data=6548 RW-data=144 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(563): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11540 RO-data=6548 RW-data=144 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(563): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11548 RO-data=6548 RW-data=144 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(563): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11556 RO-data=6548 RW-data=144 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(562): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11376 RO-data=6548 RW-data=144 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(562): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11332 RO-data=6548 RW-data=144 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
 Build target 'Target 1'
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20960 RO-data=7064 RW-data=224 ZI-data=12480  
+Program Size: Code=11332 RO-data=6548 RW-data=144 ZI-data=12536  
 "Project2.axf" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20960 RO-data=7064 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
 Build target 'Target 1'
-compiling nbaGraphics.c...
-nbaGraphics.c(199): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(244): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(182): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(183): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(184): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(185): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(186): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(187): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(188): warning:  #177-D: variable "bIndex" was declared but never referenced
-nbaGraphics.c(376): warning:  #223-D: function "SystemInit" declared implicitly
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(562): warning:  #223-D: function "abs" declared implicitly
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20960 RO-data=7064 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 11 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Program Size: Code=11348 RO-data=6548 RW-data=144 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
 Build target 'Target 1'
-compiling nbaGraphics.c...
-nbaGraphics.c(199): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(244): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(182): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(183): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(184): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(185): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(186): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(187): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(188): warning:  #177-D: variable "bIndex" was declared but never referenced
-nbaGraphics.c(376): warning:  #223-D: function "SystemInit" declared implicitly
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(562): warning:  #223-D: function "abs" declared implicitly
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20960 RO-data=7064 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 11 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Program Size: Code=11376 RO-data=6548 RW-data=144 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(562): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11376 RO-data=6548 RW-data=144 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
 Build target 'Target 1'
-compiling nbaGraphics.c...
-nbaGraphics.c(199): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(244): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(182): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(183): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(184): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(185): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(186): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(187): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(188): warning:  #177-D: variable "bIndex" was declared but never referenced
-nbaGraphics.c(376): warning:  #223-D: function "SystemInit" declared implicitly
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=21008 RO-data=7064 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 11 Warning(s).
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(562): error:  #65: expected a ";"
+nba3PointChallengeMain.c(570): warning:  #12-D: parsing restarts here after previous syntax error
+nba3PointChallengeMain.c(580): error:  #65: expected a ";"
+nba3PointChallengeMain.c(597): warning:  #12-D: parsing restarts here after previous syntax error
+Target not created
 Build target 'Target 1'
-compiling nbaGraphics.c...
-nbaGraphics.c(199): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(244): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(182): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(183): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(184): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(185): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(186): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(187): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(188): warning:  #177-D: variable "bIndex" was declared but never referenced
-nbaGraphics.c(470): warning:  #223-D: function "SystemInit" declared implicitly
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(562): error:  #65: expected a ";"
+nba3PointChallengeMain.c(570): warning:  #12-D: parsing restarts here after previous syntax error
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(562): warning:  #223-D: function "abs" declared implicitly
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=21276 RO-data=7060 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 11 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Program Size: Code=11544 RO-data=6548 RW-data=144 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
 Build target 'Target 1'
-compiling nbaGraphics.c...
-nbaGraphics.c(199): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(244): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(182): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(183): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(184): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(185): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(186): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(187): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(188): warning:  #177-D: variable "bIndex" was declared but never referenced
-nbaGraphics.c(470): warning:  #223-D: function "SystemInit" declared implicitly
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(562): warning:  #223-D: function "abs" declared implicitly
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=21252 RO-data=7060 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 11 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Program Size: Code=11532 RO-data=6548 RW-data=144 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
@@ -399,7 +1229,21 @@ compiling uart.c...
 compiling Retarget.c...
 compiling GLCD_SPI_LPC1700.c...
 compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(544): error:  #65: expected a ";"
+nba3PointChallengeMain.c(573): error:  #20: identifier "updateLock" is undefined
+nba3PointChallengeMain.c(575): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(595): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(606): error:  #20: identifier "playerPosition" is undefined
+nba3PointChallengeMain.c(645): error:  #20: identifier "led_success" is undefined
+nba3PointChallengeMain.c(701): error:  #20: identifier "updateLock" is undefined
+nba3PointChallengeMain.c(745): error:  #20: identifier "led_num_display_index" is undefined
+nba3PointChallengeMain.c(771): error:  #20: identifier "selectTask5" is undefined
+nba3PointChallengeMain.c(772): error:  #20: identifier "updateLock" is undefined
+nba3PointChallengeMain.c(779): error:  #20: identifier "taskLED" is undefined
 compiling IOControls.c...
 IOControls.c(11): warning:  #61-D: integer operation result is out of range
 IOControls.c(11): warning:  #68-D: integer conversion resulted in a change of sign
@@ -408,144 +1252,788 @@ IOControls.c(17): warning:  #68-D: integer conversion resulted in a change of si
 IOControls.c(33): warning:  #61-D: integer operation result is out of range
 IOControls.c(33): warning:  #68-D: integer conversion resulted in a change of sign
 compiling nbaGraphics.c...
-nbaGraphics.c(199): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(244): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(182): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(183): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(184): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(185): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(186): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(187): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(188): warning:  #177-D: variable "bIndex" was declared but never referenced
-nbaGraphics.c(470): warning:  #223-D: function "SystemInit" declared implicitly
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(294): warning:  #9-D: nested comment is not allowed
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(575): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(595): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(606): error:  #20: identifier "playerPosition" is undefined
+nba3PointChallengeMain.c(645): error:  #20: identifier "led_success" is undefined
+nba3PointChallengeMain.c(745): error:  #20: identifier "led_num_display_index" is undefined
+nba3PointChallengeMain.c(771): error:  #20: identifier "selectTask5" is undefined
+nba3PointChallengeMain.c(779): error:  #20: identifier "taskLED" is undefined
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(577): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(597): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(747): error:  #20: identifier "led_num_display_index" is undefined
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(579): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(599): warning:  #181-D: argument is incompatible with corresponding format string conversion
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=21252 RO-data=7060 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 18 Warning(s).
+Program Size: Code=20196 RO-data=6980 RW-data=200 ZI-data=12552  
+"Project2.axf" - 0 Error(s), 7 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(579): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(599): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(747): error:  #268: declaration may not appear after executable statement in block
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(579): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(599): warning:  #181-D: argument is incompatible with corresponding format string conversion
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20208 RO-data=6984 RW-data=200 ZI-data=12552  
+"Project2.axf" - 0 Error(s), 7 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(563): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(625): error:  #655-D: the modifier "noreturn" is not allowed on this declaration
+nba3PointChallengeMain.c(625): error:  #70: incomplete type is not allowed
+nba3PointChallengeMain.c(627): error:  #65: expected a ";"
+nba3PointChallengeMain.c(670): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(563): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(631): error:  #20: identifier "selectTask5" is undefined
+nba3PointChallengeMain.c(639): error:  #20: identifier "taskLED" is undefined
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(563): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11524 RO-data=6548 RW-data=144 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(563): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11552 RO-data=6548 RW-data=144 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(563): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11568 RO-data=6548 RW-data=144 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(563): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11600 RO-data=6548 RW-data=144 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(563): warning:  #223-D: function "abs" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11604 RO-data=6548 RW-data=144 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(563): warning:  #223-D: function "abs" declared implicitly
+compiling IOControls.c...
+IOControls.c(11): warning:  #61-D: integer operation result is out of range
+IOControls.c(11): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(17): warning:  #61-D: integer operation result is out of range
+IOControls.c(17): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(33): warning:  #61-D: integer operation result is out of range
+IOControls.c(33): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(85): error:  #247: function "checkJoyStick" has already been defined
+Target not created
+Build target 'Target 1'
+compiling IOControls.c...
+IOControls.c(11): warning:  #61-D: integer operation result is out of range
+IOControls.c(11): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(17): warning:  #61-D: integer operation result is out of range
+IOControls.c(17): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(33): warning:  #61-D: integer operation result is out of range
+IOControls.c(33): warning:  #68-D: integer conversion resulted in a change of sign
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11632 RO-data=6548 RW-data=144 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(90): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(161): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(305): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(332): warning:  #9-D: nested comment is not allowed
+nba3PointChallengeMain.c(563): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(581): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11584 RO-data=6548 RW-data=144 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 7 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(31): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(51): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11600 RO-data=6548 RW-data=140 ZI-data=12540  
+"Project2.axf" - 0 Error(s), 3 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(31): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(51): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=11672 RO-data=6548 RW-data=140 ZI-data=12540  
+"Project2.axf" - 0 Error(s), 3 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(48): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(68): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(107): error:  #29: expected an expression
+nba3PointChallengeMain.c(110): warning:  #12-D: parsing restarts here after previous syntax error
+nba3PointChallengeMain.c(110): error:  #65: expected a ";"
+nba3PointChallengeMain.c(97): warning:  #177-D: variable "i" was declared but never referenced
+nba3PointChallengeMain.c(98): warning:  #550-D: variable "shotQuality" was set but never used
+nba3PointChallengeMain.c(148): error:  #29: expected an expression
+nba3PointChallengeMain.c(148): error:  #65: expected a ";"
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(48): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(68): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(98): warning:  #177-D: variable "shotQuality" was declared but never referenced
+nba3PointChallengeMain.c(148): error:  #29: expected an expression
+nba3PointChallengeMain.c(148): error:  #65: expected a ";"
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(48): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(68): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(103): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(142): warning:  #177-D: variable "shotQuality" was declared but never referenced
+compiling nbaGraphics.c...
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(294): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20080 RO-data=7088 RW-data=184 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(48): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(68): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(103): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(142): warning:  #550-D: variable "shotQuality" was set but never used
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20100 RO-data=7084 RW-data=184 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 5 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(48): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(68): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(103): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(153): error:  #20: identifier "led_success" is undefined
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(49): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(69): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(104): warning:  #181-D: argument is incompatible with corresponding format string conversion
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20336 RO-data=7088 RW-data=188 ZI-data=12540  
+"Project2.axf" - 0 Error(s), 4 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(50): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(70): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(105): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(210): error:  #20: identifier "LED_SPEED" is undefined
+nba3PointChallengeMain.c(211): error:  #20: identifier "led_num_display_index" is undefined
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(54): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(74): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(109): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(215): error:  #20: identifier "led_num_display_index" is undefined
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(55): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(75): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(110): warning:  #181-D: argument is incompatible with corresponding format string conversion
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20424 RO-data=7088 RW-data=196 ZI-data=12540  
+"Project2.axf" - 0 Error(s), 4 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(55): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(75): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(110): warning:  #181-D: argument is incompatible with corresponding format string conversion
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20428 RO-data=7084 RW-data=196 ZI-data=12540  
+"Project2.axf" - 0 Error(s), 4 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(55): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(75): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(110): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(214): error:  #268: declaration may not appear after executable statement in block
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(55): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(75): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(110): warning:  #181-D: argument is incompatible with corresponding format string conversion
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20452 RO-data=7084 RW-data=196 ZI-data=12540  
+"Project2.axf" - 0 Error(s), 4 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(55): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(75): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(110): warning:  #181-D: argument is incompatible with corresponding format string conversion
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20452 RO-data=7084 RW-data=196 ZI-data=12540  
+"Project2.axf" - 0 Error(s), 4 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(55): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(75): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(110): warning:  #181-D: argument is incompatible with corresponding format string conversion
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20448 RO-data=7088 RW-data=196 ZI-data=12540  
+"Project2.axf" - 0 Error(s), 4 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(55): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(75): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(110): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(244): error:  #109: expression must have (pointer-to-) function type
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(55): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(75): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(110): warning:  #181-D: argument is incompatible with corresponding format string conversion
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20476 RO-data=7084 RW-data=196 ZI-data=12540  
+"Project2.axf" - 0 Error(s), 4 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(56): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(76): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(111): warning:  #181-D: argument is incompatible with corresponding format string conversion
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20756 RO-data=7084 RW-data=200 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 4 Warning(s).
 Build target 'Target 1'
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=21252 RO-data=7060 RW-data=224 ZI-data=12480  
+Program Size: Code=20756 RO-data=7084 RW-data=200 ZI-data=12536  
 "Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20756 RO-data=7084 RW-data=200 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(56): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(76): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(111): warning:  #181-D: argument is incompatible with corresponding format string conversion
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20764 RO-data=7084 RW-data=200 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 4 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
 Build target 'Target 1'
 compiling nbaGraphics.c...
-nbaGraphics.c(199): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(244): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(182): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(183): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(184): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(185): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(186): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(187): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(188): warning:  #177-D: variable "bIndex" was declared but never referenced
-nbaGraphics.c(278): warning:  #550-D: variable "buf4" was set but never used
-nbaGraphics.c(279): warning:  #177-D: variable "buf5" was declared but never referenced
-nbaGraphics.c(280): warning:  #177-D: variable "buf3" was declared but never referenced
-nbaGraphics.c(378): error:  #40: expected an identifier
-nbaGraphics.c(378): warning:  #77-D: this declaration has no storage class or type specifier
-nbaGraphics.c(378): error:  #92: identifier-list parameters may only be used in a function definition
-nbaGraphics.c(378): error:  #147-D: declaration is incompatible with "int sprintf(char *restrict, const char *restrict, ...)" (declared at line 380 of "c:\Software\Keil\ARM\ARMCC\bin\..\include\stdio.h")
-nbaGraphics.c(380): error:  #79: expected a type specifier
-nbaGraphics.c(380): error:  #79: expected a type specifier
-nbaGraphics.c(380): error:  #79: expected a type specifier
-nbaGraphics.c(380): error:  #79: expected a type specifier
-nbaGraphics.c(380): warning:  #77-D: this declaration has no storage class or type specifier
-nbaGraphics.c(380): error:  #147: declaration is incompatible with "void GLCD_DisplayString(unsigned int, unsigned int, unsigned char, unsigned char *)" (declared at line 50 of "GLCD.h")
-nbaGraphics.c(381): error:  #79: expected a type specifier
-nbaGraphics.c(381): error:  #79: expected a type specifier
-nbaGraphics.c(381): error:  #79: expected a type specifier
-nbaGraphics.c(381): error:  #20: identifier "buf4" is undefined
-nbaGraphics.c(381): error:  #94-D: the size of an array must be greater than zero
-nbaGraphics.c(381): warning:  #77-D: this declaration has no storage class or type specifier
-nbaGraphics.c(381): error:  #147: declaration is incompatible with "void GLCD_DisplayChar(unsigned int, unsigned int, unsigned char, unsigned char)" (declared at line 49 of "GLCD.h")
-nbaGraphics.c(383): error:  #79: expected a type specifier
-nbaGraphics.c(383): error:  #79: expected a type specifier
-nbaGraphics.c(383): error:  #79: expected a type specifier
-nbaGraphics.c(383): error:  #20: identifier "buf4" is undefined
-nbaGraphics.c(383): warning:  #77-D: this declaration has no storage class or type specifier
-nbaGraphics.c(385): error:  #79: expected a type specifier
-nbaGraphics.c(385): error:  #79: expected a type specifier
-nbaGraphics.c(385): error:  #79: expected a type specifier
-nbaGraphics.c(385): error:  #20: identifier "buf4" is undefined
-nbaGraphics.c(385): warning:  #77-D: this declaration has no storage class or type specifier
-nbaGraphics.c(388): error:  #79: expected a type specifier
-nbaGraphics.c(388): error:  #79: expected a type specifier
-nbaGraphics.c(388): error:  #79: expected a type specifier
-nbaGraphics.c(388): error:  #79: expected a type specifier
-nbaGraphics.c(388): warning:  #77-D: this declaration has no storage class or type specifier
-nbaGraphics.c(389): error:  #79: expected a type specifier
-nbaGraphics.c(389): error:  #79: expected a type specifier
-nbaGraphics.c(389): error:  #79: expected a type specifier
-nbaGraphics.c(389): error:  #20: identifier "buf5" is undefined
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(294): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20764 RO-data=7084 RW-data=200 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 3 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(294): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20764 RO-data=7084 RW-data=200 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 3 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(294): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21032 RO-data=7088 RW-data=200 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 3 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(56): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(76): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(111): warning:  #181-D: argument is incompatible with corresponding format string conversion
+compiling nbaGraphics.c...
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(294): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21148 RO-data=7084 RW-data=200 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(56): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(76): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(111): warning:  #181-D: argument is incompatible with corresponding format string conversion
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21132 RO-data=7084 RW-data=200 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 4 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(56): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(76): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(111): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(296): warning:  #223-D: function "clearScreen" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21156 RO-data=7084 RW-data=200 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 5 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(56): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(76): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(111): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(296): warning:  #223-D: function "clearScreen" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21156 RO-data=7084 RW-data=200 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 5 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(56): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(76): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(111): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(296): warning:  #223-D: function "clearScreen" declared implicitly
+compiling nbaGraphics.c...
+nbaGraphics.c(292): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21192 RO-data=7088 RW-data=200 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'Target 1'
+compiling system_LPC17xx.c...
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling RTX_config.c...
+compiling uart.c...
+compiling Retarget.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(56): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(76): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(111): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(296): warning:  #223-D: function "clearScreen" declared implicitly
+compiling IOControls.c...
+IOControls.c(11): warning:  #61-D: integer operation result is out of range
+IOControls.c(11): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(17): warning:  #61-D: integer operation result is out of range
+IOControls.c(17): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(33): warning:  #61-D: integer operation result is out of range
+IOControls.c(33): warning:  #68-D: integer conversion resulted in a change of sign
+compiling nbaGraphics.c...
+nbaGraphics.c(292): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21192 RO-data=7088 RW-data=200 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 12 Warning(s).
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(103): error:  #77-D: this declaration has no storage class or type specifier
+nbaGraphics.c(104): error:  #101: "uint8_t" has already been declared in the current scope
+nbaGraphics.c(104): error:  #65: expected a ";"
+nbaGraphics.c(132): warning:  #12-D: parsing restarts here after previous syntax error
+nbaGraphics.c(134): error:  #757: variable "uint8_t" is not a type name
+nbaGraphics.c(168): error:  #757: variable "uint8_t" is not a type name
+nbaGraphics.c(330): error:  #20: identifier "pic_netsideSmall_pixel_map" is undefined
+nbaGraphics.c(330): error:  #29: expected an expression
+nbaGraphics.c(333): warning:  #12-D: parsing restarts here after previous syntax error
+nbaGraphics.c(333): error:  #65: expected a ";"
+nbaGraphics.c(277): warning:  #177-D: variable "XZInterval" was declared but never referenced
 Target not created
 Build target 'Target 1'
 compiling nbaGraphics.c...
-nbaGraphics.c(199): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(244): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(182): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(183): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(184): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(185): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(186): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(187): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(188): warning:  #177-D: variable "bIndex" was declared but never referenced
-nbaGraphics.c(276): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(277): warning:  #177-D: variable "value" was declared but never referenced
-nbaGraphics.c(470): warning:  #223-D: function "SystemInit" declared implicitly
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20916 RO-data=7060 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 13 Warning(s).
+nbaGraphics.c(330): error:  #29: expected an expression
+nbaGraphics.c(333): warning:  #12-D: parsing restarts here after previous syntax error
+nbaGraphics.c(333): error:  #65: expected a ";"
+nbaGraphics.c(277): warning:  #177-D: variable "XZInterval" was declared but never referenced
+Target not created
 Build target 'Target 1'
 compiling nbaGraphics.c...
-nbaGraphics.c(199): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(244): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(182): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(183): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(184): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(185): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(186): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(187): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(188): warning:  #177-D: variable "bIndex" was declared but never referenced
-nbaGraphics.c(276): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(277): warning:  #177-D: variable "value" was declared but never referenced
-nbaGraphics.c(470): warning:  #223-D: function "SystemInit" declared implicitly
+nbaGraphics.c(277): warning:  #177-D: variable "XZInterval" was declared but never referenced
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20928 RO-data=7064 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 13 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Program Size: Code=21592 RO-data=7088 RW-data=3544 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(56): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(76): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(111): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(296): warning:  #223-D: function "clearScreen" declared implicitly
+nba3PointChallengeMain.c(344): warning:  #223-D: function "clearScreen" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21596 RO-data=7084 RW-data=3544 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(56): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(76): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(97): error:  #65: expected a ";"
+nba3PointChallengeMain.c(111): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(296): warning:  #223-D: function "clearScreen" declared implicitly
+nba3PointChallengeMain.c(344): warning:  #223-D: function "clearScreen" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(56): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(76): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(111): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(296): warning:  #223-D: function "clearScreen" declared implicitly
+nba3PointChallengeMain.c(344): warning:  #223-D: function "clearScreen" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21620 RO-data=7084 RW-data=3544 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21620 RO-data=7084 RW-data=3544 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
 Build target 'Target 1'
 compiling nbaGraphics.c...
-nbaGraphics.c(199): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(244): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(182): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(183): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(184): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(185): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(186): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(187): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(188): warning:  #177-D: variable "bIndex" was declared but never referenced
-nbaGraphics.c(276): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(277): warning:  #177-D: variable "value" was declared but never referenced
-nbaGraphics.c(470): warning:  #223-D: function "SystemInit" declared implicitly
+nbaGraphics.c(276): warning:  #177-D: variable "XYInterval" was declared but never referenced
+nbaGraphics.c(277): warning:  #177-D: variable "XZInterval" was declared but never referenced
+nbaGraphics.c(278): warning:  #177-D: variable "hoopBaseLineX" was declared but never referenced
+nbaGraphics.c(279): warning:  #177-D: variable "hoopBaseLineY" was declared but never referenced
+nbaGraphics.c(280): warning:  #177-D: variable "xAdjust" was declared but never referenced
+nbaGraphics.c(281): warning:  #177-D: variable "yAdjust" was declared but never referenced
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20936 RO-data=7064 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 13 Warning(s).
+Program Size: Code=21356 RO-data=7084 RW-data=3544 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 7 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
 Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(56): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(76): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(111): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(296): warning:  #223-D: function "clearScreen" declared implicitly
+nba3PointChallengeMain.c(344): warning:  #223-D: function "clearScreen" declared implicitly
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20936 RO-data=7064 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Program Size: Code=21332 RO-data=7084 RW-data=3544 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(56): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(76): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(111): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(296): warning:  #223-D: function "clearScreen" declared implicitly
+nba3PointChallengeMain.c(344): warning:  #223-D: function "clearScreen" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21332 RO-data=7084 RW-data=3544 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(283): error:  #20: identifier "basketBallSmall_pixel_map" is undefined
+nbaGraphics.c(276): warning:  #177-D: variable "XYInterval" was declared but never referenced
+nbaGraphics.c(277): warning:  #177-D: variable "XZInterval" was declared but never referenced
+nbaGraphics.c(278): warning:  #177-D: variable "hoopBaseLineX" was declared but never referenced
+nbaGraphics.c(279): warning:  #177-D: variable "hoopBaseLineY" was declared but never referenced
+nbaGraphics.c(280): warning:  #177-D: variable "xAdjust" was declared but never referenced
+nbaGraphics.c(281): warning:  #177-D: variable "yAdjust" was declared but never referenced
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(276): warning:  #177-D: variable "XYInterval" was declared but never referenced
+nbaGraphics.c(277): warning:  #177-D: variable "XZInterval" was declared but never referenced
+nbaGraphics.c(278): warning:  #177-D: variable "hoopBaseLineX" was declared but never referenced
+nbaGraphics.c(279): warning:  #177-D: variable "hoopBaseLineY" was declared but never referenced
+nbaGraphics.c(280): warning:  #177-D: variable "xAdjust" was declared but never referenced
+nbaGraphics.c(281): warning:  #177-D: variable "yAdjust" was declared but never referenced
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21332 RO-data=7084 RW-data=724 ZI-data=12540  
+"Project2.axf" - 0 Error(s), 7 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(56): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(76): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(111): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(296): warning:  #223-D: function "clearScreen" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21328 RO-data=7088 RW-data=724 ZI-data=12540  
+"Project2.axf" - 0 Error(s), 5 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(56): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(76): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(111): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(296): warning:  #223-D: function "clearScreen" declared implicitly
+nba3PointChallengeMain.c(344): warning:  #223-D: function "clearScreen" declared implicitly
+compiling nbaGraphics.c...
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(294): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21104 RO-data=7088 RW-data=200 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 8 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(56): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(76): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(111): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(296): warning:  #223-D: function "clearScreen" declared implicitly
+nba3PointChallengeMain.c(344): warning:  #223-D: function "clearScreen" declared implicitly
+compiling nbaGraphics.c...
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(294): warning:  #9-D: nested comment is not allowed
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21104 RO-data=7088 RW-data=200 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 8 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.

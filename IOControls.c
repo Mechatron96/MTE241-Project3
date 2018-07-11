@@ -82,6 +82,15 @@ int checkJoyStick(int XZAngle){
     return XZAngle;
 }
 
+int checkJoyStickButton(void){
+		uint32_t joyStick = 0x0;
+		joyStick = ~(LPC_GPIO1->FIOPIN);
+		if (((joyStick & 0x01<<20) == (0x01<<20))){
+				return 1;
+		}
+		return 0;
+		
+}
 int ButtonCurrentlyPressed(void){
 	//Returns 1 for button pressed and 0 for no button pressed
 	if ((LPC_GPIO2->FIOPIN>>10)==(0x0E)){
