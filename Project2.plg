@@ -2037,3 +2037,223 @@ Load "N:\\MTE241Project\\lab4\\Project2.AXF"
 Erase Done.
 Programming Done.
 Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(56): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(76): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(112): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(297): warning:  #223-D: function "clearScreen" declared implicitly
+nba3PointChallengeMain.c(345): warning:  #223-D: function "clearScreen" declared implicitly
+compiling nbaGraphics.c...
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(312): error:  #20: identifier "pic_playerTopDown0small_pixel_map" is undefined
+nbaGraphics.c(279): warning:  #177-D: variable "XZInterval" was declared but never referenced
+Target not created
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+_____^
+*** error 56: cannot open file
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(279): warning:  #177-D: variable "XZInterval" was declared but never referenced
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21384 RO-data=7088 RW-data=724 ZI-data=12540  
+"Project2.axf" - 0 Error(s), 3 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(316): error:  #20: identifier "pic_playerTopDown0small_pixel_map" is undefined
+nbaGraphics.c(323): error:  #20: identifier "pic_playerTopDown45small_pixel_map" is undefined
+nbaGraphics.c(328): error:  #20: identifier "pic_playerTopDown90small_pixel_map" is undefined
+nbaGraphics.c(279): warning:  #177-D: variable "XZInterval" was declared but never referenced
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(279): warning:  #177-D: variable "XZInterval" was declared but never referenced
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21528 RO-data=7088 RW-data=2344 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 3 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(62): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(282): warning:  #177-D: variable "XZInterval" was declared but never referenced
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21528 RO-data=7088 RW-data=2584 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 3 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(282): warning:  #177-D: variable "XZInterval" was declared but never referenced
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21548 RO-data=7084 RW-data=3784 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Rebuild target 'Target 1'
+compiling system_LPC17xx.c...
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling RTX_config.c...
+compiling uart.c...
+compiling Retarget.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(56): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(76): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(112): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(297): warning:  #223-D: function "clearScreen" declared implicitly
+nba3PointChallengeMain.c(345): warning:  #223-D: function "clearScreen" declared implicitly
+compiling IOControls.c...
+IOControls.c(11): warning:  #61-D: integer operation result is out of range
+IOControls.c(11): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(17): warning:  #61-D: integer operation result is out of range
+IOControls.c(17): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(33): warning:  #61-D: integer operation result is out of range
+IOControls.c(33): warning:  #68-D: integer conversion resulted in a change of sign
+compiling nbaGraphics.c...
+nbaGraphics.c(282): warning:  #177-D: variable "XZInterval" was declared but never referenced
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21548 RO-data=7084 RW-data=3784 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 13 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(282): warning:  #177-D: variable "XZInterval" was declared but never referenced
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21548 RO-data=7084 RW-data=3784 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(282): warning:  #177-D: variable "XZInterval" was declared but never referenced
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21548 RO-data=7084 RW-data=3784 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(282): warning:  #177-D: variable "XZInterval" was declared but never referenced
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21552 RO-data=7088 RW-data=3784 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(282): warning:  #177-D: variable "XZInterval" was declared but never referenced
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21548 RO-data=7084 RW-data=3784 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(281): warning:  #177-D: variable "XZInterval" was declared but never referenced
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21548 RO-data=7084 RW-data=3784 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(56): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(76): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(112): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(297): warning:  #223-D: function "clearScreen" declared implicitly
+nba3PointChallengeMain.c(345): warning:  #223-D: function "clearScreen" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21548 RO-data=7084 RW-data=3784 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21548 RO-data=7084 RW-data=3784 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(56): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(76): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(112): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(297): warning:  #223-D: function "clearScreen" declared implicitly
+nba3PointChallengeMain.c(345): warning:  #223-D: function "clearScreen" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21548 RO-data=7084 RW-data=3784 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(56): warning:  #223-D: function "abs" declared implicitly
+nba3PointChallengeMain.c(76): warning:  #223-D: function "checkJoyStickButton" declared implicitly
+nba3PointChallengeMain.c(112): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nba3PointChallengeMain.c(297): warning:  #223-D: function "clearScreen" declared implicitly
+nba3PointChallengeMain.c(345): warning:  #223-D: function "clearScreen" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21548 RO-data=7084 RW-data=3784 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 6 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(336): error:  #65: expected a ";"
+nbaGraphics.c(339): warning:  #12-D: parsing restarts here after previous syntax error
+nbaGraphics.c(340): warning:  #111-D: statement is unreachable
+nbaGraphics.c(281): warning:  #177-D: variable "XZInterval" was declared but never referenced
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(281): warning:  #177-D: variable "XZInterval" was declared but never referenced
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=21556 RO-data=7084 RW-data=3784 ZI-data=12536  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Load "N:\\MTE241Project\\lab4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.

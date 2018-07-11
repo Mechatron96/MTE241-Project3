@@ -93,6 +93,7 @@ __task void taskSelectScreen(void){
 			updateScreen =0;
 			updateStatsSelectScreen(initVelocity,XYAngle,XZAngle);
 			drawSelectScreenBottom (score,shotsTaken);
+			updateAngleSelectScreen(XYAngle,XZAngle,shotsTaken/3);
 		}
 		else if (updateScreen &luckFlag){
 			
@@ -270,7 +271,7 @@ __task void taskLuckLEDAndButton(void){
 		else if(buttonPressed & !ButtonCurrentlyPressed() & !luckFlag){
 			luckFlag =1;
 			shotQuality = shotCalculation();
-			//shotQuality = OK_SHOT;
+			//shotQuality = GOOD_SHOT;
 			luckPhasePrep(shotQuality);
 			buttonPressed =0;
 			for(i =0; i< 10000;i++){}
