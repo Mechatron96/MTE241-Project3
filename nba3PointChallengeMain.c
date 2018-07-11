@@ -14,7 +14,6 @@
 OS_SEM selectLock1, selectLock2, selectLock3;
 OS_SEM luckLock1, luckLock2;
 
-
 uint32_t led_num_display[8] = {1,1,1,1,1,1,1,1};
 
 //variables that change after shot
@@ -34,15 +33,11 @@ int XZAngle;
 double initVelocity =0;
 int led_num_display_index;
 
-
-//const double xPositions[5] = {0, -5.12, -7.24, -5.12,0}; // @ 90, 135, 180, 225 and 270 from +x axis
-//const double yPositions[5] = {6.71, 5.12,0,-5.12,-6.71};
-
 const float HEIGHT_OF_NET = 1.05;
 const float GRAV = 9.8;
 
 const uint16_t MAX_SHOTS = 15;
-const uint16_t MAX_POINTS = 30;
+const uint16_t MAX_POINTS = 15;
 const uint16_t LED_SPEED = 40000;
 
 // This stuff should probably be another class
@@ -58,6 +53,8 @@ __task void updateAngles(void){
 		os_sem_wait(&selectLock1, 0xffff);
 		XYAngle = checkPotentiometer();
 		XZAngle = checkJoyStick(XZAngle);
+		printf("\n%d,%d",XYAngle,XZAngle);
+		printf("  updateAngles");
 		os_sem_send(&selectLock2);
 	}
 }
@@ -182,6 +179,7 @@ __task void checkSelectButton(void){
 		if(ButtonCurrentlyPressed()){
 			buttonPressed =ButtonCurrentlyPressed();
 			initVelocity = initVelocity +0.05;
+			printf("  checkSelectButtonSelectLock3");
 			os_sem_send(&selectLock3);
 		}
 		else if (buttonPressed && !ButtonCurrentlyPressed() || initVelocity>= 20){// player released button or basketball is thrown at close to terminal velocity
@@ -204,25 +202,76 @@ __task void checkSelectButton(void){
 			os_sem_send(&luckLock1);
 		}
 		else{
+		printf("  checkSelectButtonSelectLock3");
 			os_sem_send(&selectLock3);
 		}
+		//printf("  checkSelectButton");
 		os_tsk_pass(); //Pass task to next task
 	}
 }
+void updateScreen(double ainitVelocity,int aXYAngle,int aXZAngle){ // this updates the top part of the screen when powerbar
+	// display numbers and shit
+	// Done
+	char buf4[64];
+	char buf5[64];
+	char buf3[64];
+	sprintf(buf4, "%d", aXYAngle);
+	sprintf(buf5, "%d", aXZAngle);
+	sprintf(buf3, "%f", ainitVelocity);
+	
+	//TODO MUTEXES FOR THE LCD OR THE GLOBAL VARIABLES
+	/*GLCD_DisplayString(24, 1, 0, "XYAngle: ");
+	GLCD_DisplayChar(24, 13, 0, buf4[0]);
+	if(buf4[1]!= NULL)
+		GLCD_DisplayChar(24, 14, 0, buf4[1]);
+	if(buf4[2]!= NULL)
+		GLCD_DisplayChar(24, 15, 0, buf4[2]);
 
+	
+	GLCD_DisplayString(24, 20, 0, "XZAngle: ");
+	GLCD_DisplayChar(24, 31, 0, buf5[0]);
+	if(buf5[1]!= NULL)
+		GLCD_DisplayChar(24, 32, 0, buf5[1]);
+	if(buf5[2]!= NULL)
+		GLCD_DisplayChar(24, 33, 0, buf5[2]);
+	
+	//printf("%c%c%c", buf4[0], buf4[1], buf4[2]);
+	
+	GLCD_DisplayString(24, 38, 0, "Velocity: ");
+	GLCD_DisplayChar(24, 48, 0, buf3[0]);
+	if(buf3[1]!= NULL)
+		GLCD_DisplayChar(24, 49, 0, buf3[1]);
+	if(buf3[2]!= NULL)
+		GLCD_DisplayChar(24, 50, 0, buf3[2]);
+	if(buf3[3]!= NULL)
+		GLCD_DisplayChar(24, 51, 0, buf3[3]);
+	*/
+} 
 __task void updateSelectScreen(void){
+			char buf1[64];
+			char buf2[64];
 	while(1){
 		os_sem_wait(&selectLock3, 0xffff);
+		//GLCD_DisplayString(27,0, 1, "MISS!");
 		if (!buttonPressed){
-			printf("XY %d, XZ %d, ButtonPressed %d, x%f,y%f\n",XYAngle ,XZAngle,buttonPressed, playerPosition[0],playerPosition[1]);
-			//drawSelectScreen(0, XYAngle);
-			//os_delay(500);
+			//updateStatsSelectScreen(initVelocity,XYAngle,XZAngle);
 		}
 		else{
-			printf("XY %d, XZ %d, ButtonPressed %d, initV%f, x%f,y%f\n",XYAngle ,XZAngle,buttonPressed,initVelocity, playerPosition[0],playerPosition[1]);
-			//drawSelectScreen(1);
-			//os_delay(500);
+			//updateStatsSelectScreen(initVelocity,XYAngle,XZAngle);
+			
 		}
+		updateScreen(initVelocity,XYAngle,XZAngle);
+		sprintf(buf1, "%d", score);
+			sprintf(buf2, "%d", shotsTaken);
+			GLCD_DisplayString(28, 1, 0 , "Score: ");
+			GLCD_DisplayChar(28, 13, 0, buf1[0]);
+			if(buf1[1]!= NULL)
+				GLCD_DisplayChar(28, 14, 0, buf1[1]);
+			GLCD_DisplayString(28, 20, 0, "Shots Taken: ");
+			GLCD_DisplayChar(28, 26, 0, buf2[0]);
+			if(buf2[1]!= NULL)
+				GLCD_DisplayChar(28, 27, 0, buf2[1]);
+		printf("  updateSelectScreen");
 		os_sem_send(&selectLock1);
 		os_tsk_pass();
 	}
@@ -240,15 +289,6 @@ void ledLogic(int incr){
 		incr=0;
 	}
 }
-/*
-__task void displayLED(void){
-	while(1){
-		os_sem_wait(&luckLock1, 0xffff);
-		ledLogic(incr);
-		os_sem_send(&luckLock2);
-		os_tsk_pass();
-	}
-}*/
 
 void reset(void){
 	//RESET XZAngle shotAnimationStatus
@@ -287,12 +327,10 @@ void ledResult(void){
 					shotAnimationStatus =3;
 			break;
 		}
-		if (shotsTaken %3 ==0){
-			score += 2;
+		if(shotsTaken%3 ==0){
+		score += 1;
 		}
-		else{
-			score += 1;
-		}
+		score += 1;
 	}
 	else{
 		if (led_success == 0){
@@ -389,16 +427,16 @@ __task void taskInit(void){
 
 int main(void){	
 	//char x[] = 'Hello';
+	
 	printf("press button to begin!\n");
-	// write in some of the rules here.
 	initialize();
+	
+	
 	while(!ButtonCurrentlyPressed()){}
 	clearScreen();
-	updateStatsSelectScreen(8.88 , 12,  122);
-	drawSelectScreenBottom(1, 2);
-	
-		
-	while(!ButtonCurrentlyPressed()){}
+	//updateStatsSelectScreen(8.88 , 212,  122);
+	//drawSelectScreenBottom(1, 2);
+	while(ButtonCurrentlyPressed()){}
 	os_sys_init(taskInit);
 	return 0;
 }

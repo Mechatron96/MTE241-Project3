@@ -58,7 +58,7 @@ uint8_t pic_playerTopDown0small_pixel_map[] = {
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0x7b, 0x5d, 0xf2, 0xcd, 0xb0, 0xcd, 0x54, 0xd6, 0x5b, 0xef, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
 };
-uint8_t pic_netTopDownSmall_pixel_map[] = {
+/*uint8_t pic_netTopDownSmall_pixel_map[] = {
 	0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0x00, 0x00, 0x00, 0x00, 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0x00, 0x00, 0x00, 0x00, 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0x00, 0x00, 0x00, 0x00, 
@@ -99,7 +99,7 @@ uint8_t pic_netTopDownSmall_pixel_map[] = {
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0x00, 0x00, 0x00, 0x00, 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0x00, 0x00, 0x00, 0x00, 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0x00, 0x00, 0x00, 0x00, 
-};
+};*/
 uint8_t pic_netsideSmall_pixel_map[] = {
 0x00, 0x00, 0x00, 0x00, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
   0x00, 0x00, 0x00, 0x00, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
@@ -167,230 +167,176 @@ const double xPositions[5] = {0, -5.12, -7.24, -5.12,0}; // @ 90, 135, 180, 225 
 const double yPositions[5] = {6.71, 5.12,0,-5.12,-6.71};
 int topDown0_Orientation = 0;
 int topDown45_Orientation =45;
+int topDown90_Orientation =90;
 
-void updateAngleSelectScreen(int XYAngle,int XZAngle, int playerPosition){ // this updates the part of the screen which displays the players
-	//TODO make different sprites for intervals of 45 degrees. For XY and XZ Also display the 
-	/*int XYInterval;
-	int XZInterval;
-	int drawXYSpriteX =0;
-	int drawXYSpriteY =0;
-	int drawXZSpriteX =0;
-	int drawXZSpriteY =0;
-	
-	XYAngle = (XYAngle +23)%360;
-	XYInterval = (XYAngle)/45;*/
+void rotateIcon(int wantedAngle, int numRows,int numCols){
 	int i;
 	int j;
-	int temp;
-	int lIndex; 
+	int lIndex;
 	int rIndex;
-	int uIndex; 
 	int bIndex;
-	/*size_t n;
-	n= sizeof(pic_playerTopDown0Small_pixel_mapB)/sizeof(pic_playerTopDown0Small_pixel_mapB[0]);
-	printf("\n\n");
-	for( i =0; i< n;i ++){
-		printf("%d,",pic_playerTopDown0Small_pixel_mapB[i]);
-		if((i+1) %10 ==0 ){
-			printf("\n");
-		}
+	int uIndex;
+	int temp;
+	if (wantedAngle == topDown0_Orientation || wantedAngle == topDown45_Orientation ||wantedAngle == topDown90_Orientation ){
+		return;
 	}
-	//printf("\n\n");
-	/*for(i =0; i<n; i++){
-		for(j =0; j<5; j++){
-			lIndex = 10*i + j;
-			rIndex = 10*i + 9 - j;
-			temp = pic_playerTopDown0Small_pixel_mapB[lIndex];
-			pic_playerTopDown0Small_pixel_mapB[lIndex] = pic_playerTopDown0Small_pixel_mapB[rIndex];
-			pic_playerTopDown0Small_pixel_mapB[rIndex] = temp;
+	if(wantedAngle%180 ==90){// flip vertically;
+		for(i =0; i<numRows/2; i++){// for half the rows
+			for(j =0; j<numCols; j++){
+				uIndex = numCols*i +j;
+				bIndex = numCols*(numRows-1-i) + j;
+				//printf("\n\%d,%d",uIndex,bIndex);
+				temp = pic_playerTopDown90small_pixel_map[uIndex];
+				pic_playerTopDown90small_pixel_map[uIndex] = pic_playerTopDown90small_pixel_map[bIndex];
+				pic_playerTopDown90small_pixel_map[bIndex] = temp;
+			}
 		}
+		topDown90_Orientation = wantedAngle;
 	}
-	for( i =0; i< n;i ++){
-		printf("%d,",pic_playerTopDown0Small_pixel_mapB[i]);
-		if((i+1) %10 ==0 ){
-			printf("\n");
+	else if (wantedAngle%180 ==0){//flip horizontally
+		for(i =0; i<numRows; i++){// for each row
+			for(j =0; j<numCols/2; j++){ //for half the columns
+				lIndex = numCols*i + j;
+				rIndex = numCols*(i+1) -1 - j;
+				temp = pic_playerTopDown0small_pixel_map[lIndex];
+				pic_playerTopDown0small_pixel_map[lIndex] = pic_playerTopDown0small_pixel_map[rIndex];
+				pic_playerTopDown0small_pixel_map[rIndex] = temp;
+			}
 		}
-	}*/
-	/*SystemInit();
-	GLCD_Init();
-	GLCD_Clear(White);
-	GLCD_SetBackColor(White);
-	while(1){
-		GLCD_Bitmap (0,0 ,20,20,pic_playerTopDown0Small_pixel_mapB);
+		topDown0_Orientation = wantedAngle;
 	}
-	printf("\n\n");
-	for(i =0; i<5; i++){
-		for(j =0; j<10; j++){
-			uIndex = 10*i +j;
-			bIndex = 90 - (10*i) + j;
-			printf("\n\%d,%d",uIndex,bIndex);
-			temp = pic_playerTopDown0Small_pixel_mapB[uIndex];
-			pic_playerTopDown0Small_pixel_mapB[uIndex] = pic_playerTopDown0Small_pixel_mapB[bIndex];
-			pic_playerTopDown0Small_pixel_mapB[bIndex] = temp;
+	else{ // 45 degree case
+		if((wantedAngle + topDown45_Orientation)%360 == 180){ // flip horizontally
+			for(i =0; i<numRows; i++){// for each row
+				for(j =0; j<numCols/2; j++){ //for half the columns
+					lIndex = numCols*i + j;
+					rIndex = numCols*(i+1) -1 - j;
+					temp = pic_playerTopDown45small_pixel_map[lIndex];
+					pic_playerTopDown45small_pixel_map[lIndex] = pic_playerTopDown45small_pixel_map[rIndex];
+					pic_playerTopDown45small_pixel_map[rIndex] = temp;
+				}
+			}
 		}
-	}
-	//printf("\n\n");
+		else if ((wantedAngle + topDown45_Orientation)%360 == 0){//flip vertically
+				for(i =0; i<numRows/2; i++){// for half the rows
+				for(j =0; j<numCols; j++){
+					uIndex = numCols*i +j;
+					bIndex = numCols*(numRows-1-i) + j;
+					//printf("\n\%d,%d",uIndex,bIndex);
+					temp = pic_playerTopDown45small_pixel_map[uIndex];
+					pic_playerTopDown45small_pixel_map[uIndex] = pic_playerTopDown45small_pixel_map[bIndex];
+					pic_playerTopDown45small_pixel_map[bIndex] = temp;
+				}
+			}
+		}
+		else {// do both flips
+			//horizontally
+			for(i =0; i<numRows; i++){// for each row
+				for(j =0; j<numCols/2; j++){ //for half the columns
+					lIndex = numCols*i + j;
+					rIndex = numCols*(i+1) -1 - j;
+					temp = pic_playerTopDown45small_pixel_map[lIndex];
+					pic_playerTopDown45small_pixel_map[lIndex] = pic_playerTopDown45small_pixel_map[rIndex];
+					pic_playerTopDown45small_pixel_map[rIndex] = temp;
+				}
+			}//now vertically
+			for(i =0; i<numRows/2; i++){// for half the rows
+				for(j =0; j<numCols; j++){
+					uIndex = numCols*i +j;
+					bIndex = numCols*(numRows-1-i) + j;
+					//printf("\n\%d,%d",uIndex,bIndex);
+					temp = pic_playerTopDown45small_pixel_map[uIndex];
+					pic_playerTopDown45small_pixel_map[uIndex] = pic_playerTopDown45small_pixel_map[bIndex];
+					pic_playerTopDown45small_pixel_map[bIndex] = temp;
+				}
+			}
+		}
+		topDown45_Orientation = wantedAngle;
+}
+}
+void updateAngleSelectScreen(int XYAngle,int XZAngle, int playerPosition){ // this updates the part of the screen which displays the players
+	int XYInterval;
+	int XZInterval;
+	int hoopBaseLineX =100;
+	int hoopBaseLineY =80;
+	int xAdjust =0;
+	int yAdjust =0;
+	int sSize =16; //sprite size
 	
-		GLCD_Bitmap (40,40 ,20,20,pic_playerTopDown0Small_pixel_mapB);
-
-	for( i =0; i< n;i ++){
-		printf("%d,",pic_playerTopDown0Small_pixel_mapB[i]);
-		if((i+1) %10 ==0 ){
-			printf("\n");
+	XYInterval = ((XYAngle +23)%360)/45;
+	rotateIcon(XYInterval*45,16,32);
+		switch(playerPosition){
+			case 0:
+				xAdjust = 0;
+				yAdjust =-67;
+			break;
+			case 1:
+				xAdjust = -51;
+				yAdjust =-51;
+			break;
+			case 2:
+				xAdjust = -72;
+				yAdjust =0;
+			break;
+			case 3:
+				xAdjust = -51;
+				yAdjust =51;
+			break;
+			case 4:
+				xAdjust = 0;
+				yAdjust =67;
+			break;
 		}
-	}
-	printf("\n\n");
-	//playerPosition this is shotsTaken%3
-	/*switch(playerPosition){
+		xAdjust = xAdjust - sSize/2;
+		yAdjust = yAdjust - sSize/2;
+
+	switch(XYInterval){
 		case 0:
-			drawXYSpriteX = something;
-			drawXYSpriteY = something;
-			drawXZSpriteX = something;
-			drawXZSpriteY =something;
-		break; //TODO FILL IN THE REST OF THESE
+		case 4:
+			GLCD_Bitmap(hoopBaseLineX +xAdjust ,hoopBaseLineY + yAdjust ,sSize,sSize, pic_playerTopDown0small_pixel_map);
+			GLCD_Bitmap(197 ,66 ,9,30, pic_playerSideSmall_pixel_map);
+		break;
 		case 1:
+		case 3:
+		case 5:
+		case 7:
+			GLCD_Bitmap(hoopBaseLineX +xAdjust ,hoopBaseLineY + yAdjust ,sSize,sSize, pic_playerTopDown45small_pixel_map);
+			GLCD_Bitmap(202 ,66 ,9,30, pic_playerSideSmall_pixel_map);
 		break;
 		case 2:
+		case 6:
+			GLCD_Bitmap(hoopBaseLineX +xAdjust ,hoopBaseLineY + yAdjust ,sSize,sSize, pic_playerTopDown90small_pixel_map);
+			GLCD_Bitmap(202 ,66 ,9,30, pic_playerSideSmall_pixel_map);
 		break;
-		case 3:
-		break;
-		case 4:
-		break;
-	}*/
-	
-	/*switch (XYInterval){
-		case 0: // draw based on angle
-			GLCD GLCD_Bitmap(drawXYSpriteX,drawXYSpriteY,64,47, topDown0);
-			break;
 	}
-	switch (XZInterval){
-		case 0: // draw based on angle
-			GLCD GLCD_Bitmap(drawXYSpriteX,drawXYSpriteY,64,47, topDown0);
-			break;
-	}*/
+	GLCD_Bitmap(278 ,55 ,22,30, pic_netsideSmall_pixel_map);
+	//WHAT TO DO FOR THE NET!!!!!!!!!!!!!
 	// STORE ANGLES FROM 0-90 and for 90-360, flip or rotate by 90 the different sprites. 
 }
 void updateStatsSelectScreen(double initVelocity,int XYAngle,int XZAngle){ // this updates the top part of the screen when powerbar
 	// display numbers and shit
 	// Done
-	int i;
-	int value;
-	char buf4[3] = {'a','b','c'};
-	char buf5[3] = {'d','e','f'};
-	char buf3[4];
-	//double xytemp = (double)XYAngle; 
-	//double xztemp = (double)XZAngle;
-	/*for (i=0;i<3;i++){
-		switch(i){
-			case 0:
-					value = XYAngle/100;
-				break;
-				case 1:
-					value = (XYAngle%100)/10;
-				break;
-				case 2:
-					value = XYAngle%10;
-				break;
-		}
-		switch(value){
-				case 0:
-					buf4[i] = '0';
-				break;
-				case 1:
-					buf4[i] = '1';
-				break;
-				case 2:
-					buf4[i] = '2';
-				break;
-				case 3:
-					buf4[i] = '3';
-				break;
-				case 4:
-					buf4[i] = '4';
-				break;
-				case 5:
-					buf4[i] = '5';
-				break;
-				case 6:
-					buf4[i] = '6';
-				break;
-				case 7:
-					buf4[i] = '7';
-				break;
-				case 8:
-					buf4[i] = '8';
-				break;
-				case 9:
-					buf4[i] = '9';
-				break;
-			}
-	}
-	i =0;
-	for (i=0;i<3;i++){
-		switch(i){
-			case 0:
-					value = XZAngle/100;
-				break;
-				case 1:
-					value = (XZAngle%100)/10;
-				break;
-				case 2:
-					value = XZAngle%10;
-				break;
-		}
-		switch(value){
-				case 0:
-					buf4[i] = '0';
-				break;
-				case 1:
-					buf4[i] = '1';
-				break;
-				case 2:
-					buf4[i] = '2';
-				break;
-				case 3:
-					buf4[i] = '3';
-				break;
-				case 4:
-					buf4[i] = '4';
-				break;
-				case 5:
-					buf4[i] = '5';
-				break;
-				case 6:
-					buf4[i] = '6';
-				break;
-				case 7:
-					buf4[i] = '7';
-				break;
-				case 8:
-					buf4[i] = '8';
-				break;
-				case 9:
-					buf4[i] = '9';
-				break;
-			}
-	}*/
-	
-
-	//sprintf(buf4, "%d", XYAngle);
-	//sprintf(buf5, "%d", XZAngle);
+	char buf4[64];
+	char buf5[64];
+	char buf3[64];
+	sprintf(buf4, "%d", XYAngle);
+	sprintf(buf5, "%d", XZAngle);
 	sprintf(buf3, "%f", initVelocity);
 	
-	GLCD_DisplayString(23, 1, 0, "XYAngle: ");
-	GLCD_DisplayChar(23, 13, 0, buf4[0]);
-	//if(buf4[1]!= NULL)
-		GLCD_DisplayChar(23, 14, 0, buf4[1]);
-	//if(buf4[2]!= NULL)
-		GLCD_DisplayChar(23, 15, 0, buf4[2]);
+	GLCD_DisplayString(24, 1, 0, "XYAngle: ");
+	GLCD_DisplayChar(24, 13, 0, buf4[0]);
+	if(buf4[1]!= NULL)
+		GLCD_DisplayChar(24, 14, 0, buf4[1]);
+	if(buf4[2]!= NULL)
+		GLCD_DisplayChar(24, 15, 0, buf4[2]);
 
 	
-	GLCD_DisplayString(23, 20, 0, "XZAngle: ");
-	GLCD_DisplayChar(23, 31, 0, buf5[0]);
-	//if(buf5[1]!= NULL)
-		GLCD_DisplayChar(23, 32, 0, buf5[1]);
-	//if(buf5[2]!= NULL)
-		GLCD_DisplayChar(23, 33, 0, buf5[2]);
+	GLCD_DisplayString(24, 20, 0, "XZAngle: ");
+	GLCD_DisplayChar(24, 31, 0, buf5[0]);
+	if(buf5[1]!= NULL)
+		GLCD_DisplayChar(24, 32, 0, buf5[1]);
+	if(buf5[2]!= NULL)
+		GLCD_DisplayChar(24, 33, 0, buf5[2]);
 	
 	printf("%c%c%c", buf4[0], buf4[1], buf4[2]);
 	
@@ -407,8 +353,8 @@ void updateStatsSelectScreen(double initVelocity,int XYAngle,int XZAngle){ // th
 void drawSelectScreenBottom(int score, int shotsTaken){
 	// basically displays the bottom 
 	// Done
-	char buf1[2];
-	char buf2[2];
+	char buf1[64];
+	char buf2[64];
 	sprintf(buf1, "%d", score);
 	sprintf(buf2, "%d", shotsTaken);
 	GLCD_DisplayString(28, 1, 0 , "Shots Taken: ");
