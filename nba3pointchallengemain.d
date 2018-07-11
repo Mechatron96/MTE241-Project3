@@ -1,5 +1,6 @@
 nba3pointchallengemain.o: nba3PointChallengeMain.c
 nba3pointchallengemain.o: c:\Software\Keil\ARM\ARMCC\bin\..\include\stdio.h
+nba3pointchallengemain.o: c:\Software\Keil\ARM\ARMCC\bin\..\include\string.h
 nba3pointchallengemain.o: c:\Software\Keil\ARM\ARMCC\bin\..\include\stdint.h
 nba3pointchallengemain.o: c:\Software\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h
 nba3pointchallengemain.o: c:\Software\Keil\ARM\CMSIS\Include\core_cm3.h

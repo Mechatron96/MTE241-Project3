@@ -3,69 +3,38 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-N:\MTE241Project\MTE241-Project3-master\Project2.uvproj
-Project File Date:  07/09/2018
+N:\MTE241\Project4\Project2.uvproj
+Project File Date:  07/10/2018
 
 <h2>Output:</h2>
 Build target 'Target 1'
 compiling system_LPC17xx.c...
-compiling IOControls.c...
-IOControls.c(18): warning:  #61-D: integer operation result is out of range
-IOControls.c(18): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(34): warning:  #61-D: integer operation result is out of range
-IOControls.c(34): warning:  #68-D: integer conversion resulted in a change of sign
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20180 RO-data=7076 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 5 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling IOControls.c...
-IOControls.c(18): warning:  #61-D: integer operation result is out of range
-IOControls.c(18): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(34): warning:  #61-D: integer operation result is out of range
-IOControls.c(34): warning:  #68-D: integer conversion resulted in a change of sign
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20184 RO-data=7080 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 5 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling IOControls.c...
-IOControls.c(12): warning:  #61-D: integer operation result is out of range
-IOControls.c(12): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(18): warning:  #61-D: integer operation result is out of range
-IOControls.c(18): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(34): warning:  #61-D: integer operation result is out of range
-IOControls.c(34): warning:  #68-D: integer conversion resulted in a change of sign
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20188 RO-data=7076 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 7 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
+compiling uart.c...
+compiling Retarget.c...
+compiling GLCD_SPI_LPC1700.c...
 compiling nba3PointChallengeMain.c...
 compiling IOControls.c...
-IOControls.c(12): warning:  #61-D: integer operation result is out of range
-IOControls.c(12): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(19): warning:  #61-D: integer operation result is out of range
-IOControls.c(19): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(35): warning:  #61-D: integer operation result is out of range
-IOControls.c(35): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(11): warning:  #61-D: integer operation result is out of range
+IOControls.c(11): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(17): warning:  #61-D: integer operation result is out of range
+IOControls.c(17): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(33): warning:  #61-D: integer operation result is out of range
+IOControls.c(33): warning:  #68-D: integer conversion resulted in a change of sign
+compiling nbaGraphics.c...
+nbaGraphics.c(168): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(213): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(151): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(152): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(153): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(154): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(155): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(156): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(157): warning:  #177-D: variable "bIndex" was declared but never referenced
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20148 RO-data=7076 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 7 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Program Size: Code=20144 RO-data=7064 RW-data=324 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 16 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
@@ -73,9 +42,289 @@ Build target 'Target 1'
 compiling nba3PointChallengeMain.c...
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20128 RO-data=7080 RW-data=240 ZI-data=12480  
+Program Size: Code=20144 RO-data=7064 RW-data=324 ZI-data=12484  
 "Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20144 RO-data=7064 RW-data=884 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20144 RO-data=7064 RW-data=884 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20144 RO-data=7064 RW-data=884 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20144 RO-data=7064 RW-data=884 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20144 RO-data=7064 RW-data=1544 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20144 RO-data=7064 RW-data=424 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20148 RO-data=7060 RW-data=2536 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Project2.axf: error: L6047U: The size of this image (34408 bytes) exceeds the maximum allowed for this version of the linker
+Target not created
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+_____^
+*** error 56: cannot open file
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Project2.axf: error: L6047U: The size of this image (34136 bytes) exceeds the maximum allowed for this version of the linker
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(471): error:  #20: identifier "pic_playerTopDown0Small_pixel_mapD" is undefined
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20168 RO-data=7064 RW-data=4848 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Project2.axf: error: L6047U: The size of this image (34392 bytes) exceeds the maximum allowed for this version of the linker
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20168 RO-data=7064 RW-data=4576 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20168 RO-data=7064 RW-data=4576 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20168 RO-data=7064 RW-data=3416 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20168 RO-data=7064 RW-data=3676 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20168 RO-data=7064 RW-data=3036 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(470): error:  #65: expected a ";"
+compiling nbaGraphics.c...
+nbaGraphics.c(42): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(87): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(25): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(26): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(27): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(28): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(29): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(30): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(31): warning:  #177-D: variable "bIndex" was declared but never referenced
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
@@ -84,9 +333,14 @@ nba3PointChallengeMain.c - 0 Error(s), 0 Warning(s).
 Build target 'Target 1'
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20124 RO-data=7076 RW-data=240 ZI-data=12480  
+Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
 "Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Build target 'Target 1'
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
@@ -94,9 +348,9 @@ Build target 'Target 1'
 compiling nba3PointChallengeMain.c...
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20144 RO-data=7080 RW-data=240 ZI-data=12480  
+Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
 "Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
@@ -104,425 +358,364 @@ Build target 'Target 1'
 compiling nba3PointChallengeMain.c...
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20144 RO-data=7080 RW-data=240 ZI-data=12480  
+Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
 "Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(470): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+nba3PointChallengeMain.c - 0 Error(s), 1 Warning(s).
 Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(42): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(87): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(25): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(26): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(27): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(28): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(29): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(30): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(31): warning:  #177-D: variable "bIndex" was declared but never referenced
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20144 RO-data=7080 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Program Size: Code=20348 RO-data=7060 RW-data=3036 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 10 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
 Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(472): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20348 RO-data=7060 RW-data=3036 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'Target 1'
+compiling system_LPC17xx.c...
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling RTX_config.c...
+compiling uart.c...
+compiling Retarget.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(473): error:  #167: argument of type "int" is incompatible with parameter of type "unsigned char *"
 compiling IOControls.c...
-IOControls.c(12): warning:  #61-D: integer operation result is out of range
-IOControls.c(12): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(19): warning:  #61-D: integer operation result is out of range
-IOControls.c(19): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(35): warning:  #61-D: integer operation result is out of range
-IOControls.c(35): warning:  #68-D: integer conversion resulted in a change of sign
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20144 RO-data=7080 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 7 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify Failed!
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling IOControls.c...
-IOControls.c(12): warning:  #61-D: integer operation result is out of range
-IOControls.c(12): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(19): warning:  #61-D: integer operation result is out of range
-IOControls.c(19): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(35): warning:  #61-D: integer operation result is out of range
-IOControls.c(35): warning:  #68-D: integer conversion resulted in a change of sign
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20148 RO-data=7076 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 7 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling IOControls.c...
-IOControls.c(12): warning:  #61-D: integer operation result is out of range
-IOControls.c(12): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(20): warning:  #61-D: integer operation result is out of range
-IOControls.c(20): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(36): warning:  #61-D: integer operation result is out of range
-IOControls.c(36): warning:  #68-D: integer conversion resulted in a change of sign
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 7 Warning(s).
-Build target 'Target 1'
-compiling IOControls.c...
-IOControls.c(12): warning:  #61-D: integer operation result is out of range
-IOControls.c(12): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(20): warning:  #61-D: integer operation result is out of range
-IOControls.c(20): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(36): warning:  #61-D: integer operation result is out of range
-IOControls.c(36): warning:  #68-D: integer conversion resulted in a change of sign
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 7 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-compiling IOControls.c...
-IOControls.c(12): warning:  #61-D: integer operation result is out of range
-IOControls.c(12): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(18): warning:  #61-D: integer operation result is out of range
-IOControls.c(18): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(34): warning:  #61-D: integer operation result is out of range
-IOControls.c(34): warning:  #68-D: integer conversion resulted in a change of sign
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 7 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20152 RO-data=7080 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20160 RO-data=7080 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(300): error:  #20: identifier "MAX_POINTS" is undefined
-nba3PointChallengeMain.c(302): error:  #65: expected a ";"
-nba3PointChallengeMain.c(335): error:  #20: identifier "TOTAL_SHOTS" is undefined
+IOControls.c(11): warning:  #61-D: integer operation result is out of range
+IOControls.c(11): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(17): warning:  #61-D: integer operation result is out of range
+IOControls.c(17): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(33): warning:  #61-D: integer operation result is out of range
+IOControls.c(33): warning:  #68-D: integer conversion resulted in a change of sign
+compiling nbaGraphics.c...
+nbaGraphics.c(42): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(87): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(25): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(26): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(27): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(28): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(29): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(30): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(31): warning:  #177-D: variable "bIndex" was declared but never referenced
 Target not created
 Build target 'Target 1'
 compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(300): error:  #20: identifier "MAX_POINTS" is undefined
-nba3PointChallengeMain.c(302): error:  #65: expected a ";"
-nba3PointChallengeMain.c(335): error:  #20: identifier "TOTAL_SHOTS" is undefined
+nba3PointChallengeMain.c(473): error:  #167: argument of type "int" is incompatible with parameter of type "unsigned char *"
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(473): error:  #167: argument of type "char" is incompatible with parameter of type "unsigned char *"
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(472): error:  #268: declaration may not appear after executable statement in block
+nba3PointChallengeMain.c(472): error:  #26: too many characters in character constant
+nba3PointChallengeMain.c(473): error:  #167: argument of type "char" is incompatible with parameter of type "unsigned char *"
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(472): error:  #268: declaration may not appear after executable statement in block
+nba3PointChallengeMain.c(472): error:  #26: too many characters in character constant
+nba3PointChallengeMain.c(473): error:  #167: argument of type "unsigned char" is incompatible with parameter of type "unsigned char *"
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(472): error:  #268: declaration may not appear after executable statement in block
+nba3PointChallengeMain.c(472): error:  #26: too many characters in character constant
+nba3PointChallengeMain.c(473): error:  #167: argument of type "unsigned char" is incompatible with parameter of type "unsigned char *"
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(473): error:  #26: too many characters in character constant
+nba3PointChallengeMain.c(474): error:  #167: argument of type "unsigned char" is incompatible with parameter of type "unsigned char *"
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(473): error:  #26: too many characters in character constant
+Target not created
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+_____^
+*** error 56: cannot open file
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(473): error:  #26: too many characters in character constant
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(473): error:  #26: too many characters in character constant
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(473): error:  #26: too many characters in character constant
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(464): error:  #268: declaration may not appear after executable statement in block
+nba3PointChallengeMain.c(465): error:  #268: declaration may not appear after executable statement in block
+nba3PointChallengeMain.c(465): error:  #28: expression must have a constant value
+nba3PointChallengeMain.c(465): warning:  #520-D: initialization with "{...}" expected for aggregate object
+nba3PointChallengeMain.c(465): error:  #29: expected an expression
+nba3PointChallengeMain.c(481): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(464): error:  #268: declaration may not appear after executable statement in block
+nba3PointChallengeMain.c(465): error:  #268: declaration may not appear after executable statement in block
+nba3PointChallengeMain.c(465): error:  #28: expression must have a constant value
+nba3PointChallengeMain.c(465): warning:  #520-D: initialization with "{...}" expected for aggregate object
+nba3PointChallengeMain.c(465): error:  #29: expected an expression
+nba3PointChallengeMain.c(467): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+nba3PointChallengeMain.c(467): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+nba3PointChallengeMain.c(481): error:  #167: argument of type "unsigned char *" is incompatible with parameter of type "unsigned char"
 Target not created
 Build target 'Target 1'
 compiling nba3PointChallengeMain.c...
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20028 RO-data=7076 RW-data=240 ZI-data=12480  
+Program Size: Code=20340 RO-data=7060 RW-data=3036 ZI-data=12484  
 "Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
 Build target 'Target 1'
 compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20020 RO-data=7076 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20024 RO-data=7088 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20032 RO-data=7088 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling IOControls.c...
-IOControls.c(12): warning:  #61-D: integer operation result is out of range
-IOControls.c(12): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(18): warning:  #61-D: integer operation result is out of range
-IOControls.c(18): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(34): warning:  #61-D: integer operation result is out of range
-IOControls.c(34): warning:  #68-D: integer conversion resulted in a change of sign
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20024 RO-data=7088 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 7 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-compiling IOControls.c...
-IOControls.c(12): warning:  #61-D: integer operation result is out of range
-IOControls.c(12): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(18): warning:  #61-D: integer operation result is out of range
-IOControls.c(18): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(34): warning:  #61-D: integer operation result is out of range
-IOControls.c(34): warning:  #68-D: integer conversion resulted in a change of sign
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20036 RO-data=7084 RW-data=240 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 7 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20000 RO-data=7088 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20000 RO-data=7088 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20000 RO-data=7088 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=19996 RO-data=7084 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20000 RO-data=7088 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-compiling IOControls.c...
-IOControls.c(12): warning:  #61-D: integer operation result is out of range
-IOControls.c(12): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(18): warning:  #61-D: integer operation result is out of range
-IOControls.c(18): warning:  #68-D: integer conversion resulted in a change of sign
-IOControls.c(34): warning:  #61-D: integer operation result is out of range
-IOControls.c(34): warning:  #68-D: integer conversion resulted in a change of sign
-compiling nbaGraphics.c...
-nbaGraphics.c(7): warning:  #520-D: initialization with "{...}" expected for aggregate object
-nbaGraphics.c(7): error:  #29: expected an expression
-nbaGraphics.c(8): warning:  #520-D: initialization with "{...}" expected for aggregate object
-nbaGraphics.c(8): error:  #29: expected an expression
-nbaGraphics.c(9): warning:  #520-D: initialization with "{...}" expected for aggregate object
-nbaGraphics.c(9): error:  #29: expected an expression
-nbaGraphics.c(10): warning:  #520-D: initialization with "{...}" expected for aggregate object
-nbaGraphics.c(10): error:  #29: expected an expression
-nbaGraphics.c(11): warning:  #520-D: initialization with "{...}" expected for aggregate object
-nbaGraphics.c(11): error:  #29: expected an expression
-nbaGraphics.c(12): warning:  #520-D: initialization with "{...}" expected for aggregate object
-nbaGraphics.c(12): error:  #29: expected an expression
-nbaGraphics.c(13): warning:  #520-D: initialization with "{...}" expected for aggregate object
-nbaGraphics.c(13): error:  #29: expected an expression
-nbaGraphics.c(14): warning:  #520-D: initialization with "{...}" expected for aggregate object
-nbaGraphics.c(14): error:  #29: expected an expression
-nbaGraphics.c(16): error:  #148: variable "topDown0" has already been initialized
-nbaGraphics.c(16): warning:  #520-D: initialization with "{...}" expected for aggregate object
-nbaGraphics.c(16): error:  #29: expected an expression
-nbaGraphics.c(17): warning:  #520-D: initialization with "{...}" expected for aggregate object
-nbaGraphics.c(17): error:  #29: expected an expression
-nbaGraphics.c(18): warning:  #520-D: initialization with "{...}" expected for aggregate object
-nbaGraphics.c(18): error:  #29: expected an expression
-nbaGraphics.c(19): error:  #148: variable "topDown45" has already been initialized
-nbaGraphics.c(19): warning:  #520-D: initialization with "{...}" expected for aggregate object
-nbaGraphics.c(19): error:  #29: expected an expression
-nbaGraphics.c(20): warning:  #520-D: initialization with "{...}" expected for aggregate object
-nbaGraphics.c(20): error:  #29: expected an expression
-nbaGraphics.c(21): warning:  #520-D: initialization with "{...}" expected for aggregate object
-nbaGraphics.c(21): error:  #29: expected an expression
-nbaGraphics.c(22): error:  #148: variable "topDown90" has already been initialized
-nbaGraphics.c(22): warning:  #520-D: initialization with "{...}" expected for aggregate object
-nbaGraphics.c(22): error:  #29: expected an expression
-nbaGraphics.c(27): warning:  #550-D: variable "XYInterval" was set but never used
-nbaGraphics.c(28): warning:  #550-D: variable "XZInterval" was set but never used
+nba3PointChallengeMain.c(474): error:  #167: argument of type "unsigned char" is incompatible with parameter of type "unsigned char *"
 Target not created
 Build target 'Target 1'
-compiling nbaGraphics.c...
-nbaGraphics.c(27): warning:  #550-D: variable "XYInterval" was set but never used
-nbaGraphics.c(28): warning:  #550-D: variable "XZInterval" was set but never used
+compiling nba3PointChallengeMain.c...
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20088 RO-data=7088 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 3 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Program Size: Code=20348 RO-data=7060 RW-data=3036 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
 Build target 'Target 1'
 compiling nba3PointChallengeMain.c...
-compiling nbaGraphics.c...
-nbaGraphics.c(27): warning:  #550-D: variable "XYInterval" was set but never used
-nbaGraphics.c(28): warning:  #550-D: variable "XZInterval" was set but never used
+nba3PointChallengeMain.c(474): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
+Target not created
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+_____^
+*** error 56: cannot open file
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(474): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(474): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(474): error:  #167: argument of type "unsigned char" is incompatible with parameter of type "unsigned char *"
+Target not created
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+_____^
+*** error 56: cannot open file
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(474): error:  #167: argument of type "unsigned char" is incompatible with parameter of type "unsigned char *"
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20092 RO-data=7084 RW-data=224 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 3 Warning(s).
-Load "N:\\MTE241Project\\MTE241-Project3-master\\Project2.AXF" 
+Program Size: Code=20340 RO-data=7060 RW-data=3036 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
 Build target 'Target 1'
 compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(474): error:  #268: declaration may not appear after executable statement in block
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(474): error:  #268: declaration may not appear after executable statement in block
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20092 RO-data=7084 RW-data=224 ZI-data=12480  
+Program Size: Code=20340 RO-data=7060 RW-data=3036 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(475): error:  #26: too many characters in character constant
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(463): error:  #70: incomplete type is not allowed
+nba3PointChallengeMain.c(475): error:  #26: too many characters in character constant
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(463): error:  #26: too many characters in character constant
+nba3PointChallengeMain.c(463): warning:  #520-D: initialization with "{...}" expected for aggregate object
+nba3PointChallengeMain.c(475): error:  #26: too many characters in character constant
+nba3PointChallengeMain.c(475): error:  #137: expression must be a modifiable lvalue
+nba3PointChallengeMain.c(476): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
+Target not created
+Rebuild target 'Target 1'
+compiling system_LPC17xx.c...
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling RTX_config.c...
+compiling uart.c...
+compiling Retarget.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(32): error:  #65: expected a ";"
+nba3PointChallengeMain.c(75): error:  #20: identifier "selectLock1" is undefined
+nba3PointChallengeMain.c(78): error:  #20: identifier "selectLock2" is undefined
+nba3PointChallengeMain.c(196): error:  #20: identifier "selectLock2" is undefined
+nba3PointChallengeMain.c(202): error:  #20: identifier "selectLock3" is undefined
+nba3PointChallengeMain.c(224): error:  #20: identifier "selectLock3" is undefined
+nba3PointChallengeMain.c(232): error:  #20: identifier "selectLock3" is undefined
+nba3PointChallengeMain.c(243): error:  #20: identifier "selectLock1" is undefined
+nba3PointChallengeMain.c(359): error:  #20: identifier "selectLock1" is undefined
+nba3PointChallengeMain.c(370): error:  #20: identifier "selectLock1" is undefined
+nba3PointChallengeMain.c(371): error:  #20: identifier "selectLock2" is undefined
+nba3PointChallengeMain.c(372): error:  #20: identifier "selectLock3" is undefined
+nba3PointChallengeMain.c(408): error:  #26: too many characters in character constant
+nba3PointChallengeMain.c(408): warning:  #520-D: initialization with "{...}" expected for aggregate object
+nba3PointChallengeMain.c(419): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
+nba3PointChallengeMain.c(408): warning:  #177-D: variable "x" was declared but never referenced
+compiling IOControls.c...
+IOControls.c(11): warning:  #61-D: integer operation result is out of range
+IOControls.c(11): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(17): warning:  #61-D: integer operation result is out of range
+IOControls.c(17): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(33): warning:  #61-D: integer operation result is out of range
+IOControls.c(33): warning:  #68-D: integer conversion resulted in a change of sign
+compiling nbaGraphics.c...
+nbaGraphics.c(42): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(87): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(25): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(26): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(27): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(28): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(29): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(30): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(31): warning:  #177-D: variable "bIndex" was declared but never referenced
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(32): error:  #65: expected a ";"
+nba3PointChallengeMain.c(75): error:  #20: identifier "selectLock1" is undefined
+nba3PointChallengeMain.c(78): error:  #20: identifier "selectLock2" is undefined
+nba3PointChallengeMain.c(196): error:  #20: identifier "selectLock2" is undefined
+nba3PointChallengeMain.c(202): error:  #20: identifier "selectLock3" is undefined
+nba3PointChallengeMain.c(224): error:  #20: identifier "selectLock3" is undefined
+nba3PointChallengeMain.c(232): error:  #20: identifier "selectLock3" is undefined
+nba3PointChallengeMain.c(243): error:  #20: identifier "selectLock1" is undefined
+nba3PointChallengeMain.c(359): error:  #20: identifier "selectLock1" is undefined
+nba3PointChallengeMain.c(370): error:  #20: identifier "selectLock1" is undefined
+nba3PointChallengeMain.c(371): error:  #20: identifier "selectLock2" is undefined
+nba3PointChallengeMain.c(372): error:  #20: identifier "selectLock3" is undefined
+nba3PointChallengeMain.c(408): error:  #26: too many characters in character constant
+nba3PointChallengeMain.c(408): warning:  #520-D: initialization with "{...}" expected for aggregate object
+nba3PointChallengeMain.c(419): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
+nba3PointChallengeMain.c(408): warning:  #177-D: variable "x" was declared but never referenced
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(61): error:  #65: expected a ";"
+nba3PointChallengeMain.c(92): error:  #20: identifier "HEIGHT_OF_NET" is undefined
+nba3PointChallengeMain.c(411): error:  #26: too many characters in character constant
+nba3PointChallengeMain.c(411): warning:  #520-D: initialization with "{...}" expected for aggregate object
+nba3PointChallengeMain.c(422): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
+nba3PointChallengeMain.c(411): warning:  #177-D: variable "x" was declared but never referenced
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(411): error:  #26: too many characters in character constant
+nba3PointChallengeMain.c(411): warning:  #520-D: initialization with "{...}" expected for aggregate object
+nba3PointChallengeMain.c(422): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
+nba3PointChallengeMain.c(411): warning:  #177-D: variable "x" was declared but never referenced
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(422): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20316 RO-data=7060 RW-data=736 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20316 RO-data=7060 RW-data=736 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20320 RO-data=7064 RW-data=1188 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(72): error:  #148: variable "pic_netTopDown45small_pixel_map" has already been initialized
+nba3PointChallengeMain.c(80): error:  #146: too many initializer values
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20320 RO-data=7064 RW-data=1788 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20320 RO-data=7064 RW-data=2300 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20320 RO-data=7064 RW-data=3380 ZI-data=12484  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20320 RO-data=7064 RW-data=3980 ZI-data=12484  
 "Project2.axf" - 0 Error(s), 1 Warning(s).
