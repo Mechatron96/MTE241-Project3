@@ -9,6 +9,27 @@ Project File Date:  07/10/2018
 <h2>Output:</h2>
 Build target 'Target 1'
 compiling system_LPC17xx.c...
+compiling nba3PointChallengeMain.c...
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(247): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20152 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Rebuild target 'Target 1'
+compiling system_LPC17xx.c...
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling RTX_config.c...
 compiling uart.c...
 compiling Retarget.c...
 compiling GLCD_SPI_LPC1700.c...
@@ -21,382 +42,1837 @@ IOControls.c(17): warning:  #68-D: integer conversion resulted in a change of si
 IOControls.c(33): warning:  #61-D: integer operation result is out of range
 IOControls.c(33): warning:  #68-D: integer conversion resulted in a change of sign
 compiling nbaGraphics.c...
-nbaGraphics.c(168): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(213): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(151): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(152): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(153): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(154): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(155): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(156): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(157): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(247): warning:  #223-D: function "SystemInit" declared implicitly
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20144 RO-data=7064 RW-data=324 ZI-data=12484  
+Program Size: Code=20152 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 17 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(249): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20216 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(249): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20216 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(249): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20240 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(249): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20240 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(249): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20240 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(249): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20240 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(251): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20236 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20240 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Rebuild target 'Target 1'
+compiling system_LPC17xx.c...
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling RTX_config.c...
+compiling uart.c...
+compiling Retarget.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+compiling IOControls.c...
+IOControls.c(11): warning:  #61-D: integer operation result is out of range
+IOControls.c(11): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(17): warning:  #61-D: integer operation result is out of range
+IOControls.c(17): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(33): warning:  #61-D: integer operation result is out of range
+IOControls.c(33): warning:  #68-D: integer conversion resulted in a change of sign
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(251): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20240 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 18 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(230): error:  #18: expected a ")"
+nbaGraphics.c(244): error:  #65: expected a ";"
+nbaGraphics.c(260): warning:  #223-D: function "SystemInit" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(244): error:  #65: expected a ";"
+nbaGraphics.c(260): warning:  #223-D: function "SystemInit" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(260): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20492 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(260): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20492 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20492 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(260): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20484 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20484 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20484 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(260): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20480 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(256): error:  #26: too many characters in character constant
+nbaGraphics.c(257): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
+nbaGraphics.c(262): warning:  #223-D: function "SystemInit" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(256): error:  #26: too many characters in character constant
+nbaGraphics.c(262): warning:  #223-D: function "SystemInit" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(256): error:  #26: too many characters in character constant
+nbaGraphics.c(256): error:  #26: too many characters in character constant
+nbaGraphics.c(257): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
+nbaGraphics.c(262): warning:  #223-D: function "SystemInit" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(256): error:  #26: too many characters in character constant
+nbaGraphics.c(256): error:  #26: too many characters in character constant
+nbaGraphics.c(256): error:  #146: too many initializer values
+nbaGraphics.c(257): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
+nbaGraphics.c(262): warning:  #223-D: function "SystemInit" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(256): error:  #146: too many initializer values
+nbaGraphics.c(257): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
+nbaGraphics.c(262): warning:  #223-D: function "SystemInit" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(257): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
+nbaGraphics.c(262): warning:  #223-D: function "SystemInit" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(257): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+nbaGraphics.c(262): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20472 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 12 Warning(s).
+Rebuild target 'Target 1'
+compiling system_LPC17xx.c...
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling RTX_config.c...
+compiling uart.c...
+compiling Retarget.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+compiling IOControls.c...
+IOControls.c(11): warning:  #61-D: integer operation result is out of range
+IOControls.c(11): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(17): warning:  #61-D: integer operation result is out of range
+IOControls.c(17): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(33): warning:  #61-D: integer operation result is out of range
+IOControls.c(33): warning:  #68-D: integer conversion resulted in a change of sign
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(257): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+nbaGraphics.c(262): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20472 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 19 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(262): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20464 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20464 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(256): warning:  #2548-D: multicharacter character literal (potential portability problem)
+nbaGraphics.c(256): warning:  #69-D: integer conversion resulted in truncation
+nbaGraphics.c(262): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20464 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 13 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+c:\Software\Keil\ARM\ARMCC\bin\..\include\rw/_defs.h(781): error:  #20: identifier "namespace" is undefined
+c:\Software\Keil\ARM\ARMCC\bin\..\include\rw/_defs.h(781): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(93): error:  #20: identifier "namespace" is undefined
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(93): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(117): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(122): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(127): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(131): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(136): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(141): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(146): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(150): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(154): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(158): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(162): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(167): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(171): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(175): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(183): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(184): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(185): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(186): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(187): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(188): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(189): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(190): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(191): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(192): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(193): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(194): error:  #65: expected a ";"
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+c:\Software\Keil\ARM\ARMCC\bin\..\include\rw/_defs.h(781): error:  #20: identifier "namespace" is undefined
+c:\Software\Keil\ARM\ARMCC\bin\..\include\rw/_defs.h(781): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(93): error:  #20: identifier "namespace" is undefined
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(93): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(117): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(122): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(127): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(131): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(136): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(141): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(146): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(150): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(154): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(158): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(162): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(167): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(171): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(175): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(183): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(184): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(185): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(186): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(187): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(188): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(189): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(190): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(191): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(192): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(193): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(194): error:  #65: expected a ";"
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(395): warning:  #223-D: function "clearScreen" declared implicitly
+compiling nbaGraphics.c...
+c:\Software\Keil\ARM\ARMCC\bin\..\include\rw/_defs.h(781): error:  #20: identifier "namespace" is undefined
+c:\Software\Keil\ARM\ARMCC\bin\..\include\rw/_defs.h(781): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(93): error:  #20: identifier "namespace" is undefined
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(93): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(117): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(122): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(127): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(131): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(136): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(141): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(146): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(150): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(154): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(158): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(162): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(167): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(171): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(175): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(183): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(184): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(185): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(186): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(187): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(188): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(189): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(190): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(191): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(192): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(193): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(194): error:  #65: expected a ";"
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+nba3PointChallengeMain.c(398): error:  #165: too few arguments in function call
+compiling nbaGraphics.c...
+c:\Software\Keil\ARM\ARMCC\bin\..\include\rw/_defs.h(781): error:  #20: identifier "namespace" is undefined
+c:\Software\Keil\ARM\ARMCC\bin\..\include\rw/_defs.h(781): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(93): error:  #20: identifier "namespace" is undefined
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(93): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(117): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(122): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(127): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(131): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(136): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(141): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(146): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(150): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(154): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(158): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(162): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(167): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(171): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(175): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(183): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(184): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(185): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(186): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(187): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(188): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(189): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(190): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(191): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(192): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(193): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(194): error:  #65: expected a ";"
+Target not created
+Rebuild target 'Target 1'
+compiling system_LPC17xx.c...
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling RTX_config.c...
+compiling uart.c...
+compiling Retarget.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+nba3PointChallengeMain.c(398): error:  #165: too few arguments in function call
+compiling IOControls.c...
+IOControls.c(11): warning:  #61-D: integer operation result is out of range
+IOControls.c(11): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(17): warning:  #61-D: integer operation result is out of range
+IOControls.c(17): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(33): warning:  #61-D: integer operation result is out of range
+IOControls.c(33): warning:  #68-D: integer conversion resulted in a change of sign
+compiling nbaGraphics.c...
+c:\Software\Keil\ARM\ARMCC\bin\..\include\rw/_defs.h(781): error:  #20: identifier "namespace" is undefined
+c:\Software\Keil\ARM\ARMCC\bin\..\include\rw/_defs.h(781): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(93): error:  #20: identifier "namespace" is undefined
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(93): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(117): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(122): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(127): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(131): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(136): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(141): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(146): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(150): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(154): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(158): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(162): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(167): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(171): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(175): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(183): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(184): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(185): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(186): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(187): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(188): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(189): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(190): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(191): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(192): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(193): error:  #65: expected a ";"
+c:\Software\Keil\ARM\ARMCC\bin\..\include\iosfwd(194): error:  #65: expected a ";"
+Target not created
+Rebuild target 'Target 1'
+compiling system_LPC17xx.c...
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling RTX_config.c...
+compiling uart.c...
+compiling Retarget.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+nba3PointChallengeMain.c(398): error:  #165: too few arguments in function call
+compiling IOControls.c...
+IOControls.c(11): warning:  #61-D: integer operation result is out of range
+IOControls.c(11): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(17): warning:  #61-D: integer operation result is out of range
+IOControls.c(17): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(33): warning:  #61-D: integer operation result is out of range
+IOControls.c(33): warning:  #68-D: integer conversion resulted in a change of sign
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(256): warning:  #2548-D: multicharacter character literal (potential portability problem)
+nbaGraphics.c(256): warning:  #69-D: integer conversion resulted in truncation
+nbaGraphics.c(267): warning:  #223-D: function "SystemInit" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+nba3PointChallengeMain.c(398): error:  #165: too few arguments in function call
+Target not created
+Rebuild target 'Target 1'
+compiling system_LPC17xx.c...
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling RTX_config.c...
+compiling uart.c...
+compiling Retarget.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+compiling IOControls.c...
+IOControls.c(11): warning:  #61-D: integer operation result is out of range
+IOControls.c(11): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(17): warning:  #61-D: integer operation result is out of range
+IOControls.c(17): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(33): warning:  #61-D: integer operation result is out of range
+IOControls.c(33): warning:  #68-D: integer conversion resulted in a change of sign
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(256): warning:  #2548-D: multicharacter character literal (potential portability problem)
+nbaGraphics.c(256): warning:  #69-D: integer conversion resulted in truncation
+nbaGraphics.c(267): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20468 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 20 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'Target 1'
+compiling system_LPC17xx.c...
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling RTX_config.c...
+compiling uart.c...
+compiling Retarget.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+compiling IOControls.c...
+IOControls.c(11): warning:  #61-D: integer operation result is out of range
+IOControls.c(11): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(17): warning:  #61-D: integer operation result is out of range
+IOControls.c(17): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(33): warning:  #61-D: integer operation result is out of range
+IOControls.c(33): warning:  #68-D: integer conversion resulted in a change of sign
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(256): warning:  #2548-D: multicharacter character literal (potential portability problem)
+nbaGraphics.c(256): warning:  #69-D: integer conversion resulted in truncation
+nbaGraphics.c(267): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20468 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 20 Warning(s).
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(256): warning:  #2548-D: multicharacter character literal (potential portability problem)
+nbaGraphics.c(256): warning:  #69-D: integer conversion resulted in truncation
+nbaGraphics.c(262): warning:  #223-D: function "itoa" declared implicitly
+nbaGraphics.c(268): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Project2.axf: Error: L6218E: Undefined symbol itoa (referred from nbagraphics.o).
+Target not created
+Rebuild target 'Target 1'
+compiling system_LPC17xx.c...
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling RTX_config.c...
+compiling uart.c...
+compiling Retarget.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+compiling IOControls.c...
+IOControls.c(11): warning:  #61-D: integer operation result is out of range
+IOControls.c(11): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(17): warning:  #61-D: integer operation result is out of range
+IOControls.c(17): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(33): warning:  #61-D: integer operation result is out of range
+IOControls.c(33): warning:  #68-D: integer conversion resulted in a change of sign
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(256): warning:  #2548-D: multicharacter character literal (potential portability problem)
+nbaGraphics.c(256): warning:  #69-D: integer conversion resulted in truncation
+nbaGraphics.c(262): warning:  #223-D: function "itoa" declared implicitly
+nbaGraphics.c(268): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Project2.axf: Error: L6218E: Undefined symbol itoa (referred from nbagraphics.o).
+Target not created
+Build target 'Target 1'
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Project2.axf: Error: L6218E: Undefined symbol itoa (referred from nbagraphics.o).
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(256): warning:  #2548-D: multicharacter character literal (potential portability problem)
+nbaGraphics.c(256): warning:  #69-D: integer conversion resulted in truncation
+nbaGraphics.c(262): warning:  #223-D: function "snprinf" declared implicitly
+nbaGraphics.c(262): error:  #20: identifier "i" is undefined
+nbaGraphics.c(263): warning:  #117-D: non-void function "concatenate" should return a value
+nbaGraphics.c(270): warning:  #223-D: function "SystemInit" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(256): warning:  #2548-D: multicharacter character literal (potential portability problem)
+nbaGraphics.c(256): warning:  #69-D: integer conversion resulted in truncation
+nbaGraphics.c(262): warning:  #223-D: function "snprinf" declared implicitly
+nbaGraphics.c(263): warning:  #117-D: non-void function "concatenate" should return a value
+nbaGraphics.c(270): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Project2.axf: Error: L6218E: Undefined symbol snprinf (referred from nbagraphics.o).
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(256): warning:  #2548-D: multicharacter character literal (potential portability problem)
+nbaGraphics.c(256): warning:  #69-D: integer conversion resulted in truncation
+nbaGraphics.c(262): warning:  #223-D: function "sprinf" declared implicitly
+nbaGraphics.c(263): warning:  #117-D: non-void function "concatenate" should return a value
+nbaGraphics.c(270): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Project2.axf: Error: L6218E: Undefined symbol sprinf (referred from nbagraphics.o).
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(140): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(185): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(123): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(124): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(256): warning:  #2548-D: multicharacter character literal (potential portability problem)
+nbaGraphics.c(256): warning:  #69-D: integer conversion resulted in truncation
+nbaGraphics.c(261): warning:  #223-D: function "log10" declared implicitly
+nbaGraphics.c(263): warning:  #223-D: function "calloc" declared implicitly
+nbaGraphics.c(263): error:  #144: a value of type "int" cannot be used to initialize an entity of type "char *"
+nbaGraphics.c(276): warning:  #940-D: missing return statement at end of non-void function "concatenate"
+nbaGraphics.c(280): warning:  #223-D: function "SystemInit" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(141): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(186): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(124): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(125): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(257): warning:  #2548-D: multicharacter character literal (potential portability problem)
+nbaGraphics.c(257): warning:  #69-D: integer conversion resulted in truncation
+nbaGraphics.c(264): warning:  #223-D: function "calloc" declared implicitly
+nbaGraphics.c(264): error:  #144: a value of type "int" cannot be used to initialize an entity of type "char *"
+nbaGraphics.c(277): warning:  #940-D: missing return statement at end of non-void function "concatenate"
+nbaGraphics.c(281): warning:  #223-D: function "SystemInit" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(258): warning:  #2548-D: multicharacter character literal (potential portability problem)
+nbaGraphics.c(258): warning:  #69-D: integer conversion resulted in truncation
+nbaGraphics.c(265): error:  #20: identifier "str" is undefined
+nbaGraphics.c(268): error:  #65: expected a ";"
+nbaGraphics.c(268): warning:  #940-D: missing return statement at end of non-void function "concatenate"
+nbaGraphics.c(264): warning:  #177-D: variable "buf" was declared but never referenced
+nbaGraphics.c(272): warning:  #223-D: function "SystemInit" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(258): warning:  #2548-D: multicharacter character literal (potential portability problem)
+nbaGraphics.c(258): warning:  #69-D: integer conversion resulted in truncation
+nbaGraphics.c(265): error:  #20: identifier "String" is undefined
+nbaGraphics.c(267): warning:  #223-D: function "String" declared implicitly
+nbaGraphics.c(270): warning:  #940-D: missing return statement at end of non-void function "concatenate"
+nbaGraphics.c(264): warning:  #177-D: variable "buf" was declared but never referenced
+nbaGraphics.c(274): warning:  #223-D: function "SystemInit" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(258): warning:  #2548-D: multicharacter character literal (potential portability problem)
+nbaGraphics.c(258): warning:  #69-D: integer conversion resulted in truncation
+nbaGraphics.c(264): error:  #7: unrecognized token
+nbaGraphics.c(264): error:  #29: expected an expression
+nbaGraphics.c(269): warning:  #940-D: missing return statement at end of non-void function "concatenate"
+nbaGraphics.c(273): warning:  #223-D: function "SystemInit" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(259): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
+nbaGraphics.c(264): error:  #7: unrecognized token
+nbaGraphics.c(264): error:  #29: expected an expression
+nbaGraphics.c(267): warning:  #117-D: non-void function "concatenate" should return a value
+nbaGraphics.c(274): warning:  #223-D: function "SystemInit" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(264): error:  #7: unrecognized token
+nbaGraphics.c(264): error:  #29: expected an expression
+nbaGraphics.c(267): warning:  #117-D: non-void function "concatenate" should return a value
+nbaGraphics.c(274): warning:  #223-D: function "SystemInit" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(266): warning:  #117-D: non-void function "concatenate" should return a value
+nbaGraphics.c(273): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20544 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 12 Warning(s).
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+nba3PointChallengeMain.c(400): error:  #65: expected a ";"
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(270): warning:  #117-D: non-void function "concatenate" should return a value
+nbaGraphics.c(277): warning:  #223-D: function "SystemInit" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20588 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(270): warning:  #117-D: non-void function "concatenate" should return a value
+nbaGraphics.c(277): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20588 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 12 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(266): error:  #65: expected a ";"
+nbaGraphics.c(272): warning:  #117-D: non-void function "concatenate" should return a value
+nbaGraphics.c(279): warning:  #223-D: function "SystemInit" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(272): warning:  #117-D: non-void function "concatenate" should return a value
+nbaGraphics.c(279): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20604 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 12 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(259): error:  #65: expected a ";"
+nbaGraphics.c(273): warning:  #117-D: non-void function "concatenate" should return a value
+nbaGraphics.c(280): warning:  #223-D: function "SystemInit" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(259): error:  #20: identifier "value" is undefined
+nbaGraphics.c(273): warning:  #117-D: non-void function "concatenate" should return a value
+nbaGraphics.c(280): warning:  #223-D: function "SystemInit" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(273): warning:  #117-D: non-void function "concatenate" should return a value
+nbaGraphics.c(280): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20604 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 12 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'Target 1'
+compiling system_LPC17xx.c...
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling RTX_config.c...
+compiling uart.c...
+compiling Retarget.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+compiling IOControls.c...
+IOControls.c(11): warning:  #61-D: integer operation result is out of range
+IOControls.c(11): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(17): warning:  #61-D: integer operation result is out of range
+IOControls.c(17): warning:  #68-D: integer conversion resulted in a change of sign
+IOControls.c(33): warning:  #61-D: integer operation result is out of range
+IOControls.c(33): warning:  #68-D: integer conversion resulted in a change of sign
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(273): warning:  #117-D: non-void function "concatenate" should return a value
+nbaGraphics.c(280): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20604 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 19 Warning(s).
+Build target 'Target 1'
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20604 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(280): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20664 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 12 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(280): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20664 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(280): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20664 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(225): warning:  #175-D: subscript out of range
+nbaGraphics.c(229): warning:  #175-D: subscript out of range
+nbaGraphics.c(290): warning:  #223-D: function "SystemInit" declared implicitly
+nbaGraphics.c(230): warning: C3487E: read from variable 'buf1' with offset out of bounds
+nbaGraphics.c(230): warning: C3487E: read from variable 'buf2' with offset out of bounds
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20764 RO-data=7060 RW-data=224 ZI-data=12480  
 "Project2.axf" - 0 Error(s), 16 Warning(s).
 Load "N:\\MTE241\\Project4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
 Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20144 RO-data=7064 RW-data=324 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20144 RO-data=7064 RW-data=884 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20144 RO-data=7064 RW-data=884 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20144 RO-data=7064 RW-data=884 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20144 RO-data=7064 RW-data=884 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20144 RO-data=7064 RW-data=1544 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20144 RO-data=7064 RW-data=424 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20148 RO-data=7060 RW-data=2536 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Project2.axf: error: L6047U: The size of this image (34408 bytes) exceeds the maximum allowed for this version of the linker
-Target not created
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-_____^
-*** error 56: cannot open file
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Project2.axf: error: L6047U: The size of this image (34136 bytes) exceeds the maximum allowed for this version of the linker
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(471): error:  #20: identifier "pic_playerTopDown0Small_pixel_mapD" is undefined
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20168 RO-data=7064 RW-data=4848 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Project2.axf: error: L6047U: The size of this image (34392 bytes) exceeds the maximum allowed for this version of the linker
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20168 RO-data=7064 RW-data=4576 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20168 RO-data=7064 RW-data=4576 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20168 RO-data=7064 RW-data=3416 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20168 RO-data=7064 RW-data=3676 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20168 RO-data=7064 RW-data=3036 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(470): error:  #65: expected a ";"
 compiling nbaGraphics.c...
-nbaGraphics.c(42): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(87): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(25): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(26): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(27): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(28): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(29): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(30): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(31): warning:  #177-D: variable "bIndex" was declared but never referenced
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(225): warning:  #175-D: subscript out of range
+nbaGraphics.c(229): warning:  #175-D: subscript out of range
+nbaGraphics.c(290): warning:  #223-D: function "SystemInit" declared implicitly
+nbaGraphics.c(230): warning: C3487E: read from variable 'buf1' with offset out of bounds
+nbaGraphics.c(230): warning: C3487E: read from variable 'buf2' with offset out of bounds
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
+Program Size: Code=20764 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 15 Warning(s).
 Load "N:\\MTE241\\Project4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c - 0 Error(s), 0 Warning(s).
-Build target 'Target 1'
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-linking...
-Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20216 RO-data=7064 RW-data=3036 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(470): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
-nba3PointChallengeMain.c - 0 Error(s), 1 Warning(s).
 Build target 'Target 1'
 compiling nbaGraphics.c...
-nbaGraphics.c(42): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(87): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(25): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(26): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(27): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(28): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(29): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(30): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(31): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(225): warning:  #175-D: subscript out of range
+nbaGraphics.c(229): warning:  #175-D: subscript out of range
+nbaGraphics.c(290): warning:  #223-D: function "SystemInit" declared implicitly
+nbaGraphics.c(230): warning: C3487E: read from variable 'buf1' with offset out of bounds
+nbaGraphics.c(230): warning: C3487E: read from variable 'buf2' with offset out of bounds
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20348 RO-data=7060 RW-data=3036 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 10 Warning(s).
+Program Size: Code=20764 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 15 Warning(s).
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(290): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20768 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
 Load "N:\\MTE241\\Project4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
 Build target 'Target 1'
 compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(472): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(221): warning:  #177-D: variable "buf3" was declared but never referenced
+nbaGraphics.c(293): warning:  #223-D: function "SystemInit" declared implicitly
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20348 RO-data=7060 RW-data=3036 ZI-data=12484  
+Program Size: Code=20768 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 13 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(221): warning:  #177-D: variable "buf3" was declared but never referenced
+nbaGraphics.c(294): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20772 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 12 Warning(s).
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20764 RO-data=7060 RW-data=224 ZI-data=12480  
 "Project2.axf" - 0 Error(s), 2 Warning(s).
 Load "N:\\MTE241\\Project4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20764 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(221): warning:  #177-D: variable "buf3" was declared but never referenced
+nbaGraphics.c(300): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20808 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 13 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20808 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20816 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(224): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nbaGraphics.c(221): warning:  #177-D: variable "buf3" was declared but never referenced
+nbaGraphics.c(304): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20828 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 13 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(224): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nbaGraphics.c(221): warning:  #177-D: variable "buf3" was declared but never referenced
+nbaGraphics.c(304): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20828 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 13 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(224): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nbaGraphics.c(221): warning:  #177-D: variable "buf3" was declared but never referenced
+nbaGraphics.c(304): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20828 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 13 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(224): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nbaGraphics.c(304): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20824 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 12 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(224): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nbaGraphics.c(304): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20824 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 12 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(224): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nbaGraphics.c(304): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20824 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 12 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(224): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nbaGraphics.c(305): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20848 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 12 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(224): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nbaGraphics.c(310): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20904 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 12 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(224): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nbaGraphics.c(310): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20904 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 12 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(310): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20912 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 12 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(312): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20936 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 12 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20928 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 2 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nba3PointChallengeMain.c...
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(313): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20936 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 12 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(314): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20936 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
 Rebuild target 'Target 1'
 compiling system_LPC17xx.c...
 compiling system_LPC17xx.c...
@@ -406,7 +1882,7 @@ compiling uart.c...
 compiling Retarget.c...
 compiling GLCD_SPI_LPC1700.c...
 compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(473): error:  #167: argument of type "int" is incompatible with parameter of type "unsigned char *"
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
 compiling IOControls.c...
 IOControls.c(11): warning:  #61-D: integer operation result is out of range
 IOControls.c(11): warning:  #68-D: integer conversion resulted in a change of sign
@@ -415,180 +1891,337 @@ IOControls.c(17): warning:  #68-D: integer conversion resulted in a change of si
 IOControls.c(33): warning:  #61-D: integer operation result is out of range
 IOControls.c(33): warning:  #68-D: integer conversion resulted in a change of sign
 compiling nbaGraphics.c...
-nbaGraphics.c(42): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(87): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(25): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(26): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(27): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(28): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(29): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(30): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(31): warning:  #177-D: variable "bIndex" was declared but never referenced
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(473): error:  #167: argument of type "int" is incompatible with parameter of type "unsigned char *"
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(473): error:  #167: argument of type "char" is incompatible with parameter of type "unsigned char *"
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(472): error:  #268: declaration may not appear after executable statement in block
-nba3PointChallengeMain.c(472): error:  #26: too many characters in character constant
-nba3PointChallengeMain.c(473): error:  #167: argument of type "char" is incompatible with parameter of type "unsigned char *"
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(472): error:  #268: declaration may not appear after executable statement in block
-nba3PointChallengeMain.c(472): error:  #26: too many characters in character constant
-nba3PointChallengeMain.c(473): error:  #167: argument of type "unsigned char" is incompatible with parameter of type "unsigned char *"
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(472): error:  #268: declaration may not appear after executable statement in block
-nba3PointChallengeMain.c(472): error:  #26: too many characters in character constant
-nba3PointChallengeMain.c(473): error:  #167: argument of type "unsigned char" is incompatible with parameter of type "unsigned char *"
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(473): error:  #26: too many characters in character constant
-nba3PointChallengeMain.c(474): error:  #167: argument of type "unsigned char" is incompatible with parameter of type "unsigned char *"
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(473): error:  #26: too many characters in character constant
-Target not created
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-_____^
-*** error 56: cannot open file
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(473): error:  #26: too many characters in character constant
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(473): error:  #26: too many characters in character constant
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(473): error:  #26: too many characters in character constant
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(464): error:  #268: declaration may not appear after executable statement in block
-nba3PointChallengeMain.c(465): error:  #268: declaration may not appear after executable statement in block
-nba3PointChallengeMain.c(465): error:  #28: expression must have a constant value
-nba3PointChallengeMain.c(465): warning:  #520-D: initialization with "{...}" expected for aggregate object
-nba3PointChallengeMain.c(465): error:  #29: expected an expression
-nba3PointChallengeMain.c(481): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(464): error:  #268: declaration may not appear after executable statement in block
-nba3PointChallengeMain.c(465): error:  #268: declaration may not appear after executable statement in block
-nba3PointChallengeMain.c(465): error:  #28: expression must have a constant value
-nba3PointChallengeMain.c(465): warning:  #520-D: initialization with "{...}" expected for aggregate object
-nba3PointChallengeMain.c(465): error:  #29: expected an expression
-nba3PointChallengeMain.c(467): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
-nba3PointChallengeMain.c(467): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
-nba3PointChallengeMain.c(481): error:  #167: argument of type "unsigned char *" is incompatible with parameter of type "unsigned char"
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(314): warning:  #223-D: function "SystemInit" declared implicitly
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20340 RO-data=7060 RW-data=3036 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
+Program Size: Code=20936 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 18 Warning(s).
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(314): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20936 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
 Load "N:\\MTE241\\Project4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
 Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(474): error:  #167: argument of type "unsigned char" is incompatible with parameter of type "unsigned char *"
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(314): warning:  #223-D: function "SystemInit" declared implicitly
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20348 RO-data=7060 RW-data=3036 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
+Program Size: Code=20936 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
 Load "N:\\MTE241\\Project4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
 Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(474): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
-Target not created
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-_____^
-*** error 56: cannot open file
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(474): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(474): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(474): error:  #167: argument of type "unsigned char" is incompatible with parameter of type "unsigned char *"
-Target not created
-Load "N:\\MTE241\\Project4\\Project2.AXF" 
-_____^
-*** error 56: cannot open file
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(474): error:  #167: argument of type "unsigned char" is incompatible with parameter of type "unsigned char *"
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(304): warning:  #223-D: function "SystemInit" declared implicitly
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20340 RO-data=7060 RW-data=3036 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
+Program Size: Code=20828 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
 Load "N:\\MTE241\\Project4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
 Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(474): error:  #268: declaration may not appear after executable statement in block
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(474): error:  #268: declaration may not appear after executable statement in block
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(305): warning:  #223-D: function "SystemInit" declared implicitly
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20340 RO-data=7060 RW-data=3036 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
+Program Size: Code=20828 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
 Load "N:\\MTE241\\Project4\\Project2.AXF" 
 Erase Done.
 Programming Done.
 Verify OK.
 Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(475): error:  #26: too many characters in character constant
+compiling nbaGraphics.c...
+nbaGraphics.c(142): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(187): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(125): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(126): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(127): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(128): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(129): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(130): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(131): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(308): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20880 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(167): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(212): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(150): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(151): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(152): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(153): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(154): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(155): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(156): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(333): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20880 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(167): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(212): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(150): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(151): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(152): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(153): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(154): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(155): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(156): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(333): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20880 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20880 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(167): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(212): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(150): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(151): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(152): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(153): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(154): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(155): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(156): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(247): error:  #20: identifier "buf1" is undefined
+nbaGraphics.c(333): warning:  #223-D: function "SystemInit" declared implicitly
 Target not created
 Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(463): error:  #70: incomplete type is not allowed
-nba3PointChallengeMain.c(475): error:  #26: too many characters in character constant
+compiling nbaGraphics.c...
+nbaGraphics.c(167): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(212): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(150): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(151): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(152): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(153): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(154): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(155): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(156): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(333): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20880 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(167): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(212): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(150): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(151): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(152): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(153): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(154): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(155): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(156): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(331): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20868 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(167): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(212): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(150): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(151): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(152): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(153): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(154): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(155): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(156): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(247): warning:  #181-D: argument is incompatible with corresponding format string conversion
+nbaGraphics.c(331): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20868 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 12 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(167): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(212): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(150): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(151): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(152): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(153): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(154): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(155): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(156): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(331): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20868 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(167): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(212): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(150): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(151): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(152): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(153): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(154): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(155): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(156): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(251): error:  #20: identifier "XY" is undefined
+nbaGraphics.c(331): warning:  #223-D: function "SystemInit" declared implicitly
 Target not created
 Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(463): error:  #26: too many characters in character constant
-nba3PointChallengeMain.c(463): warning:  #520-D: initialization with "{...}" expected for aggregate object
-nba3PointChallengeMain.c(475): error:  #26: too many characters in character constant
-nba3PointChallengeMain.c(475): error:  #137: expression must be a modifiable lvalue
-nba3PointChallengeMain.c(476): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
+compiling nbaGraphics.c...
+nbaGraphics.c(167): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(212): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(150): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(151): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(152): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(153): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(154): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(155): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(156): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(331): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20868 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(167): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(212): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(150): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(151): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(152): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(153): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(154): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(155): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(156): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(331): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20868 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(167): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(212): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(150): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(151): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(152): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(153): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(154): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(155): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(156): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(246): error:  #268: declaration may not appear after executable statement in block
+nbaGraphics.c(247): error:  #268: declaration may not appear after executable statement in block
+nbaGraphics.c(248): error:  #268: declaration may not appear after executable statement in block
+nbaGraphics.c(333): warning:  #223-D: function "SystemInit" declared implicitly
 Target not created
 Rebuild target 'Target 1'
 compiling system_LPC17xx.c...
@@ -599,22 +2232,7 @@ compiling uart.c...
 compiling Retarget.c...
 compiling GLCD_SPI_LPC1700.c...
 compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(32): error:  #65: expected a ";"
-nba3PointChallengeMain.c(75): error:  #20: identifier "selectLock1" is undefined
-nba3PointChallengeMain.c(78): error:  #20: identifier "selectLock2" is undefined
-nba3PointChallengeMain.c(196): error:  #20: identifier "selectLock2" is undefined
-nba3PointChallengeMain.c(202): error:  #20: identifier "selectLock3" is undefined
-nba3PointChallengeMain.c(224): error:  #20: identifier "selectLock3" is undefined
-nba3PointChallengeMain.c(232): error:  #20: identifier "selectLock3" is undefined
-nba3PointChallengeMain.c(243): error:  #20: identifier "selectLock1" is undefined
-nba3PointChallengeMain.c(359): error:  #20: identifier "selectLock1" is undefined
-nba3PointChallengeMain.c(370): error:  #20: identifier "selectLock1" is undefined
-nba3PointChallengeMain.c(371): error:  #20: identifier "selectLock2" is undefined
-nba3PointChallengeMain.c(372): error:  #20: identifier "selectLock3" is undefined
-nba3PointChallengeMain.c(408): error:  #26: too many characters in character constant
-nba3PointChallengeMain.c(408): warning:  #520-D: initialization with "{...}" expected for aggregate object
-nba3PointChallengeMain.c(419): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
-nba3PointChallengeMain.c(408): warning:  #177-D: variable "x" was declared but never referenced
+nba3PointChallengeMain.c(396): warning:  #223-D: function "clearScreen" declared implicitly
 compiling IOControls.c...
 IOControls.c(11): warning:  #61-D: integer operation result is out of range
 IOControls.c(11): warning:  #68-D: integer conversion resulted in a change of sign
@@ -623,99 +2241,197 @@ IOControls.c(17): warning:  #68-D: integer conversion resulted in a change of si
 IOControls.c(33): warning:  #61-D: integer operation result is out of range
 IOControls.c(33): warning:  #68-D: integer conversion resulted in a change of sign
 compiling nbaGraphics.c...
-nbaGraphics.c(42): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(87): warning:  #9-D: nested comment is not allowed
-nbaGraphics.c(25): warning:  #177-D: variable "i" was declared but never referenced
-nbaGraphics.c(26): warning:  #177-D: variable "j" was declared but never referenced
-nbaGraphics.c(27): warning:  #177-D: variable "temp" was declared but never referenced
-nbaGraphics.c(28): warning:  #177-D: variable "lIndex" was declared but never referenced
-nbaGraphics.c(29): warning:  #177-D: variable "rIndex" was declared but never referenced
-nbaGraphics.c(30): warning:  #177-D: variable "uIndex" was declared but never referenced
-nbaGraphics.c(31): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(167): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(212): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(150): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(151): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(152): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(153): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(154): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(155): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(156): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(246): error:  #268: declaration may not appear after executable statement in block
+nbaGraphics.c(247): error:  #268: declaration may not appear after executable statement in block
+nbaGraphics.c(248): error:  #268: declaration may not appear after executable statement in block
+nbaGraphics.c(333): warning:  #223-D: function "SystemInit" declared implicitly
 Target not created
 Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(32): error:  #65: expected a ";"
-nba3PointChallengeMain.c(75): error:  #20: identifier "selectLock1" is undefined
-nba3PointChallengeMain.c(78): error:  #20: identifier "selectLock2" is undefined
-nba3PointChallengeMain.c(196): error:  #20: identifier "selectLock2" is undefined
-nba3PointChallengeMain.c(202): error:  #20: identifier "selectLock3" is undefined
-nba3PointChallengeMain.c(224): error:  #20: identifier "selectLock3" is undefined
-nba3PointChallengeMain.c(232): error:  #20: identifier "selectLock3" is undefined
-nba3PointChallengeMain.c(243): error:  #20: identifier "selectLock1" is undefined
-nba3PointChallengeMain.c(359): error:  #20: identifier "selectLock1" is undefined
-nba3PointChallengeMain.c(370): error:  #20: identifier "selectLock1" is undefined
-nba3PointChallengeMain.c(371): error:  #20: identifier "selectLock2" is undefined
-nba3PointChallengeMain.c(372): error:  #20: identifier "selectLock3" is undefined
-nba3PointChallengeMain.c(408): error:  #26: too many characters in character constant
-nba3PointChallengeMain.c(408): warning:  #520-D: initialization with "{...}" expected for aggregate object
-nba3PointChallengeMain.c(419): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
-nba3PointChallengeMain.c(408): warning:  #177-D: variable "x" was declared but never referenced
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(61): error:  #65: expected a ";"
-nba3PointChallengeMain.c(92): error:  #20: identifier "HEIGHT_OF_NET" is undefined
-nba3PointChallengeMain.c(411): error:  #26: too many characters in character constant
-nba3PointChallengeMain.c(411): warning:  #520-D: initialization with "{...}" expected for aggregate object
-nba3PointChallengeMain.c(422): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
-nba3PointChallengeMain.c(411): warning:  #177-D: variable "x" was declared but never referenced
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(411): error:  #26: too many characters in character constant
-nba3PointChallengeMain.c(411): warning:  #520-D: initialization with "{...}" expected for aggregate object
-nba3PointChallengeMain.c(422): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
-nba3PointChallengeMain.c(411): warning:  #177-D: variable "x" was declared but never referenced
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(422): error:  #167: argument of type "char *" is incompatible with parameter of type "unsigned char"
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
+compiling nbaGraphics.c...
+nbaGraphics.c(167): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(212): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(150): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(151): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(152): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(153): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(154): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(155): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(156): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(333): warning:  #223-D: function "SystemInit" declared implicitly
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20316 RO-data=7060 RW-data=736 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
+Program Size: Code=20876 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
 Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
+compiling nbaGraphics.c...
+nbaGraphics.c(167): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(212): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(150): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(151): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(152): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(153): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(154): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(155): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(156): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(333): warning:  #223-D: function "SystemInit" declared implicitly
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20316 RO-data=7060 RW-data=736 ZI-data=12480  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
+Program Size: Code=20876 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
 Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
+compiling nbaGraphics.c...
+nbaGraphics.c(167): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(212): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(150): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(151): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(152): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(153): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(154): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(155): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(156): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(333): warning:  #223-D: function "SystemInit" declared implicitly
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20320 RO-data=7064 RW-data=1188 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
+Program Size: Code=20876 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
 Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
-nba3PointChallengeMain.c(72): error:  #148: variable "pic_netTopDown45small_pixel_map" has already been initialized
-nba3PointChallengeMain.c(80): error:  #146: too many initializer values
-Target not created
-Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
+compiling nbaGraphics.c...
+nbaGraphics.c(167): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(212): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(150): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(151): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(152): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(153): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(154): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(155): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(156): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(341): warning:  #223-D: function "SystemInit" declared implicitly
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20320 RO-data=7064 RW-data=1788 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
+Program Size: Code=20944 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
 Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
+compiling nbaGraphics.c...
+nbaGraphics.c(167): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(212): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(150): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(151): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(152): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(153): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(154): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(155): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(156): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(341): warning:  #223-D: function "SystemInit" declared implicitly
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20320 RO-data=7064 RW-data=2300 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
+Program Size: Code=20944 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
 Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
+compiling nbaGraphics.c...
+nbaGraphics.c(167): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(212): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(150): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(151): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(152): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(153): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(154): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(155): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(156): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(341): warning:  #223-D: function "SystemInit" declared implicitly
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20320 RO-data=7064 RW-data=3380 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
+Program Size: Code=20944 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
 Build target 'Target 1'
-compiling nba3PointChallengeMain.c...
+compiling nbaGraphics.c...
+nbaGraphics.c(167): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(212): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(150): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(151): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(152): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(153): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(154): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(155): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(156): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(343): warning:  #223-D: function "SystemInit" declared implicitly
 linking...
 Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
-Program Size: Code=20320 RO-data=7064 RW-data=3980 ZI-data=12484  
-"Project2.axf" - 0 Error(s), 1 Warning(s).
+Program Size: Code=20956 RO-data=7060 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(167): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(212): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(150): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(151): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(152): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(153): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(154): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(155): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(156): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(343): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20968 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).
+Load "N:\\MTE241\\Project4\\Project2.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling nbaGraphics.c...
+nbaGraphics.c(200): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(245): warning:  #9-D: nested comment is not allowed
+nbaGraphics.c(183): warning:  #177-D: variable "i" was declared but never referenced
+nbaGraphics.c(184): warning:  #177-D: variable "j" was declared but never referenced
+nbaGraphics.c(185): warning:  #177-D: variable "temp" was declared but never referenced
+nbaGraphics.c(186): warning:  #177-D: variable "lIndex" was declared but never referenced
+nbaGraphics.c(187): warning:  #177-D: variable "rIndex" was declared but never referenced
+nbaGraphics.c(188): warning:  #177-D: variable "uIndex" was declared but never referenced
+nbaGraphics.c(189): warning:  #177-D: variable "bIndex" was declared but never referenced
+nbaGraphics.c(376): warning:  #223-D: function "SystemInit" declared implicitly
+linking...
+Project2.axf: Warning: L6304W: Duplicate input file system_lpc17xx.o ignored.
+Program Size: Code=20968 RO-data=7064 RW-data=224 ZI-data=12480  
+"Project2.axf" - 0 Error(s), 11 Warning(s).

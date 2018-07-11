@@ -391,21 +391,12 @@ int main(void){
 	//char x[] = 'Hello';
 	printf("press button to begin!\n");
 	// write in some of the rules here.
-	SystemInit();
-	GLCD_Init();
-	GLCD_Clear(White);
-	GLCD_SetBackColor(White);
-	//updateAngleSelectScreen(0,0,0);
-	XZAngle = 1;
-	GLCD_DisplayString(24, 1, 0, "XY = ");
-	GLCD_DisplayString(28, 1, 0 , "Shots Taken: ");
-	//GLCD_DisplayChar(24, 24, 0, "XZ = ");
-	GLCD_DisplayString(28, 24, 0, "Score: ");
-
-	while(!ButtonCurrentlyPressed()){
+	initialize();
+	while(!ButtonCurrentlyPressed()){}
+	clearScreen();
 		
-	}
-	while(ButtonCurrentlyPressed()){}
+		
+	while(!ButtonCurrentlyPressed()){}
 	os_sys_init(taskInit);
 	return 0;
 }
