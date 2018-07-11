@@ -394,7 +394,9 @@ int main(void){
 	initialize();
 	while(!ButtonCurrentlyPressed()){}
 	clearScreen();
-		
+	updateStatsSelectScreen(8.88 , 12,  122);
+	drawSelectScreenBottom(1, 2);
+	
 		
 	while(!ButtonCurrentlyPressed()){}
 	os_sys_init(taskInit);

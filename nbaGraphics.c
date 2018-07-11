@@ -177,7 +177,6 @@ void updateAngleSelectScreen(int XYAngle,int XZAngle, int playerPosition){ // th
 	int drawXZSpriteX =0;
 	int drawXZSpriteY =0;
 	
-
 	XYAngle = (XYAngle +23)%360;
 	XYInterval = (XYAngle)/45;*/
 	int i;
@@ -274,31 +273,126 @@ void updateAngleSelectScreen(int XYAngle,int XZAngle, int playerPosition){ // th
 void updateStatsSelectScreen(double initVelocity,int XYAngle,int XZAngle){ // this updates the top part of the screen when powerbar
 	// display numbers and shit
 	// Done
-	char buf1[3];
-	char buf2[3];
+	int i;
+	int value;
+	char buf4[3] = {'a','b','c'};
+	char buf5[3] = {'d','e','f'};
 	char buf3[4];
-	XYAngle =1;
-	XZAngle = 120;
-	sprintf(buf1, "%d", XYAngle);
-	sprintf(buf2, "%d", XZAngle);
+	//double xytemp = (double)XYAngle; 
+	//double xztemp = (double)XZAngle;
+	/*for (i=0;i<3;i++){
+		switch(i){
+			case 0:
+					value = XYAngle/100;
+				break;
+				case 1:
+					value = (XYAngle%100)/10;
+				break;
+				case 2:
+					value = XYAngle%10;
+				break;
+		}
+		switch(value){
+				case 0:
+					buf4[i] = '0';
+				break;
+				case 1:
+					buf4[i] = '1';
+				break;
+				case 2:
+					buf4[i] = '2';
+				break;
+				case 3:
+					buf4[i] = '3';
+				break;
+				case 4:
+					buf4[i] = '4';
+				break;
+				case 5:
+					buf4[i] = '5';
+				break;
+				case 6:
+					buf4[i] = '6';
+				break;
+				case 7:
+					buf4[i] = '7';
+				break;
+				case 8:
+					buf4[i] = '8';
+				break;
+				case 9:
+					buf4[i] = '9';
+				break;
+			}
+	}
+	i =0;
+	for (i=0;i<3;i++){
+		switch(i){
+			case 0:
+					value = XZAngle/100;
+				break;
+				case 1:
+					value = (XZAngle%100)/10;
+				break;
+				case 2:
+					value = XZAngle%10;
+				break;
+		}
+		switch(value){
+				case 0:
+					buf4[i] = '0';
+				break;
+				case 1:
+					buf4[i] = '1';
+				break;
+				case 2:
+					buf4[i] = '2';
+				break;
+				case 3:
+					buf4[i] = '3';
+				break;
+				case 4:
+					buf4[i] = '4';
+				break;
+				case 5:
+					buf4[i] = '5';
+				break;
+				case 6:
+					buf4[i] = '6';
+				break;
+				case 7:
+					buf4[i] = '7';
+				break;
+				case 8:
+					buf4[i] = '8';
+				break;
+				case 9:
+					buf4[i] = '9';
+				break;
+			}
+	}*/
+	
+
+	//sprintf(buf4, "%d", XYAngle);
+	//sprintf(buf5, "%d", XZAngle);
 	sprintf(buf3, "%f", initVelocity);
 	
-	GLCD_DisplayString(24, 1, 0, "XY Angle =");
-	GLCD_DisplayChar(24, 13, 0, buf1[0]);
-	if(buf1[1]!= NULL)
-		GLCD_DisplayChar(24, 14, 0, buf1[1]);
-	if(buf1[2]!= NULL)
-		GLCD_DisplayChar(24, 15, 0, buf1[2]);
+	GLCD_DisplayString(23, 1, 0, "XYAngle: ");
+	GLCD_DisplayChar(23, 13, 0, buf4[0]);
+	//if(buf4[1]!= NULL)
+		GLCD_DisplayChar(23, 14, 0, buf4[1]);
+	//if(buf4[2]!= NULL)
+		GLCD_DisplayChar(23, 15, 0, buf4[2]);
 
 	
-	GLCD_DisplayString(24, 20, 0, "XZ Angle =");
-	GLCD_DisplayChar(24, 31, 0, buf2[0]);
-	if(buf2[1]!= NULL)
-		GLCD_DisplayChar(24, 32, 0, buf2[1]);
-	if(buf2[2]!= NULL)
-		GLCD_DisplayChar(24, 33, 0, buf2[2]);
+	GLCD_DisplayString(23, 20, 0, "XZAngle: ");
+	GLCD_DisplayChar(23, 31, 0, buf5[0]);
+	//if(buf5[1]!= NULL)
+		GLCD_DisplayChar(23, 32, 0, buf5[1]);
+	//if(buf5[2]!= NULL)
+		GLCD_DisplayChar(23, 33, 0, buf5[2]);
 	
-	printf("%c%c%c", buf2[0], buf2[1], buf2[2]);
+	printf("%c%c%c", buf4[0], buf4[1], buf4[2]);
 	
 	GLCD_DisplayString(24, 38, 0, "Velocity: ");
 	GLCD_DisplayChar(24, 48, 0, buf3[0]);
